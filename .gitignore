@@ -1,0 +1,5 @@
+.DS_Store
+public/
+resources/_gen/assets/
+hugo
+hugodev
