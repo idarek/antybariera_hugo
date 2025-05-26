@@ -3,3 +3,4 @@ public/
 resources/_gen/assets/
 hugo
 hugodev
+.hugo_build.lock
