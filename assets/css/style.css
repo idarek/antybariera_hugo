@@ -145,4 +145,15 @@ h1, h2, h3, h4, h5, h6, .title, .related-head, .share-head, .follow-head, .list-
 h1 {
   margin-block: 0.67em;
   font-size: 2em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: balance; /* Apply balance as the default */
+}
+
+@supports (text-wrap: pretty) {
+  p {
+    text-wrap: pretty; /* Apply pretty if the browser supports it */
+  }
 }
