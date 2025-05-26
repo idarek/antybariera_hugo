@@ -1,0 +1,148 @@
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+/* lato-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''), url('/fonts/lato-v24-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+
+/* merriweather-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/merriweather-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+/* merriweather-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''), url('/fonts/merriweather-v31-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+/* merriweather-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/merriweather-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  text-rendering: optimizeSpeed;
+}
+
+:root {
+  /* Colours */
+  --orange: #F47C20;
+  --black: #343434;
+  /* Brightness */
+  --brightness-level: brightness(100%);
+  /* Baseline size */
+  --baseline: 1.6;
+  /* Caption Font Size */
+  --figcaption: 0.75rem;
+
+  overscroll-behavior: none;
+
+  /* fonts */
+  --font: "Lato", sans-serif;
+  --font-serif: "Merriweather", serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+@media (min-width: 835px) {
+  :root {
+    --base: 18px;
+    --h1: 2rem;     /* 36px */
+    --h2: 1.56rem;  /* 28px */
+    --h3: 1.23rem;  /* 22px */
+    --h4: 1.00rem;  /* 18px */
+    --h5: 0.89rem;  /* 16px */
+    --h6: 0.78rem;  /* 14px */
+  }
+}
+@media (max-width: 834px) {
+  :root {
+    --base: 16px;
+    --h1: 1.75rem;  /* 28px */
+    --h2: 1.5rem;   /* 24px */
+    --h3: 1.125rem; /* 18px */
+    --h4: 1.00rem;  /* 16px */
+    --h5: 0.875rem; /* 14px */
+    --h6: 0.75rem;  /* 12px */
+  }
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	/* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
+	font-family:
+		Roboto,
+		Helvetica,
+		Arial,
+		system-ui,
+    sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+	line-height: 1.15; /* 1. Correct the line height in all browsers. */
+	-webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+	-moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
+	tab-size: 4; /* 3 */
+}
+
+html {
+  font-family: var(--font-serif);
+  font-size: var(--base);
+  scroll-behavior: smooth;
+}
+
+html { 
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+body {
+	margin: 0; /* Remove the margin in all browsers. */
+}
+
+body {
+  color: var(--black);
+  background: var(--white);
+  line-height: var(--baseline);
+}
+
+h1, h2, h3, h4, h5, h6, .title, .related-head, .share-head, .follow-head, .list-head {
+    font-family: var(--font);   
+}
+
+h1 {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
