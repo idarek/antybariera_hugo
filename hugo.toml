@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://antybariera.pl/'
+languageCode = 'pl-pl'
+title = 'AntyBariera Dziennikarska Agaty Krokosz'
+theme = 'antybariera_pl'
