@@ -7,3 +7,8 @@ theme = 'antybariera_pl'
   disableAliases = false
   pagerSize = 20
   path = 'strona'
+
+[params]
+  [params.author]
+    name = 'Agata Krokosz'
+    email = 'kontakt@antybariera.pl'
