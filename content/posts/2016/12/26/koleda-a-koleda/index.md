@@ -1,0 +1,8 @@
+---
+title: "Kolęda a kolęda"
+date: 2016-12-26
+---
+
+      W  cieniu  tegorocznych  kłótni  w   Sejmie, czy  teraz  po  atakach  terrorystycznych  w  Berlinie, nic  tak  nie  łagodzi  ducha  jak  muzyka, to  obecny  bożonarodzeniowy, sylwestrowy     czas  nam  w  tym  pomaga. Jak  nie  Mariah  Carey  i  jej   "...everythings  for  Chrimass  is     you", to  inne, nastrojowe  melodie  z  handlowych  galerii  nie  pozwolą  nam  zapomnieć z  jakim  czasem  mamy  teraz  do  czynienia. Znane  osoby  z  telewizji  chcą  być  kojarzone  z  polskimi  kolędami, dlatego  śpiewają  je  na  nowo, a  jeśli, gdy  do  tego  tekstu  jest układana  choreografia  w  wykonaniu  samego  wykonawcy, a  jeśli  sam  wykonawca- jest  też        autorem  tej  nowej  kolędy, co  mamy  za  wspaniały  prezent  dla  nas  pod  naszą  choinkę, a  czasami przy  tym  jest  góra  śmiechu  w  połączeniu  z  ich  tańcem,  nie  mówiąc  już  nic o  bardzo  popularnym  obecnie  geście  uniesienia  rączek, a  bardziej  samych  naszych paluszków. W  tym  miejscu  nie  odważę  się  mówić  nic  złego  o  kolędach  w  wykonaniu  Ireny Santor, która jest profesjonalistką, ale  o  ludziach, których  głos  z  "fachowym"  wykonaniem   niewiele ma wspólnego z prawdziwą muzyką.
+
+     Mimo  wszystko, nadal  jeszcze  zdarzają  się  ludzie, którzy  myślą, że  jak  zaśpiewą  "Cichą  noc"- najbardziej  znaną kolędę, to  wskoczą  na  listy przebojów, nie tylko polskich. Niekiedy Ci  "nowi"  wykonawcy  nie  tyle  nie  mają  szczęścia  do  wykonania  samego utworu, nie  mówiąc  nic  o całości  łącznie z choreografią. Szczerze, uważam, że  nie  nadają się i nie powinni nam "umilać" czasu.
