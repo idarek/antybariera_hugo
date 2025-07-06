@@ -45,6 +45,7 @@
   --orange-dark: #c46316;
   --orange-high-contrast: #ffa500;
   --blackish: #343434;
+  --dark-gray: #333333;
   
   --white: #fff;
   --black: #000;
@@ -317,4 +318,50 @@ body.scrolled .logo {
   .logo, .site-header {
     transition: none !important;
   }
+}
+
+/* Section and Article */
+
+article,
+section,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav {
+  display: block;
+}
+
+article,
+section {
+  max-width: 45rem;
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+hr.styled-separator {
+  /* Visual styling */
+  border: none; /* Remove default border */
+  height: 1px; /* Make it a thin line */
+  background-color: #e0e0e0; /* A soft, modern grey */
+  margin: 3em 0; /* Plenty of vertical space for visual separation */
+  width: calc(100% - 2rem); /* Not full width, adds a modern touch */
+  max-width: 44rem; /* Limits width on very wide screens */
+  opacity: 0.7; /* Slightly transparent for a softer look */
+
+  /* Centering */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date {
+  color: var(--gray);
+  font-size: calc(var(--base) - 0.1rem);
+  text-align: center;
 }

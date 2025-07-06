@@ -1,9 +1,16 @@
 {{ define "main" }}
 
+  <section>
   {{ range .Paginator.Pages }}
-  <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ .Summary }}
+    <article id="article" class="article">
+      <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "date.html" . }}
+      {{ .Summary }}
+      {{ partial "readmore.html" . }}
+    </article>
+    <hr class="styled-separator" aria-hidden="true">
   {{ end }}
+  </section>
 
   {{ partial "pagination.html" (dict "page" . "format" "terse") }}
 
