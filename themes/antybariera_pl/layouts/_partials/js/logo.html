@@ -1,0 +1,9 @@
+{{- with resources.Get "js/logo.js" }}
+    {{- if hugo.IsDevelopment }}
+      <script async src="{{ .RelPermalink }}"></script>
+    {{- else }}
+      {{- with . | fingerprint | minify }}
+        <script async src="{{ .RelPermalink }}"></script>
+      {{- end }}
+    {{- end }}
+{{- end }}

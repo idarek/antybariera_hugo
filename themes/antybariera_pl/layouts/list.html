@@ -1,7 +1,8 @@
 {{ define "main" }}
 
   {{ range .Paginator.Pages }}
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ .Summary }}
   {{ end }}
 
   {{ partial "pagination.html" (dict "page" . "format" "terse") }}

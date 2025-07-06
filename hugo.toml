@@ -9,6 +9,8 @@ theme = 'antybariera_pl'
   path = 'strona'
 
 [params]
+  title_short = "AntyBariera"
+
   [params.author]
     name = 'Agata Krokosz'
     email = 'kontakt@antybariera.pl'

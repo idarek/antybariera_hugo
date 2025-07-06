@@ -4,9 +4,8 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
+    {{ partial "a11y_skip_to_main_content.html" . }}
     {{ partial "header.html" . }}
-  </header>
   <main>
     {{ block "main" . }}{{ end }}
   </main>

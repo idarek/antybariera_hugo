@@ -1,2 +1,13 @@
-<h1>{{ site.Title }}</h1>
+{{- with resources.Get "svg/antybariera_logo.svg" }}
+<header class="site-header" role="banner">
+  <h1 class="logo-container">
+    <a href="/" class="logo-link">
+        <img src="{{ .RelPermalink }}" alt="" aria-hidden="true" class="logo" />
+        <span class="visually-hidden">{{ site.Title }}</span>
+    </a>
+  </h1>
+</header>
+{{- end }}
+{{ partialCached "js/logo.html" . }}
+
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
