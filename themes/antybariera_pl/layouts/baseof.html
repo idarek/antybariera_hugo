@@ -4,13 +4,11 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-    {{ partial "a11y_skip_to_main_content.html" . }}
-    {{ partial "header.html" . }}
+  {{ partial "a11y_skip_to_main_content.html" . }}
+  {{ partial "header.html" . }}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+  {{ partial "footer.html" . }}
 </body>
 </html>

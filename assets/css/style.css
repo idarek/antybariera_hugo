@@ -241,6 +241,11 @@ img {
   display: block;
 }
 
+article img {
+  margin: 0 auto;
+  max-height: 70vh;
+}
+
 /* 7. Focus Outline for All Focusable Elements */
 :focus-visible {
   outline: 3px solid #ffa500;
@@ -364,4 +369,42 @@ hr.styled-separator {
   color: var(--gray);
   font-size: calc(var(--base) - 0.1rem);
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* read more link */
+.readmore {
+  display: inline-block;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readmore a {
+  background: var(--orange);
+  border-radius: 0.25rem;
+  border-bottom: 0.25rem solid var(--orange-dark);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+}
+
+.readmore a:hover {
+  background: var(--orange-high-contrast);
+  text-decoration: none;
+}
+/* end of read more link */
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.8rem;
+  color: var(--gray);
+  line-height: .25rem;
 }

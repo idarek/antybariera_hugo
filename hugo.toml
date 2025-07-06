@@ -6,7 +6,7 @@ theme = 'antybariera_pl'
 
 [pagination]
   disableAliases = false
-  pagerSize = 20
+  pagerSize = 10
   path = 'strona'
 
 [params]
