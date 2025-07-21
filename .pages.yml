@@ -11,7 +11,6 @@ content:
         field: date
         order: desc
       search: [title, body]
-      layout: tree
       node:
         filename: index.md
         hideDirs: all
