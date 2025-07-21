@@ -1,12 +1,8 @@
 content:
   - name: posts
     label: Wpisy
-    # --- IMPORTANT CHANGE HERE ---
-    # The path needs to include 'posts/'
-    path: 'content/posts/**/index.md'
-    # The filename pattern for new posts also needs to include 'posts/'
-    filename: 'posts/{year}/{month}/{day}/{fields.slug}/index.md'
-    # --- END IMPORTANT CHANGE ---
+    path: 'content/**/index.md'
+    filename: '{year}/{month}/{day}/{fields.slug}/index.md'
     type: collection
     view:
       fields: [title, date]
@@ -22,6 +18,7 @@ content:
         type: string
         description: Unikalna nazwa URL dla tego wpisu (np. moja-izolatka).
         required: true
+        pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
 
       - name: title
         label: Tytuł
@@ -45,8 +42,6 @@ content:
         label: Obrazek wyróżniający
         type: image
         description: An image to represent the post.
-        # This 'uploads' path is relative to the *post's* directory
-        # so it will correctly go into 'content/posts/YEAR/MONTH/DAY/SLUG/images/'
         uploads: images
         output: images
 
