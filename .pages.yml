@@ -1,7 +1,7 @@
 content:
   - name: posts
     label: Wpisy
-    path: 'content'
+    path: 'content/{year}/{month}/{day}'
     filename: '{year}/{month}/{day}/{fields.slug}/index.md'
     type: collection
     view:
@@ -13,7 +13,7 @@ content:
       search: [title, body]
       node:
         filename: index.md
-        hideDirs: others
+        hideDirs: nodes
 
 
     fields:
