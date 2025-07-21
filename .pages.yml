@@ -1,64 +1,68 @@
-media:
-  - name: posts-images # A unique name for this media type
-    label: Obrazy # Label to display in the CMS menu
-    input: content/{year}/{month}/{day}/images # The input path where Pages CMS should look for images
-    output: images # How the path should be represented in your content (relative to the post's directory)
-    categories: [image] # Categorise as images
+# You can remove the 'media' section entirely if all your images are post-specific
+# and will be managed within the context of a post's directory.
+# If you have general site-wide images (e.g., in an 'assets/images' folder),
+# then you would keep a 'media' entry for that specific, fixed path.
+# For your current setup where images are inside content/{year}/{month}/{day}/images:
+# DO NOT include a 'media' section for 'posts-images'.
+# The image fields will handle the path dynamically.
 
 content:
   - name: posts
     label: Wpisy
-    path: 'content/{year}/{month}/{day}' # The base path for your posts. Pages CMS will infer the year/month/day from the path.
-    filename: 'index.md' # The specific file name within that day's folder
-    type: collection # Since you'll have multiple posts
+    path: 'content/{year}/{month}/{day}'
+    filename: 'index.md'
+    type: collection
     view:
-      fields: [title, date] # Fields to display in the list view of posts
-      primary: title # The main field to identify posts in the list
+      fields: [title, date, tags] # Added 'tags' to the view
+      primary: title
       sort:
         field: date
         order: desc # Sort by date, newest first
-      search: [title, body] # Allow searching by title and body
+      search: [title, body, tags] # Added 'tags' to search
 
     fields:
       - name: title
         label: Tytuł
         type: string
         description: Wprowadź tytuł swojego wpisu.
-        required: true # Make this a required field
+        required: true
 
       - name: date
         label: Data publikacji
         type: date
         description: Data publikacji wpisu.
         required: true
-        default: '{date}' # Automatically set to the current date when a new post is created
+        default: '{date}'
 
       - name: body
         label: Content
-        type: rich-text # For the main body of your post, allowing rich text editing
+        type: rich-text
         description: The main content of your blog post.
 
-      - name: featuredImage # Example for a single featured image per post
+      - name: featuredImage
         label: Obrazek wyróżniający
         type: image
         description: An image to represent the post.
-        # You'll likely want to set the media source to 'posts-images' specifically for this field
-        source: posts-images
+        # For post-specific images, the 'source' here is critical.
+        # Instead of referencing a 'media' entry, you define the path directly.
+        # 'uploads' tells Pages CMS to create the path based on the current post's context.
+        uploads: images # This tells Pages CMS to save the image into the 'images' subfolder of the current post's directory
+        output: images # How the path is referenced in the content (relative to the post's index.md)
 
-      # You might also want to add a field for a list of images related to the post.
-      # This would likely involve a 'block' or 'object' type if you want metadata per image.
-      # For simplicity, here's a basic 'files' type pointing to the post's images folder:
+
       - name: postImages
         label: Obrazy wpisu
-        type: files # Allows selecting multiple files
+        type: files
         description: Dodatkowe obrazy do tego wpisu.
-        source: posts-images # This links to the media entry defined above
-        multiple: true # Allows selecting multiple files
+        # Similar to featuredImage, use 'uploads' for dynamic post-specific paths.
+        uploads: images # Save multiple files into the 'images' subfolder
+        output: images # How the path is referenced
+        multiple: true
 
-      - name: tags # Updated Tags field
+      - name: tags
         label: Tagi
-        type: list # Now a list type
-        description: Wprowadź tag, naciśnij Enter po kadym tagu.
-        field: # Defines the type of items within the list
+        type: list
+        description: Wprowadź tag, naciśnij Enter po każdym tagu.
+        field:
           type: string
           label: Tag
