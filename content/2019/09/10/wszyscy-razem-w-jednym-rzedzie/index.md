@@ -12,7 +12,7 @@ tags:
   - "jak-pies-z-kotem"
   - "koszalin"
   - "robert-wieckiewicz"
-coverImage: "2c78f-69465645_2658515711042778_8724354789053300736_n.jpg"
+featuredImage: "images/2c78f-69465645_2658515711042778_8724354789053300736_n.jpg"
 ---
 
 Biblioteka Wojewódzka w Koszalinie, mieszcząca się przy Placu Polonii w centrum miejskiej zieleni przynajmniej raz w roku pęka w szwach.

@@ -7,7 +7,7 @@ tags:
   - "hau-hau-miau-miau"
   - "kotka-megutka"
   - "miau-miau"
-coverImage: "56089-95500816_254094005734300_8336233996266504192_n.jpg"
+featuredImage: "images/56089-95500816_254094005734300_8336233996266504192_n.jpg"
 ---
 
 Chociaż na chwilę pragnę odskoczyć od koronawirusa. Czy jest to możliwe, czy zacznę dyskusję wśród nas?

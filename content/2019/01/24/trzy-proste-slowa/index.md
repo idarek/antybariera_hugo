@@ -7,7 +7,7 @@ tags:
   - "papiez"
   - "trzy-proste-slowa"
   - "wosp"
-coverImage: "2359b-prosze-dziekuje-przepraszam-jezyka-migowego-dzieciak-reki-na-bialy-desen-400-27286371.jpg"
+featuredImage: "images/2359b-prosze-dziekuje-przepraszam-jezyka-migowego-dzieciak-reki-na-bialy-desen-400-27286371.jpg"
 ---
 
 [![](images/2359b-prosze-dziekuje-przepraszam-jezyka-migowego-dzieciak-reki-na-bialy-desen-400-27286371.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/2359b-prosze-dziekuje-przepraszam-jezyka-migowego-dzieciak-reki-na-bialy-desen-400-27286371.jpg)

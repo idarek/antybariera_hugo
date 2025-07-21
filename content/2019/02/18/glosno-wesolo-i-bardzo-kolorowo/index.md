@@ -7,7 +7,7 @@ tags:
   - "papugarnia"
   - "polczynska-73"
   - "ptaki"
-coverImage: "9cc51-20190216_144232-e1550490659412.jpg"
+featuredImage: "images/9cc51-20190216_144232-e1550490659412.jpg"
 ---
 
 [![Chętnie porozmawiam](images/be9ed-20190216_151248-e1550493164997.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/be9ed-20190216_151248-e1550493164997.jpg)

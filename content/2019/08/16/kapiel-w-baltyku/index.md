@@ -11,7 +11,7 @@ tags:
   - "kapiel"
   - "mielno"
   - "morze-baltyckie"
-coverImage: "40528-68641561_1195537877274923_3156685337745424384_n.jpg"
+featuredImage: "images/40528-68641561_1195537877274923_3156685337745424384_n.jpg"
 ---
 
 Zbliża się koniec wakacji, a wiec czas na posumowanie wypoczynku nad morzem Bałtyckim. Dysponując własnym środkiem transportu wydaje się, że sprawa jest prosta. Dojechać można wszędzie, podróż potrwa trochę dłużej, wąskie jezdnie co za tym idzie-jedzie przez kilometrowe korki, m.in. do Mielna, ale tak się dzieje przy większości popularnych miejsc wypoczynkowych.  Jeżeli w planach urlopu wyruszamy w dalszą podróż wybór własnego pojazdu jest słuszny, jednak są jeszcze inne rozwiązania szczególnie gdy mieszkamy  w pobliżu nadmorskich kurortów. Mieszkam w Koszalinie, kilkanaście kilometrów od Morza Bałtyckiego. Uśmiecham się w chwilach gdzie się przedstawiam w nowym środowisku i próbuję określić gdzie mieszkam, zawsze słyszę stwierdzenie: „….a tak, tak Koszalin to te miasto koło Mielna…”

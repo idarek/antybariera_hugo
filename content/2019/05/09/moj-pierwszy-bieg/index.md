@@ -13,7 +13,7 @@ tags:
   - "wings-for-life"
   - "wings-for-life-world-run"
   - "world-run"
-coverImage: "8acf4-59375495_1381758838645127_6791480460582060032_n.jpg"
+featuredImage: "images/8acf4-59375495_1381758838645127_6791480460582060032_n.jpg"
 ---
 
 

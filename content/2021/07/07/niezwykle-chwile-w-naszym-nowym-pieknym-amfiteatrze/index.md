@@ -3,8 +3,6 @@ title: "Niezwykłe chwile w naszym nowym pięknym amfiteatrze"
 date: 2021-07-07
 ---
 
-![](images/212442262_614369206204715_1185412937283214877_n.jpg)
-
 Sympatycznie, bo nareszcie w otwartej przestrzeni spędziłam ostatni weekend, tj.2-4lipca21r.Po dwóch latach ciszy spowodowanej remontem, „odezwała” się scena naszego lokalnego amfiteatru, który dzisiaj spełnia prawie standardy światowe.
 
 ![](images/211500756_593175621665758_848289771301168805_n.jpg)

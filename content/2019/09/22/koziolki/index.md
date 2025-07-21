@@ -7,7 +7,7 @@ tags:
   - "koziolki"
   - "poznan"
   - "tramwaj"
-coverImage: "3a162-70433165_401742773841738_7349775726016462848_n.jpg"
+featuredImage: "images/3a162-70433165_401742773841738_7349775726016462848_n.jpg"
 ---
 
 

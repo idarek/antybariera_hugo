@@ -5,7 +5,7 @@ date: 2019-01-05
 tags: 
   - "escape-room"
   - "koszalin"
-coverImage: "deccf-escape-hunt-room-singapore.jpg"
+featuredImage: "images/deccf-escape-hunt-room-singapore.jpg"
 ---
 
 [![](images/b652c-download.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/b652c-download.jpg)

@@ -12,7 +12,7 @@ tags:
   - "stadion"
   - "winda"
   - "sciezki-rowerowe"
-coverImage: "3e0ec-20180612_145555-e1528844795450.jpg"
+featuredImage: "images/3e0ec-20180612_145555-e1528844795450.jpg"
 ---
 
 Na ostatnim spacerze moje kroki (kółka) skierowałam do naszego miejskiego parku. Czy to miejsce użyteczności publicznej jest dostępne dla wszystkich, po zakończonych pracach nowo powstałych ścieżek rowerowych?

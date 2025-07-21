@@ -7,7 +7,7 @@ tags:
   - "koszalin"
   - "milosc-jest-wszystkim"
   - "szminki-movie"
-coverImage: "c11d7-47390944_2380838525473295_5970338548161708032_n.jpg"
+featuredImage: "images/c11d7-47390944_2380838525473295_5970338548161708032_n.jpg"
 ---
 
 Kilka dni temu obejrzałam w kinie Kryterium, film pt. ”Miłość jest wszystkim”, w ramach programu Szminki Movie. Jest to projekt - pomysł, w którym cyklicznie raz w miesiącu odbędzie się projekcja nowego filmu. Bilet w promocji, pakiet słodkości i niespodzianek dla osób siedzących na widowni. Wszyscy zadowoleni, widownia wypełniona po brzegi (dobrze, że miałam swoje niezawodne stałe miejsce siedzące).

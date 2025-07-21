@@ -6,7 +6,7 @@ tags:
   - "dzik"
   - "dziki"
   - "lokator"
-coverImage: "af80f-83037436_114433806635616_4345884365222313984_n.jpg"
+featuredImage: "images/af80f-83037436_114433806635616_4345884365222313984_n.jpg"
 ---
 
 

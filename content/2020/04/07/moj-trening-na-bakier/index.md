@@ -5,7 +5,7 @@ date: 2020-04-07
 tags: 
   - "moj-trening"
   - "na-bakier"
-coverImage: "a381c-91984968_651813795613097_922932336687841280_n.jpg"
+featuredImage: "images/a381c-91984968_651813795613097_922932336687841280_n.jpg"
 ---
 
 Teraz w najbliższym czasie (oby był dla nas wszystkich najkrótszy) jestem zmuszona całkowicie zawiesić moją rehabilitację. Z racji całkowitej izolacji odwołane są zajęcia w szpitalu i jednocześnie indywidualne w domu. Taki stan już trwa od trzech tygodni, teraz muszę to przedłużyć na czas trudny do określenia.

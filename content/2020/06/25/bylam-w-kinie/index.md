@@ -6,7 +6,7 @@ tags:
   - "kino"
   - "kino-kryterium"
   - "szminka-movie"
-coverImage: "d1e0b-download.png"
+featuredImage: "images/d1e0b-download.png"
 ---
 
 Przy zachowaniu środków ostrożności można wiele. Kilka dni temu po kilkumiesięcznej przerwie (z wiadomych względów) w koszalińskim kinie Kryterium przywrócono cykl seansów filmowych „Szminka Movie”.

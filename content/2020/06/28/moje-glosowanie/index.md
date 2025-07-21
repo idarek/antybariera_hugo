@@ -6,7 +6,7 @@ tags:
   - "glosowanie"
   - "wybory-2020"
   - "wybory-prezydenckie"
-coverImage: "99ed2-84222065_275354270374202_2429066285616259564_n.jpg"
+featuredImage: "images/99ed2-84222065_275354270374202_2429066285616259564_n.jpg"
 ---
 
 Dzisiaj oddałam swój głos na mojego kandydata na Prezydenta RP, w nowej Obwodowej Komisji Wyborczej.

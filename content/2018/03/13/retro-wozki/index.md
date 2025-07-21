@@ -5,7 +5,7 @@ date: 2018-03-13
 tags: 
   - "historia"
   - "retro"
-coverImage: "be4b4-20180310_181645.jpg"
+featuredImage: "images/be4b4-20180310_181645.jpg"
 ---
 
 Mam nadzieję, że moje milczenie na antybarierze minęło na zawsze. Okazało się, że stan techniczny mojego bloga był w opłakanym stanie, wskutek czego całkowicie został zablokowany przez operatora sieci. Przepraszam!  

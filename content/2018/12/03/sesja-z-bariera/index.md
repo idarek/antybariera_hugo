@@ -8,7 +8,7 @@ tags:
   - "impreza"
   - "innosc"
   - "schody"
-coverImage: "3d8d7-13224309_489009981286688_1466286602_o-2.jpg"
+featuredImage: "images/3d8d7-13224309_489009981286688_1466286602_o-2.jpg"
 ---
 
 ![Te drzwi otwierają się same.](images/38d4b-13211082_489009747953378_2077270522_o-2.jpg "Te drzwi otwierają się same")

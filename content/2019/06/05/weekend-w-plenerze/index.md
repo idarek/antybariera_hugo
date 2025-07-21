@@ -15,7 +15,7 @@ tags:
   - "weekend"
   - "weekend-w-plenerze"
   - "zespol-exit"
-coverImage: "c2fde-61769006_470121377098845_3024118320296099840_n.jpg"
+featuredImage: "images/c2fde-61769006_470121377098845_3024118320296099840_n.jpg"
 ---
 
 ![](images/e76c1-61812568_537161816689096_7349883585530167296_n.jpg)

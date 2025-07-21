@@ -6,7 +6,7 @@ tags:
   - "nowy-dom"
   - "radosc"
   - "smutek"
-coverImage: "53a1d-80770231_2621982071181159_6265536246030794752_n.jpg"
+featuredImage: "images/53a1d-80770231_2621982071181159_6265536246030794752_n.jpg"
 ---
 
     

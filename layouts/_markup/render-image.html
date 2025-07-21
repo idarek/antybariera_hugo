@@ -1,0 +1,101 @@
+{{- $image := "" -}}
+{{- if hasPrefix .Destination "/" -}}
+    {{- $image = resources.Get .Destination -}}
+{{- else -}}
+    {{- if .Page.BundleType -}}
+        {{- $image = .Page.Resources.GetMatch .Destination -}}
+    {{- else -}}
+        {{- $path := path.Join .Page.File.Dir .Destination -}}
+        {{- $image = resources.Get $path -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $random := hash.XxHash $image.RelPermalink }}
+
+<figure>
+
+<a href="#image-{{ $random }}" title="Naciśnij aby powiększyć obraz">
+<picture{{ with .Title }} aria-labelledby="{{ printf "figcaption-%s" ($image.RelPermalink | hash.XxHash) }}"{{ end }}>
+
+{{- $isJPG := eq (path.Ext .Destination) ".jpg" -}}
+{{- $isJPEG := eq (path.Ext .Destination) ".jpeg" -}}
+{{- $isPNG := eq (path.Ext .Destination) ".png" -}}
+
+{{- if or ($isJPG) ($isJPEG) ($isPNG) -}}
+
+        {{- $tinyw := "428x webp" -}}
+        {{- $smallw := "856x webp" -}}
+        {{- $mediumw := "1440x webp" -}}
+        {{- $largew := "2048x webp" -}}
+        {{- $originw := (printf "%dx webp" $image.Width) -}}
+
+        {{- $data := newScratch -}}
+        {{ if ge $image.Width 428 }}
+                {{ $data.Set "tiny" ($image.Resize $tinyw) }}
+        {{- else -}}
+                {{ $data.Set "tiny" ($image.Resize $originw) }}
+        {{- end -}}
+        {{ if ge $image.Width 856 }}
+                {{ $data.Set "small" ($image.Resize $smallw) }}
+        {{- else -}}
+                {{ $data.Set "small" ($image.Resize $originw) }}
+        {{- end -}}
+        {{- if ge $image.Width 1440 -}}
+                {{ $data.Set "medium" ($image.Resize $mediumw) }}
+        {{- else -}}
+                {{ $data.Set "medium" ($image.Resize $originw) }}
+        {{- end -}}
+        {{- if ge $image.Width 2048 -}}
+                {{ $data.Set "large" ($image.Resize $largew) }}
+        {{- else -}}
+                {{ $data.Set "large" ($image.Resize $originw) }}
+        {{- end -}}
+
+        {{- $tiny := $data.Get "tiny" -}}
+        {{- $small := $data.Get "small" -}}
+        {{- $medium := $data.Get "medium" -}}
+        {{- $large := $data.Get "large" -}}
+
+        <source media="(max-width: 428px)" 
+                srcset="{{with $small.RelPermalink }}{{.}}{{ end }} 2x,
+                        {{with $tiny.RelPermalink }}{{.}}{{ end }}"
+                type="image/webp">
+
+        <source media="(max-width: 834px)" 
+                srcset="{{with $large.RelPermalink }}{{.}}{{ end }} 2x,
+                        {{with $small.RelPermalink }}{{.}}{{ end }}"
+                type="image/webp">
+
+        <source media="(max-width: 1440px)" 
+                srcset="{{with $large.RelPermalink }}{{.}}{{ end }} 2x,
+                        {{with $medium.RelPermalink }}{{.}}{{ end }}"
+                type="image/webp">
+
+        <source media="(min-width: 1441px)" 
+                srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
+                type="image/webp">
+ 
+{{- end -}}
+
+ <img
+  src="{{ $image.RelPermalink }}"
+  alt="{{ .PlainText }}" {{ with .Title }} title="{{ . }}"{{ end }}
+  decoding="async"
+  {{ if or ($isJPG) ($isJPEG) ($isPNG) }}width="{{ $image.Width }}"
+  height="{{ $image.Height }}"{{ end }}
+  loading="lazy">
+</picture>
+</a>
+
+{{- with .PlainText }}
+<figcaption id="{{ printf "figcaption-%s" ($image.RelPermalink | hash.XxHash) }}" class="caption">{{ . }}</figcaption>
+{{ end -}}
+
+
+</figure>
+
+<div>
+        <a href="#_" class="lightbox" id="image-{{ $random }}">
+                <span style="background-image:url('{{ $image.RelPermalink }}')"></span>        
+        </a>
+</div>

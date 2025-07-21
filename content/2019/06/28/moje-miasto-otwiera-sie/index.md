@@ -8,7 +8,7 @@ tags:
   - "koszalin"
   - "mielno"
   - "winda"
-coverImage: "3b1bf-parawany01_0.jpg"
+featuredImage: "images/3b1bf-parawany01_0.jpg"
 ---
 
 ![](images/f799d-65571824_324968618431693_5714054108692873216_n.jpg "Droga bez barier")

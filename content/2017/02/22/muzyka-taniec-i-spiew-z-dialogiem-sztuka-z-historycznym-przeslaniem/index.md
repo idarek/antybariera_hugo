@@ -9,4 +9,4 @@ date: 2017-02-22
 
 ![](images/23c4e-16732137_604573459730339_72596214_o_0.jpg)
 
-![](images/izabela%20rogowska%20-26_0.jpg)
+![](images/e8f22-izabela-rogowska-26.jpg)

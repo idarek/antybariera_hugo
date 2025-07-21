@@ -6,7 +6,7 @@ tags:
   - "plac-manewrowy"
   - "probna-jazda"
   - "wozek-elektryczny"
-coverImage: "e2ea8-video-ii-e1567106432338.jpg"
+featuredImage: "images/e2ea8-video-ii-e1567106432338.jpg"
 ---
 
 {{< youtube WQZR2g4TVL4 >}}

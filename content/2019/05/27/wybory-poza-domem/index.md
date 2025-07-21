@@ -8,7 +8,7 @@ tags:
   - "parlament-europejski"
   - "wybory"
   - "wybory-parlamentarne"
-coverImage: "52453-61108280_2366842636716598_4801387564181225472_n.jpg"
+featuredImage: "images/52453-61108280_2366842636716598_4801387564181225472_n.jpg"
 ---
 
 

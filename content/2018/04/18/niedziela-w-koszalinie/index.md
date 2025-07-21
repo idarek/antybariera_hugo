@@ -5,7 +5,7 @@ date: 2018-04-18
 tags: 
   - "koszalin"
   - "niedziela"
-coverImage: "4a917-30705371_791317927722557_6392141251872817152_n.jpg"
+featuredImage: "images/4a917-30705371_791317927722557_6392141251872817152_n.jpg"
 ---
 
 Jak wypoczywamy i jakich atrakcji możemy się spodziewać?

@@ -7,7 +7,7 @@ tags:
   - "film"
   - "pandemia"
   - "wirtualny-spacer"
-coverImage: "ff3ce-20170528_155832.jpg"
+featuredImage: "images/ff3ce-20170528_155832.jpg"
 ---
 
 Każdy z nas ma takie miejsce na ziemi za którym tęskni. Dla mnie jest to mój kochany Kraków.

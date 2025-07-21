@@ -6,7 +6,7 @@ tags:
   - "baski"
   - "krakow"
   - "wiewiorka"
-coverImage: "9d3d5-62457487_2328372284155951_3703425113929023488_n.jpg"
+featuredImage: "images/9d3d5-62457487_2328372284155951_3703425113929023488_n.jpg"
 ---
 
 ![Mniam, mniam...](images/16be8-62445762_192653401653736_4911984612730732544_n.jpg "Mniam, mniam..")

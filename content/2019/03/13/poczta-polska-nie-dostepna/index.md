@@ -9,7 +9,7 @@ tags:
   - "poczta"
   - "poczta-polska"
   - "wozek-inwalidzki"
-coverImage: "86a0f-53848961_1181774991982229_3212604484794449920_n.jpg"
+featuredImage: "images/86a0f-53848961_1181774991982229_3212604484794449920_n.jpg"
 ---
 
 Mam dosyć ignorancji.

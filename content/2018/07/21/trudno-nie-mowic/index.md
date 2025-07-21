@@ -8,7 +8,7 @@ tags:
   - "ratusz"
   - "urzad"
   - "zus"
-coverImage: "1d271-download.jpg"
+featuredImage: "images/1d271-download.jpg"
 ---
 
 Ostatni miesiąc i każdy następny dzień są dla mnie bardzo smutne - zalegające sprawy w urzędach państwowych, które muszę załatwiać osobiście. Bardzo dawno tego nie robiłam, bo nie musiałam, ale to czego doświadczyłam teraz, nie nadaje się do publikacji, jednak postanowiłam, że to uczynię.

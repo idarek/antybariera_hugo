@@ -9,7 +9,7 @@ tags:
   - "monika-k"
   - "monika-kuszynska"
   - "na-wozku"
-coverImage: "a009e-82452199_2400118283636322_6874780848776806400_n.jpg"
+featuredImage: "images/a009e-82452199_2400118283636322_6874780848776806400_n.jpg"
 ---
 
 ![Cicha noc](images/a009e-82452199_2400118283636322_6874780848776806400_n.jpg)

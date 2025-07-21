@@ -1,0 +1,88 @@
+{{ if .Params.featuredImage }}
+
+{{- $ftimgsrc := "" -}}
+{{ if hasPrefix .Params.featuredImage "/" }}
+    {{ $ftimgsrc = resources.Get .Params.featuredImage }}
+{{ else }}
+    {{ if .Page.BundleType }}
+        {{ $ftimgsrc = .Page.Resources.GetMatch .Params.featuredImage }}
+    {{ else }}
+        {{ $path := path.Join .Page.File.Dir .Params.featuredImage }}
+        {{ $ftimgsrc = resources.Get $path }}
+    {{ end }}
+{{ end }}
+
+<div class="featured-media" aria-hidden="true">
+  <picture>
+
+{{ $isJPG := eq (path.Ext $ftimgsrc) ".jpg" }}
+{{ $isJPEG := eq (path.Ext $ftimgsrc) ".jpeg" }}
+{{ $isPNG := eq (path.Ext $ftimgsrc) ".png" }}
+
+{{ if or ($isJPG) ($isJPEG) ($isPNG) }}
+
+        {{ $tinyw := "428x webp" }}
+        {{ $smallw := "856x webp" }}
+        {{ $mediumw := "1440x webp" }}
+        {{ $largew := "2048x webp" }}
+        {{ $originw := (printf "%dx webp" $ftimgsrc.Width) }}
+      
+        {{ $data := newScratch }}
+        {{ if ge $ftimgsrc.Width 428 }}
+                {{ $data.Set "tiny" ($ftimgsrc.Resize $tinyw) }}
+        {{ else }}
+                {{ $data.Set "tiny" ($ftimgsrc.Resize $originw) }}
+        {{ end }}
+        {{ if ge $ftimgsrc.Width 856 }}
+                {{ $data.Set "small" ($ftimgsrc.Resize $smallw) }}
+        {{ else }}
+                {{ $data.Set "small" ($ftimgsrc.Resize $originw) }}
+        {{ end }}
+        {{ if ge $ftimgsrc.Width 1440 }}
+                {{ $data.Set "medium" ($ftimgsrc.Resize $mediumw) }}
+        {{ else }}
+                {{ $data.Set "medium" ($ftimgsrc.Resize $originw) }}
+        {{ end }}
+        {{ if ge $ftimgsrc.Width 2048 }}
+                {{ $data.Set "large" ($ftimgsrc.Resize $largew) }}
+        {{ else }}
+                {{ $data.Set "large" ($ftimgsrc.Resize $originw) }}
+        {{ end }}
+      
+        {{ $tiny := $data.Get "tiny" }}
+        {{ $small := $data.Get "small" }}
+        {{ $medium := $data.Get "medium" }}
+        {{ $large := $data.Get "large" }}
+
+    <source media="(max-width: 428px)" 
+            srcset="{{with $small.RelPermalink }}{{.}}{{ end }} 2x,
+                    {{with $tiny.RelPermalink }}{{.}}{{ end }}"
+                    type="image/webp">
+  
+    <source media="(max-width: 834px)" 
+            srcset="{{with $large.RelPermalink }}{{.}}{{ end }} 2x,
+                    {{with $small.RelPermalink }}{{.}}{{ end }}"
+                    type="image/webp">
+  
+    <source media="(max-width: 1440px)" 
+            srcset="{{with $large.RelPermalink }}{{.}}{{ end }} 2x,
+                    {{with $medium.RelPermalink }}{{.}}{{ end }}"
+                    type="image/webp">
+  
+    <source media="(min-width: 1441px)" 
+            srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
+                    type="image/webp">
+{{ end }}
+
+   <img
+    src="{{ $ftimgsrc.RelPermalink }}"
+    alt="{{ .Title | transform.Plainify | transform.XMLEscape }}"
+    decoding="async"
+    {{ if or ($isJPG) ($isJPEG) ($isPNG) }}width="{{ $ftimgsrc.Width }}"
+    height="{{ $ftimgsrc.Height }}"{{ end }}
+    fetchpriority="high"
+    aria-hidden="true">
+
+  </picture>
+</div>
+{{ end }}

@@ -10,7 +10,7 @@ tags:
   - "taniec"
   - "udar"
   - "lukasza-grass"
-coverImage: "97835-74341180_263282041272861_3808815158877224960_n.jpg"
+featuredImage: "images/97835-74341180_263282041272861_3808815158877224960_n.jpg"
 ---
 
 ![](images/6408b-76720867_530107197832315_8182201763063922688_n.jpg "Moja kuchnia")
@@ -24,5 +24,3 @@ Bohaterką jest Monika, moja rówieśnica, która przeżyła udar (nazywa go szl
 We wtorek odbiorę w księgarni zamówiony drukowany egzemplarz, audiobooka nie znalazłam - szkoda. Słowo czytane zdeklarowała mi moja siostra Margaret, ponieważ druk mocno nadwyręża mój wzrok. Monika jest niesamowitą dziewczyną, dzięki której zaczęłam myśleć o… tańcu. Dlaczego?
 
 Pomyślałam sobie,ze skoro ktoś po udarze mózgu szykuje się do TRIATLONU, to ja antysportowiec mogę podjąć trening tańca, który kiedyyyyyyś był moim żywiołem. W Koszalinie jest kilka szkół tańca, nawet dostępnych, nabrałam ochoty, czy to dobrze okaże się już wkrótce.
-
-[![Znalezione obrazy dla zapytania Szlag mnie trafił](images/4599906585845.jpg)](https://www.empik.com/szlag-mnie-trafil-grass-lukasz,p1235196515,ksiazka-p)

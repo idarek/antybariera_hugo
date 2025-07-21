@@ -5,7 +5,7 @@ date: 2020-02-18
 tags: 
   - "fizjoterapia"
   - "rehabilitacja"
-coverImage: "c1aa6-86661836_547725232756686_4645648377831227392_n.jpg"
+featuredImage: "images/c1aa6-86661836_547725232756686_4645648377831227392_n.jpg"
 ---
 
 ![](images/eaf48-86796420_182804159731067_1466801829177196544_n.jpg "Zwis prosty równoległy do podłoża")

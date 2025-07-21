@@ -5,7 +5,7 @@ date: 2019-02-13
 tags: 
   - "drezyna"
   - "krakow"
-coverImage: "c59d8-573aee57d6a44_p.jpg"
+featuredImage: "images/c59d8-573aee57d6a44_p.jpg"
 ---
 
 Dziękuję z całego serca mamie Szymka ([publikuję link z relacją z podróży z osobą z niepełnosprawnością](http://facebook.com/alicja.kaiserkonieczna/posts/1998019563566437))

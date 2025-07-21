@@ -7,7 +7,7 @@ tags:
   - "kawiarnia"
   - "koty"
   - "zwierzaki-w-kawiarni"
-coverImage: "90e38-20181108_143122-e1542160511785.jpg"
+featuredImage: "images/90e38-20181108_143122-e1542160511785.jpg"
 ---
 
 [![](images/0e0bf-20181108_144424.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/0e0bf-20181108_144424.jpg)
