@@ -1,9 +1,15 @@
 content:
   - name: posts
     label: Wpisy
-    # CHANGE THIS LINE: Use a wildcard to find existing posts in subdirectories
+    # --- IMPORTANT CHANGE HERE ---
+    # The path now includes the 'post-slug' as a dynamic segment
+    # For discovery, we use the wildcard **
     path: 'content/**/index.md'
-    filename: 'index.md' # This still specifies the actual file name
+    # For new file creation, we define the filename pattern to include the slug
+    # We'll use '{fields.slug}' if you add a slug field, or '{fields.title}' for a slug
+    filename: '{year}/{month}/{day}/{fields.slug}/index.md' # This is for NEW posts
+    # --- END IMPORTANT CHANGE ---
+
     type: collection
     view:
       fields: [title, date, tags]
@@ -14,6 +20,18 @@ content:
       search: [title, body, tags]
 
     fields:
+      # --- IMPORTANT: ADD A SLUG FIELD ---
+      - name: slug
+        label: Slug
+        type: string
+        description: Unikalna nazwa URL dla tego wpisu (np. moja-izolatka).
+        required: true
+        # It's good practice to auto-generate slug from title
+        # Pages CMS doesn't have a direct 'slugify' option for type:string,
+        # but you'd typically handle this in your static site generator
+        # or by training users to input valid slugs.
+        # For creation, the filename pattern will use this field.
+
       - name: title
         label: Tytuł
         type: string
