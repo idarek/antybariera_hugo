@@ -1,24 +1,17 @@
-# You can remove the 'media' section entirely if all your images are post-specific
-# and will be managed within the context of a post's directory.
-# If you have general site-wide images (e.g., in an 'assets/images' folder),
-# then you would keep a 'media' entry for that specific, fixed path.
-# For your current setup where images are inside content/{year}/{month}/{day}/images:
-# DO NOT include a 'media' section for 'posts-images'.
-# The image fields will handle the path dynamically.
-
 content:
   - name: posts
     label: Wpisy
-    path: 'content/{year}/{month}/{day}'
-    filename: 'index.md'
+    # CHANGE THIS LINE: Use a wildcard to find existing posts in subdirectories
+    path: 'content/**/index.md'
+    filename: 'index.md' # This still specifies the actual file name
     type: collection
     view:
-      fields: [title, date, tags] # Added 'tags' to the view
+      fields: [title, date, tags]
       primary: title
       sort:
         field: date
-        order: desc # Sort by date, newest first
-      search: [title, body, tags] # Added 'tags' to search
+        order: desc
+      search: [title, body, tags]
 
     fields:
       - name: title
@@ -43,20 +36,15 @@ content:
         label: Obrazek wyróżniający
         type: image
         description: An image to represent the post.
-        # For post-specific images, the 'source' here is critical.
-        # Instead of referencing a 'media' entry, you define the path directly.
-        # 'uploads' tells Pages CMS to create the path based on the current post's context.
-        uploads: images # This tells Pages CMS to save the image into the 'images' subfolder of the current post's directory
-        output: images # How the path is referenced in the content (relative to the post's index.md)
-
+        uploads: images
+        output: images
 
       - name: postImages
         label: Obrazy wpisu
         type: files
         description: Dodatkowe obrazy do tego wpisu.
-        # Similar to featuredImage, use 'uploads' for dynamic post-specific paths.
-        uploads: images # Save multiple files into the 'images' subfolder
-        output: images # How the path is referenced
+        uploads: images
+        output: images
         multiple: true
 
       - name: tags
