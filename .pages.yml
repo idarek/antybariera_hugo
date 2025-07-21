@@ -1,7 +1,7 @@
 content:
   - name: posts
     label: Wpisy
-    path: 'content/{year}/{month}/{day}'
+    path: 'content'
     filename: '{year}/{month}/{day}/{fields.slug}/index.md'
     type: collection
     view:
