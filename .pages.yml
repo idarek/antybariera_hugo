@@ -17,7 +17,7 @@ content:
         label: Slug
         type: string
         description: Unikalna nazwa URL dla tego wpisu (np. moja-izolatka).
-        # required: true
+        required: true
         pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
 
       - name: title

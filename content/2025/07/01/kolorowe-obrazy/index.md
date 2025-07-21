@@ -1,6 +1,9 @@
 ---
 title: "Kolorowe obrazy."
 date: 2025-07-01
+slug: kolorowe-obrazy
+tags:
+ - obrazy
 ---
 
 ![](images/11.jpg)
