@@ -1,0 +1,59 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 -}}
+  <nav class="pagi">
+    {{ with $pag.First -}}
+    <span class="page-number">
+      <a href="{{ .URL }}" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </span>
+    {{ end -}}
+
+    {{ if $pag.HasPrev }}
+    <span class="page-number{{ if not $pag.HasPrev }} disabled{{ end }}">
+      <a href="{{ $pag.Prev.URL }}" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </span>
+    {{ end }}
+
+    {{- $ellipsed := false -}}
+    {{- $shouldEllipse := false -}}
+    {{- range $pag.Pagers -}}
+    {{- $right := sub .TotalPages .PageNumber -}}
+    {{- $showNumber := or (le .PageNumber 3) (eq $right 0) -}}
+    {{- $showNumber := or $showNumber (le .TotalPages 5) -}}
+    {{- $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2))) -}}
+
+    {{- if $showNumber -}}
+      {{- $ellipsed = false -}}
+      {{- $shouldEllipse = false -}}
+    {{- else -}}
+      {{- $shouldEllipse = not $ellipsed -}}
+      {{- $ellipsed = true -}}
+    {{- end -}}
+
+    {{- if $showNumber }}
+      <span class="page-number{{ if eq . $pag }} current{{ end }}">
+        {{ if eq . $pag }}
+          <span class="page-link">{{ .PageNumber }}</span>
+        {{ else }}
+          <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+        {{ end }}
+      </span>
+      {{- else if $shouldEllipse }}
+      <span class="page-number disabled">
+        <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
+      </span>
+      {{- end -}}
+    {{- end }}
+
+    {{ if $pag.HasNext }}
+    <span class="page-number{{ if not $pag.HasNext }} disabled{{ end }}">
+      <a href="{{ $pag.Next.URL }}" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </span>
+    {{ end }}
+
+    {{- with $pag.Last }}
+    <span class="page-number">
+      <a href="{{ .URL }}" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </span>
+    {{- end }}
+  </nav>
+{{ end }}

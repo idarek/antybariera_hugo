@@ -1,0 +1,16 @@
+{{ if not .Params.hidden }}
+<nav class="navi" aria-label="Nawigacja pomiędzy artykułami">
+    {{ if .Page.Next }}
+        <div class="article-nav-newer">
+            <span>&lt;</span>
+            <a href="{{ .Page.Next.RelPermalink }}" aria-label="Poprzedni wpis">{{ .Page.Next.Title }}</a>
+        </div>
+    {{ end }}
+    {{ if .Page.Prev }}
+        <div class="article-nav-older">
+            <a href="{{ .Page.Prev.RelPermalink }}" aria-label="Następny wpis">{{ .Page.Prev.Title  }}</a>
+            <span>&gt;</span>
+        </div>
+    {{ end }}
+</nav>
+{{ end }}
