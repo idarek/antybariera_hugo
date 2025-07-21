@@ -3,7 +3,7 @@ title: "Spacerkiem po Pogórzu"
 date: 2017-05-20
 
 tags: 
-  - "fort-sw-benedykta"
+  - "fort sw benedykta"
   - "krakow"
   - "podgorze"
 ---

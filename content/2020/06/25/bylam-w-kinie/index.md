@@ -4,8 +4,8 @@ date: 2020-06-25
 
 tags: 
   - "kino"
-  - "kino-kryterium"
-  - "szminka-movie"
+  - "kino kryterium"
+  - "szminka movie"
 featuredImage: "images/d1e0b-download.png"
 ---
 

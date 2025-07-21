@@ -3,8 +3,8 @@ title: "Mój trening - na bakier"
 date: 2020-04-07
 
 tags: 
-  - "moj-trening"
-  - "na-bakier"
+  - "moj trening"
+  - "na bakier"
 featuredImage: "images/a381c-91984968_651813795613097_922932336687841280_n.jpg"
 ---
 

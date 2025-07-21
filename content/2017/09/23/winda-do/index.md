@@ -3,7 +3,7 @@ title: "Windą do.."
 date: 2017-09-23
 
 tags: 
-  - "galeria-krakowska"
+  - "galeria krakowska"
   - "krakow"
   - "pkp"
   - "podrorze"

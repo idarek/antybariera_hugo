@@ -3,7 +3,7 @@ title: "Radość przyduszona smutkiem"
 date: 2019-12-17
 
 tags: 
-  - "nowy-dom"
+  - "nowy dom"
   - "radosc"
   - "smutek"
 featuredImage: "images/53a1d-80770231_2621982071181159_6265536246030794752_n.jpg"

@@ -4,17 +4,17 @@ date: 2019-06-05
 
 tags: 
   - "exit"
-  - "festiwal-kawy"
+  - "festiwal kawy"
   - "krakow"
-  - "marek-piekarczyk"
-  - "malopolskie-dni-osob-z-niepelnosprawnosciami"
-  - "parada-smokow"
-  - "smok-wawelski"
-  - "tarasy-wislane"
+  - "marek piekarczyk"
+  - "malopolskie dni osob z niepelnosprawnosciami"
+  - "parada smokow"
+  - "smok wawelski"
+  - "tarasy wislane"
   - "wawel"
   - "weekend"
-  - "weekend-w-plenerze"
-  - "zespol-exit"
+  - "weekend w plenerze"
+  - "zespol exit"
 featuredImage: "images/c2fde-61769006_470121377098845_3024118320296099840_n.jpg"
 ---
 

@@ -3,10 +3,10 @@ title: "Hau, hau... miau, miau.."
 date: 2020-05-02
 
 tags: 
-  - "hau-hau"
-  - "hau-hau-miau-miau"
-  - "kotka-megutka"
-  - "miau-miau"
+  - "hau hau"
+  - "hau hau miau miau"
+  - "kotka megutka"
+  - "miau miau"
 featuredImage: "images/56089-95500816_254094005734300_8336233996266504192_n.jpg"
 ---
 

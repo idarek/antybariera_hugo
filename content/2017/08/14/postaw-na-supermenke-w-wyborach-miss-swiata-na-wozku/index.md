@@ -3,9 +3,9 @@ title: "Postaw na supermenkę w wyborach Miss Świata na wózku"
 date: 2017-08-14
 
 tags: 
-  - "miss-swiata"
-  - "na-wozku"
-  - "vice-miss-polski"
+  - "miss świata"
+  - "na wózku"
+  - "vice miss polski"
 ---
 
 ![](images/06c03-20839157_686880868166264_593861478_n.jpg)

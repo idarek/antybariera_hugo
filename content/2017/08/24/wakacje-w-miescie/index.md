@@ -3,7 +3,7 @@ title: "Wakacje w mieście"
 date: 2017-08-24
 
 tags: 
-  - "integracja-ty-i-ja"
+  - "integracja ty i ja"
   - "jamno"
   - "koszalin"
   - "miasto"

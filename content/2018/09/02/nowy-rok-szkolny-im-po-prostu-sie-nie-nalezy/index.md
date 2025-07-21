@@ -3,12 +3,12 @@ title: "Nowy rok szkolny - im, po prostu się nie należy"
 date: 2018-09-02
 
 tags: 
-  - "dzieci-niepelnosprawne"
+  - "dzieci niepelnosprawne"
   - "integracja"
-  - "minister-edukacji"
-  - "nowy-rok-szkolny"
+  - "minister edukacji"
+  - "nowy rok szkolny"
   - "przepisy"
-  - "rok-szkolny"
+  - "rok szkolny"
 ---
 
 ![](images/3fe7e-20180607_183035-e1535922864121.jpg)

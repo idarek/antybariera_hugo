@@ -4,7 +4,7 @@ date: 2017-12-04
 
 tags: 
   - "grafika"
-  - "grafika-komputerowa"
+  - "grafika komputerowa"
   - "niesamowite"
   - "obrazy"
 ---

@@ -5,8 +5,8 @@ date: 2018-06-05
 tags: 
   - "eliminacje"
   - "koszalin"
-  - "mistrzostwa-europy"
-  - "pilka-reczna"
+  - "mistrzostwa europy"
+  - "pilka reczna"
 ---
 
 [![](images/80668-34339934_813481695506180_5832015952413196288_n.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/80668-34339934_813481695506180_5832015952413196288_n.jpg)

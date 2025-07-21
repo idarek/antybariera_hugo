@@ -3,15 +3,15 @@ title: "\"Wszyscy razem w jednym rzędzie...\""
 date: 2019-09-10
 
 tags: 
-  - "biblioteka-wojewodzka"
-  - "biblioteka-wojewodzka-w-koszalinie"
-  - "eff-integracja-ty-i-ja"
+  - "biblioteka wojewodzka"
+  - "biblioteka wojewodzka w koszalinie"
+  - "integracja ty i ja"
   - "festiwal"
   - "film"
   - "integracja"
-  - "jak-pies-z-kotem"
+  - "jak pies z kotem"
   - "koszalin"
-  - "robert-wieckiewicz"
+  - "robert wieckiewicz"
 featuredImage: "images/2c78f-69465645_2658515711042778_8724354789053300736_n.jpg"
 ---
 

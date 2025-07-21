@@ -4,10 +4,10 @@ date: 2019-05-27
 
 tags: 
   - "krakow"
-  - "miasto-przyjazne"
-  - "parlament-europejski"
+  - "miasto przyjazne"
+  - "parlament europejski"
   - "wybory"
-  - "wybory-parlamentarne"
+  - "wybory parlamentarne"
 featuredImage: "images/52453-61108280_2366842636716598_4801387564181225472_n.jpg"
 ---
 

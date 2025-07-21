@@ -3,7 +3,7 @@ title: "Spacer po Koszalinie"
 date: 2017-06-09
 
 tags: 
-  - "bar-przerwa"
+  - "bar przerwa"
   - "spacer"
 ---
 

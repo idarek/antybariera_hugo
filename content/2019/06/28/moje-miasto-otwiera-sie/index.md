@@ -4,7 +4,7 @@ date: 2019-06-28
 
 tags: 
   - "dworzec-kolejowy"
-  - "integracja-ty-i-ja"
+  - "integracja ty i ja"
   - "koszalin"
   - "mielno"
   - "winda"

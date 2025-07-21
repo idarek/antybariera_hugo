@@ -6,10 +6,10 @@ tags:
   - "dom"
   - "ksiazka"
   - "mieszkanie"
-  - "szlag-mnie-trafil"
+  - "szlag mnie trafil"
   - "taniec"
   - "udar"
-  - "lukasza-grass"
+  - "lukasza grass"
 featuredImage: "images/97835-74341180_263282041272861_3808815158877224960_n.jpg"
 ---
 

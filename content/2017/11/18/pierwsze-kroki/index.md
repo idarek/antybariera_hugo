@@ -4,7 +4,7 @@ date: 2017-11-18
 
 tags: 
   - "laptop"
-  - "pierwsze-kroki"
+  - "pierwsze kroki"
   - "podkladka"
 ---
 

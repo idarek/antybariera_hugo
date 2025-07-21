@@ -3,7 +3,7 @@ title: "Kupować kota w worku"
 date: 2019-07-05
 
 tags: 
-  - "kot-w-worku"
+  - "kot w worku"
   - "zakupy"
 featuredImage: "images/2cef6-cropped-64660839_624911901338534_2194863476646608896_n.jpg"
 ---

@@ -5,7 +5,7 @@ date: 2019-02-18
 tags: 
   - "koszalin"
   - "papugarnia"
-  - "polczynska-73"
+  - "polczynska 73"
   - "ptaki"
 featuredImage: "images/9cc51-20190216_144232-e1550490659412.jpg"
 ---

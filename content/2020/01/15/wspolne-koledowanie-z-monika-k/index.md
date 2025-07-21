@@ -3,12 +3,12 @@ title: "Wspólne kolędowanie z Moniką K"
 date: 2020-01-15
 
 tags: 
-  - "integracja-ty-i-ja"
+  - "integracja ty i ja"
   - "koledowanie"
   - "koszalin"
-  - "monika-k"
-  - "monika-kuszynska"
-  - "na-wozku"
+  - "monika k"
+  - "monika kuszynska"
+  - "na wozku"
 featuredImage: "images/a009e-82452199_2400118283636322_6874780848776806400_n.jpg"
 ---
 

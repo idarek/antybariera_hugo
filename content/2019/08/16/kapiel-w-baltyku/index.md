@@ -5,12 +5,12 @@ date: 2019-08-16
 tags: 
   - "bariera"
   - "baltyk"
-  - "dworzec-kolejowy"
-  - "dworzec-pkp"
+  - "dworzec kolejowy"
+  - "dworzec pkp"
   - "koszalin"
   - "kapiel"
   - "mielno"
-  - "morze-baltyckie"
+  - "morze baltyckie"
 featuredImage: "images/40528-68641561_1195537877274923_3156685337745424384_n.jpg"
 ---
 

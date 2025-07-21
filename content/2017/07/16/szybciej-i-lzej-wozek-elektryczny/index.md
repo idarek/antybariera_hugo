@@ -3,7 +3,7 @@ title: "Szybciej i lżej - Wózek elektryczny"
 date: 2017-07-16
 
 tags: 
-  - "wozek-elektryczny"
+  - "wózek elektryczny"
 ---
 
 ![](images/6814f-300_300_productgfx_80fa1246aef4f2f8ac665bc5018dc325.jpg)

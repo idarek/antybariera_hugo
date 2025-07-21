@@ -3,8 +3,8 @@ title: "Nauka online"
 date: 2020-09-05
 
 tags: 
-  - "nauka-online"
-  - "studia-online"
+  - "nauka online"
+  - "studia online"
 ---
 
 Rozpoczął się nowy rok szkolny.

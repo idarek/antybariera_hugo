@@ -6,8 +6,8 @@ tags:
   - "basia"
   - "dziekanat"
   - "krakow"
-  - "park-bendarskiego"
-  - "praca-magisterska"
+  - "park bendarskiego"
+  - "praca magisterska"
   - "wiewiorka"
 ---
 

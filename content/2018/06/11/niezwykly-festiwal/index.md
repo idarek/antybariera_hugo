@@ -4,9 +4,9 @@ date: 2018-06-11
 
 tags: 
   - "festiwal"
-  - "festiwal-zaczarowanej-piosenki"
+  - "festiwal zaczarowanej piosenki"
   - "krakow"
-  - "rynek-glowny"
+  - "rynek glowny"
 ---
 
 [![](images/65301-34962240_816749591846057_8495749901978697728_n.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/65301-34962240_816749591846057_8495749901978697728_n.jpg)

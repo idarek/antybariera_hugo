@@ -4,8 +4,8 @@ date: 2020-06-28
 
 tags: 
   - "glosowanie"
-  - "wybory-2020"
-  - "wybory-prezydenckie"
+  - "wybory 2020"
+  - "wybory prezydenckie"
 featuredImage: "images/99ed2-84222065_275354270374202_2429066285616259564_n.jpg"
 ---
 

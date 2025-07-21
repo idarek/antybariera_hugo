@@ -3,7 +3,7 @@ title: "Koziołki"
 date: 2019-09-22
 
 tags: 
-  - "hotel-bez-barier"
+  - "hotel bez barier"
   - "koziolki"
   - "poznan"
   - "tramwaj"

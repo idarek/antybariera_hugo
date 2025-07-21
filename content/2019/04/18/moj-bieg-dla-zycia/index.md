@@ -5,11 +5,11 @@ date: 2019-04-18
 tags: 
   - "bieg"
   - "egzoszkielet"
-  - "egzoszkielet-margot"
-  - "piotr-kondraciuk"
+  - "egzoszkielet margot"
+  - "piotr kondraciuk"
   - "rehabilitacja"
-  - "wings-for-life-world"
-  - "wodna-dolina"
+  - "wings for life world"
+  - "wodna dolina"
 ---
 
 Dzisiaj zacznę od końca, jadę albo idę w światowym biegu ”WINGS FOR LIFE WORLD”. Próbowałam zarejestrować się jako uczestniczka biegu w Poznaniu, ale niestety brak miejsc na liście startowej. Spóźniłam się, przez co przegapiłam szansę wypróbowania darmowego samodzielnego spaceru w egzoszkielecie. Trudno, wierzę że kiedyś ta chwila nastąpi.

@@ -3,7 +3,7 @@ title: "Pokój bez wyjścia"
 date: 2019-01-05
 
 tags: 
-  - "escape-room"
+  - "escape room"
   - "koszalin"
 featuredImage: "images/deccf-escape-hunt-room-singapore.jpg"
 ---

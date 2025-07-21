@@ -11,7 +11,7 @@ tags:
   - "spacer"
   - "stadion"
   - "winda"
-  - "sciezki-rowerowe"
+  - "sciezki rowerowe"
 featuredImage: "images/3e0ec-20180612_145555-e1528844795450.jpg"
 ---
 

@@ -4,9 +4,9 @@ date: 2020-09-16
 
 tags: 
   - "dostepnosc"
-  - "kodeks-ruchu-drogowego"
-  - "ktoredy-jechac"
-  - "wozek-inwalidzki"
+  - "kodeks ruchu drogowego"
+  - "ktoredy jechac"
+  - "wozek inwalidzki"
 ---
 
 ![](images/119460312_1351807641688840_7478002827664031848_n.jpg)

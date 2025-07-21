@@ -9,7 +9,7 @@ tags:
   - "mundial"
   - "polska"
   - "senegal"
-  - "strefa-kibica"
+  - "strefa kibica"
 ---
 
 [![](images/b5445-20180619_175604-e1529488628231.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/b5445-20180619_175604-e1529488628231.jpg)

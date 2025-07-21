@@ -3,9 +3,9 @@ title: "Próbna jazda na cztery"
 date: 2019-08-29
 
 tags: 
-  - "plac-manewrowy"
-  - "probna-jazda"
-  - "wozek-elektryczny"
+  - "plac manewrowy"
+  - "probna jazda"
+  - "wozek elektryczny"
 featuredImage: "images/e2ea8-video-ii-e1567106432338.jpg"
 ---
 

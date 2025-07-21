@@ -5,7 +5,7 @@ date: 2019-01-24
 tags: 
   - "krakow"
   - "papiez"
-  - "trzy-proste-slowa"
+  - "trzy proste slowa"
   - "wosp"
 featuredImage: "images/2359b-prosze-dziekuje-przepraszam-jezyka-migowego-dzieciak-reki-na-bialy-desen-400-27286371.jpg"
 ---

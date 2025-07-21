@@ -4,18 +4,18 @@ date: 2017-09-12
 
 tags: 
   - "elektroniczny-painball"
-  - "europejski-festiwal-filmowy"
+  - "europejski festiwal filmowy"
   - "festiwal"
   - "film"
-  - "integracja-ty-i-ja"
-  - "joga-smiechu"
+  - "integracja ty i ja"
+  - "joga smiechu"
   - "kino"
   - "koszalin"
   - "kultura"
   - "lasermania"
   - "niepelnosprawni"
   - "rowiesnik"
-  - "savoir-vivr"
+  - "savoir vivr"
 ---
 
 Wszystko co dobre, szybko sie kończy.

@@ -4,7 +4,7 @@ date: 2018-11-01
 
 tags: 
   - "centrum"
-  - "dom-handlowy"
+  - "dom handlowy"
   - "koszalin"
   - "niepelnosprawny"
   - "schody"

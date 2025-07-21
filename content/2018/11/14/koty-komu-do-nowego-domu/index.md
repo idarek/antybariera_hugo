@@ -6,7 +6,7 @@ tags:
   - "dom"
   - "kawiarnia"
   - "koty"
-  - "zwierzaki-w-kawiarni"
+  - "zwierzaki w kawiarni"
 featuredImage: "images/90e38-20181108_143122-e1542160511785.jpg"
 ---
 

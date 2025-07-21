@@ -4,7 +4,7 @@ date: 2021-05-09
 
 tags: 
   - "bieg"
-  - "wings-for-life-world-run"
+  - "wings for life world run"
 ---
 
 - ![Tuż przed startem... 1](images/184147281_946276356149346_1355478849860545349_n.jpg "Tuż przed startem... 1")

@@ -3,7 +3,7 @@ title: "Nasze futrzaki - ujemne"
 date: 2020-11-09
 
 tags: 
-  - "covid-19"
+  - "covid 19"
   - "futrzaki"
   - "megutka"
 ---

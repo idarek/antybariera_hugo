@@ -4,15 +4,15 @@ date: 2019-05-09
 
 tags: 
   - "bieg"
-  - "biegamy-bo-lubimy"
+  - "biegamy bo lubimy"
   - "egzoszkielet"
-  - "moj-pierwszy-bieg"
-  - "piotr-kondraciuk"
+  - "moj pierwszy bieg"
+  - "piotr kondraciuk"
   - "poznan"
   - "rehabilitacja"
-  - "wings-for-life"
-  - "wings-for-life-world-run"
-  - "world-run"
+  - "wings for life"
+  - "wings for life world run"
+  - "world run"
 featuredImage: "images/8acf4-59375495_1381758838645127_6791480460582060032_n.jpg"
 ---
 

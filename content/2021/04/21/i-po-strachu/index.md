@@ -3,7 +3,7 @@ title: "...I po strachu.."
 date: 2021-04-21
 
 tags: 
-  - "covid-19"
+  - "covid 19"
   - "szczepienie"
   - "szczepionka"
 ---

@@ -3,10 +3,10 @@ title: "Kolorowy wieczór"
 date: 2018-12-12
 
 tags: 
-  - "kino-kryterium"
+  - "kino kryterium"
   - "koszalin"
-  - "milosc-jest-wszystkim"
-  - "szminki-movie"
+  - "milosc jest wszystkim"
+  - "szminki movie"
 featuredImage: "images/c11d7-47390944_2380838525473295_5970338548161708032_n.jpg"
 ---
 

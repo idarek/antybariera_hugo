@@ -4,7 +4,7 @@ date: 2018-12-03
 
 tags: 
   - "bariera"
-  - "fakty-tv"
+  - "fakty tv"
   - "impreza"
   - "innosc"
   - "schody"

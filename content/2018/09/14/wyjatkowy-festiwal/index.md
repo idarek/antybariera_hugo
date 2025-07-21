@@ -3,17 +3,17 @@ title: "Wyjątkowy festiwal"
 date: 2018-09-14
 
 tags: 
-  - "ciche-dziecko"
-  - "downside-up"
-  - "integracja-ty-i-ja"
+  - "ciche dziecko"
+  - "downside up"
+  - "integracja ty i ja"
   - "koszalin"
-  - "miedzynarodowy-festiwal-filmowy"
+  - "miedzynarodowy festiwal filmowy"
   - "niepelnosprawni"
-  - "novembert-prolect"
+  - "novembert prolect"
   - "recepta"
-  - "sebastian-stankiewicz"
-  - "zespol-teatralny-recepta"
-  - "zolza-i-perla"
+  - "sebastian stankiewicz"
+  - "zespol teatralny recepta"
+  - "zolza i perla"
 ---
 
 

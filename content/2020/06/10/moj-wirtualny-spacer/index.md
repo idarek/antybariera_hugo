@@ -3,10 +3,10 @@ title: "Mój wirtualny spacer"
 date: 2020-06-10
 
 tags: 
-  - "artur-wiecek"
+  - "artur wiecek"
   - "film"
   - "pandemia"
-  - "wirtualny-spacer"
+  - "wirtualny spacer"
 featuredImage: "images/ff3ce-20170528_155832.jpg"
 ---
 

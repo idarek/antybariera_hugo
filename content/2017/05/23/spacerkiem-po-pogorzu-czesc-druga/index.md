@@ -3,11 +3,11 @@ title: "Spacerkiem po Pogórzu - część druga"
 date: 2017-05-23
 
 tags: 
-  - "park-na-krzemionkach"
+  - "park na krzemionkach"
   - "podgorze"
   - "spacer"
   - "wiewiorka"
-  - "wojciech-bednarski"
+  - "wojciech bednarski"
 ---
 
 Pogoda może trochę zawodzi, ale jest idealna na spacer.

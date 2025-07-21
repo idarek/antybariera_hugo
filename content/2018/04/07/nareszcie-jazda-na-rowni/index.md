@@ -4,7 +4,7 @@ date: 2018-04-07
 
 tags: 
   - "podjazd"
-  - "wozek-elektryczny"
+  - "wozek elektryczny"
 featuredImage: "images/83f07-20180404_135446-e1523107263667.jpg"
 ---
 
