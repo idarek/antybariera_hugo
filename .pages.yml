@@ -1,0 +1,24 @@
+content:
+  - name: posts
+    label: Wpisy
+    path: content
+    type: collection
+    view:
+      fields: [ title, date, tags, featuredImage ]
+    fields:
+      - name: title
+        label: Tytuł
+        type: string
+      - name: date
+        label: Data
+        type: date
+      - name: tags
+        label: Tagi
+        type: string
+        list: true
+      - name: featuredImage
+        label: Obrazek wyróżniający
+        type: image
+      - name: body
+        label: Body
+        type: rich-text
