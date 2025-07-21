@@ -1,10 +1,9 @@
 content:
   - name: posts
     label: Wpisy
-    path: 'content'
-    filename: '{year}/{month}/{day}/{fields.slug}/index.md'
+    path: 'content/{year}/{month}/{day}'
+    filename: 'git{fields.slug}/index.md'
     type: collection
-    layout: tree
     view:
       fields: [title, date]
       primary: title
@@ -65,3 +64,11 @@ content:
         field:
           type: string
           label: Tag
+
+
+media:
+  - name: posts-images
+    label: Obrazy
+    input: content/{year}/{month}/{day}/{fields.slug}/images
+    output: images
+    categories: [image]
