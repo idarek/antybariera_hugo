@@ -4,6 +4,7 @@ content:
     path: 'content'
     filename: '{year}/{month}/{day}/{fields.slug}/index.md'
     type: collection
+    layout: tree
     view:
       fields: [title, date]
       primary: title
@@ -20,7 +21,7 @@ content:
       - name: slug
         label: Slug
         type: string
-        description: Unikalna nazwa URL dla tego wpisu (np. moja-izolatka).
+        description: Unikalna nazwa URL dla tego wpisu (np. moj-nowy-wpis-na-blogo).
         required: true
         pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
 
