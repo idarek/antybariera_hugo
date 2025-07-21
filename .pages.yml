@@ -1,9 +1,7 @@
 content:
   - name: posts
     label: Wpisy
-    # --- IMPORTANT CHANGE HERE ---
-    # The path now includes the 'post-slug' as a dynamic segment
-    # For discovery, we use the wildcard **
+
     path: 'content/**/index.md'
     # For new file creation, we define the filename pattern to include the slug
     # We'll use '{fields.slug}' if you add a slug field, or '{fields.title}' for a slug
@@ -12,12 +10,12 @@ content:
 
     type: collection
     view:
-      fields: [title, date, tags]
+      fields: [title, date]
       primary: title
       sort:
         field: date
         order: desc
-      search: [title, body, tags]
+      search: [title, body]
 
     fields:
       # --- IMPORTANT: ADD A SLUG FIELD ---
