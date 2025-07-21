@@ -13,7 +13,6 @@ content:
       search: [title, body]
       node:
         filename: index.md
-        hideDirs: all
 
     fields:
       - name: slug
