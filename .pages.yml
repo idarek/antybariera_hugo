@@ -1,13 +1,12 @@
 content:
   - name: posts
     label: Wpisy
-
-    path: 'content/**/index.md'
-    # For new file creation, we define the filename pattern to include the slug
-    # We'll use '{fields.slug}' if you add a slug field, or '{fields.title}' for a slug
-    filename: '{year}/{month}/{day}/{fields.slug}/index.md' # This is for NEW posts
+    # --- IMPORTANT CHANGE HERE ---
+    # The path needs to include 'posts/'
+    path: 'content/posts/**/index.md'
+    # The filename pattern for new posts also needs to include 'posts/'
+    filename: 'posts/{year}/{month}/{day}/{fields.slug}/index.md'
     # --- END IMPORTANT CHANGE ---
-
     type: collection
     view:
       fields: [title, date]
@@ -18,17 +17,11 @@ content:
       search: [title, body]
 
     fields:
-      # --- IMPORTANT: ADD A SLUG FIELD ---
       - name: slug
         label: Slug
         type: string
         description: Unikalna nazwa URL dla tego wpisu (np. moja-izolatka).
         required: true
-        # It's good practice to auto-generate slug from title
-        # Pages CMS doesn't have a direct 'slugify' option for type:string,
-        # but you'd typically handle this in your static site generator
-        # or by training users to input valid slugs.
-        # For creation, the filename pattern will use this field.
 
       - name: title
         label: Tytuł
@@ -52,6 +45,8 @@ content:
         label: Obrazek wyróżniający
         type: image
         description: An image to represent the post.
+        # This 'uploads' path is relative to the *post's* directory
+        # so it will correctly go into 'content/posts/YEAR/MONTH/DAY/SLUG/images/'
         uploads: images
         output: images
 
