@@ -4,7 +4,7 @@ content:
     path: content
     type: collection
     view:
-      fields: [ title, date, tags, featuredImage ]
+      fields: [ title, date ]
     fields:
       - name: title
         label: Tytuł
