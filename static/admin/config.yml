@@ -1,0 +1,64 @@
+backend:
+  name: github
+  repo: idarek/antybariera_hugo
+
+local_backend: true
+
+media_folder: "static/images"
+public_folder: "/images"
+
+i18n:
+  default_locale: "pl"
+  locales:
+    - pl
+    - en
+
+collections:
+  - name: "posts"
+    label: "Wpisy"
+    folder: "content"
+    create: false # enable later on
+    slug: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    extension: "md"
+    path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    media_folder: "content/{{year}}/{{month}}/{{day}}/{{slug}}/images/"
+    public_folder: "{{year}}/{{month}}/{{day}}/{{slug}}/images"
+    identifier_field: [ date, title ]
+    sortable_fields:
+      fields: [ date ]
+      default:
+        fields: date
+        direction: descending
+    thumbnail: featuredImage
+
+    view_groups:
+      - label: Rok (Year)
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Data
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}-\d{2}-\d{2}
+    fields:
+      - label: "Tytuł"
+        name: "title"
+        widget: "string"
+      - label: "Data"
+        name: "date"
+        widget: "datetime"
+        default: "{{now}}"
+        time_format: false
+      - label: "Obrazek wyróżniający"
+        name: "featuredImage"
+        widget: "image"
+        required: false
+      - label: "Treść"
+        name: "body"
+        widget: "markdown"
+      - label: "Tagi"
+        name: "tags"
+        widget: "list"
+        required: false
+
+
