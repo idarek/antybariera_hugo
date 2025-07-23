@@ -2,6 +2,7 @@ baseURL = 'https://antybariera.pl/'
 languageCode = 'pl-pl'
 DefaultContentLanguage = "pl"
 title = 'AntyBariera Dziennikarska Agaty Krokosz'
+pluralizeListTitles = false
 
 [pagination]
   disableAliases = false

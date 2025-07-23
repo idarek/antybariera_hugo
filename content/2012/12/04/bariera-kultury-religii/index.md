@@ -1,25 +1,20 @@
 ---
-title: "Bariera kultury-religii"
+title: "Bariera kultury — religii"
 date: 2012-12-04
 ---
 
-KOLEJNĄ BARIERĄ W KOMUNIKACJI MIĘDZY LUDŹMI JEST ICH ODMIENNOŚĆ KULTUROWA  
+Kolejną barierą w komunikacji między ludźmi jest ich odmienność kulturowa  
+i religijna. Brak porozumienia wynika z innych systemów wartości i zasad, przyjmowanych w obrębie różnych kultur i religii.
 
-I RELIGIJNA. BRAK POROZUMIENIA WYNIKA Z INNYCH SYSTEMÓW WARTOŚCI I ZASAD, PRZYJMOWANYCH W OBRĘBIE RÓŻNYCH KULTUR I RELIGII.
+Tylko czy rzeczywiście tak wiele nas dzieli? We współczesnym świecie podział religijny jest coraz większy. Znane nam dotychczas religie dzielą się na przeróżne odłamy. Powstaje także niezliczona ilość sekt, których liderzy próbują podzielić ludzi, stawiając wokół swoich wyznawców mury nie do przeskoczenia.
 
-TYLKO CZY RZECZYWIŚCIE TAK WIELE NAS DZIELI? WE WSPÓŁCZESNYM ŚWIECIE PODZIAŁ RELIGINY JEST CORAZ WIĘKSZY. ZNANE NAM DOTYCHCZAS RELIGIE DZIELĄ SIĘ NA PRZERÓŻNE ODŁAMY. POWSTAJE TAKŻE NIEZLICZONA ILOŚĆ SEKT, KTÓRYCH LIDERZY PRÓBUJĄ PODZIELIĆ LUDZI STAWIAJĄC WOKÓŁ SWOICH WYZNAWCÓW MURY NIE DO PRZESKOCZENIA.
+Czy ten księżyc umieszczony na szczycie świątyni zaprasza wszystkich? Czy jest tylko znakiem rozpoznawczym? A może jedno i drugie. Ja wiem, że znakiem, który mnie zaprasza, jest krzyż na moim kościele.  
 
-  
-  
- CZY TEN KSIĘŻYC UMIESZCZONY NA SZCZYCIE ŚWIĄTYNI ZAPRASZA WSZYSTKICH? CZY JEST TYLKO ZNAKIEM ROZPOZNAWCZYM? A MOŻE JEDNO I DRUGIE. JA WIEM, ŻE ZNAKIEM KTÓRY MNIE ZAPRASZA JEST KRZYŻ NA MOIM KOŚCIELE.   
+Bariera kulturowa nie pozwala muzułmankom na zdjęcie hidżabu w miejscach publicznych. Strój, w którym zgodnie z ich religią mogą chodzić, zakrywa całe ich ciało, łącznie z twarzą. Prowadzi to do sytuacji, gdzie widzimy kompletnie ubrane kobiety „kąpiące” się w morzu.  
 
-BARIERA KULTUROWA NIE POZWALA MUZUŁMANKOM NA ZDJĘCIE HIDŻABU W MIEJSCACH PUBLICZNYCH. STRÓJ, W KTÓRYM ZGODNIE Z ICH RELIGIĄ MOGĄ CHODZIĆ, ZAKRYWA CAŁE ICH CIAŁO, ŁĄCZNIE Z TWARZĄ. PROWADZI TO DO SYTUACJI, GDZIE WIDZIMY KOMPLETNIE UBRANE KOBIETY "KĄPIĄCE" SIĘ W MORZU.  
+Sposób sprzedaży żywności w krajach Dalekiego Wschodu znacznie odbiega od norm, do jakich przywykliśmy. Nasz sanepid miałby co tam robić!
 
-SPOSÓB SPRZEDAŻY ŻYWNOŚCI W KRAJACH DALEKIEGO WSCHODU  ZNACZNIE OBIEGA OD NORM DO JAKICH PRZYWYKLIŚMY. NASZ SANEPID MIAŁBY CO TAM ROBIĆ!  
+Przeczytanie Koranu nie jest jednoznaczne z jego zrozumieniem, zwłaszcza dla Europejczyka. Święta księga pełna jest zwrotów poetyckich  
+i archaicznych, które rozumieją ludzie urodzeni w tej kulturze.
 
-
-PRZECZYTANIE KORANU NIE JEST JEDNOZNACZNE Z JEGO ZROZUMIENIEM, ZWŁASZCZA DLA EUROPEJCZYKA. ŚWIĘTA KSIĘGA PEŁNA JEST ZWROTÓW POETYCKICH  
-
-I ARCHAICZNYCH, KTÓRE ROZUMIEJĄ LUDZIE URODZENI W TEJ KULTURZE.  
-
-CZY SPOTKALIŚCIE NA SWOJEJ DRODZE JAKIEŚ BARIERY ZWIĄZANE Z KULTURĄ ALBO RELIGIĄ? JEŚLI TAK, TO NAPISZCIE. CZEKAM NA WASZE OPINIE NA TEN TEMAT.
+Czy spotkaliście na swojej drodze jakieś bariery związane z kulturą albo religią? Jeśli tak, to napiszcie. Czekam na wasze opinie na ten temat.

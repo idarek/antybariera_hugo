@@ -1,26 +1,23 @@
 ---
-title: "Bariera technologii-narzędzi komunikacji"
+title: "Bariera technologii — narzędzi komunikacji"
 date: 2012-11-27
 ---
 
-ŻEBY SIĘ KOMUNIKOWAĆ LUDZIE UŻYWALI RÓŻNYCH KANAŁÓW KOMUNIKACJI. OCZYWIŚCIE PIERWSZY BYŁ KANAŁ BEZPOŚREDNI, TO ZNACZY PRZEKAZ Z UST DO UST.
+Żeby się komunikować, ludzie używali różnych kanałów komunikacji. Oczywiście pierwszy był kanał bezpośredni, to znaczy przekaz z ust do ust.
 
-DŁUGO BYŁ ON WAŻNY, BO W WIĘKSZOŚCI LUDZIE NIE UMIELI CZYTAĆ.
+Długo był on ważny, bo w większości ludzie nie umieli czytać.
 
-PRZEKAZ USTNY WSPIERANO NASTĘPNIE OBRAZEM. PRZEKAZ PISEMNY JEST OCZYWIŚCIE STARYM WYNALAZKIEM, ALE JEGO SKUTECZNOŚĆ BYŁA BARDZO DŁUGO NIEWIELKA, BO BARIERĄ BYŁA CENA I JAKOŚĆ NOŚNIKA ORAZ MASOWY ANALFABETYZM.
+Przekaz ustny wspierano następnie obrazem. Przekaz pisemny jest oczywiście starym wynalazkiem, ale jego skuteczność była bardzo długo niewielka, bo barierą była cena i jakość nośnika oraz masowy analfabetyzm.
 
-Z CZASEM POWSTAŁO RADIO I TELEWIZJA. NIESTETY KAŻDY ETAP ROZWOJU NARZĘDZI KOMUNIAKCJI WNOSIŁ ZE SOBĄ WIELE BARIER. OBECNIE MAMY DO CZYNIENIA Z NOWOCZESNYMI I BARDZO ZAAWANSOWANYMI TECHNOLOGICZNIE NOŚNIKAMI, KTÓRE WIELU OSOBOM PRZYSPARZAJĄ NIE LADA PROBLEMÓW.
+Z czasem powstało radio i telewizja. Niestety, każdy etap rozwoju narzędzi komunikacji wnosił ze sobą wiele barier. Obecnie mamy do czynienia z nowoczesnymi i bardzo zaawansowanymi technologicznie nośnikami, które wielu osobom przysparzają niemało problemów.
 
-  
+Pomysłowość człowieka nie zna granic. Dlatego wymyślił list w butelce, przełamując barierę, jaką stanowiło otaczające go morze lub ocean. Nawet woda nie stanowiła problemu — pisemny przekaz docierał zawsze, choć często nie do adresata, a czasami i okres doręczenia wydłużał się bardzo.
 
-POMYSŁOWOŚĆ CZŁOWIEKA NIE ZNA GRANIC. DLATEGO WYMYŚLIŁ LIST W BUTELCE, PRZEŁAMUJĄC BARIERĘ JAKĄ STANOWIŁO OTACZAJĄCE GO MORZE LUB OCEAN. NAWET  WODA NIE STANOWIŁA PROBLEMU – PISEMNY PRZEKAZ DOCIERAŁ ZAWSZE, CHODŹ CZĘSTO NIE DO ADRESATA, A CZASAMI I OKRES DORĘCZENIA WYDŁUŻAŁ SIĘ BARDZO.
+Nowa forma przewodnika po muzeum — człowieka zastępuje maszynka, która oprowadza po muzealnych salach.
 
-NOWA FORMA  PRZEWODNIKA PO MUZEUM. CZŁOWIEKA ZASTĘPUJE MASZYNKA, KTÓRA OPROWADZA PO MUZEALNYCH SALACH.
+Dzisiaj dziennikarz jest naszym informatorem. Dzięki niemu wiemy, co dzieje się dalej niż w naszym bloku czy na naszej ulicy.
 
-DZISIAJ  DZIENNIKARZ  JEST  NASZYM INFORMATOREM. DZIĘKI NIEMU WIEMY CO DZIEJE SIĘ DALEJ, NIŻ W NASZYM  BLOKU, CZY NA NASZEJ ULICY. 
+Telewizja jest naszym oknem na świat, przełamując wszelkie granice na Ziemi,  
+a ostatnio — i we Wszechświecie.
 
-
-TELEWIZJA JEST NASZYM OKNEM NA ŚWIAT,  PRZEŁAMUJĄC WSZELKIE GRANICE NA ZIEMI,    
-
-A OSTATNIO  I WE WSZECHŚWIECIE.
-WSPÓŁCZEŚNIE BARDZO WAŻNYM KANAŁEM PRZEKAZU INFORMACJI SĄ MEDIA. NA JAKIE BARIERY NATRAFIAJĄ ONE?
+Współcześnie bardzo ważnym kanałem przekazu informacji są media. Na jakie bariery natrafiają one?

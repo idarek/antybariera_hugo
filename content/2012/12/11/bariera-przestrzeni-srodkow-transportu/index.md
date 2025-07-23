@@ -1,24 +1,16 @@
 ---
-title: "BARIERA PRZESTRZENI-ŚRODKÓW TRANSPORTU"
+title: "Bariera przestrzeni — środków transportu"
 date: 2012-12-11
 ---
 
-KOLEJNĄ WAŻNĄ BARIERĄ KOMUNIKACYJNĄ JEST DZIELĄCA LUDZI PRZESTRZEŃ, KTÓRĄ MOŻNA POKONAĆ NA RÓŻNE SPOSOBY: UŻYWAJĄC ZWIERZĄT TRANSPORTOWYCH, ROWERU, KOLEI I INNYCH ŚRODKÓW KOMUNIKACJI. NIE MUSIMY PRZEMIESZCZAĆ SIĘ SAMI, BARIERĘ PRZESTRZENNĄ MOŻNA ZNIEŚĆ PISZĄC LIST, LUB TELEFONUJĄC.
+Kolejną ważną barierą komunikacyjną jest dzieląca ludzi przestrzeń, którą można pokonać na różne sposoby: używając zwierząt transportowych, roweru, kolei i innych środków komunikacji. Nie musimy przemieszczać się sami — barierę przestrzenną można znieść, pisząc list lub telefonując.
 
-W PODRÓŻY POMOCNE SĄ WSKAZÓWKI, KTÓRE MUSZĄ BYĆ DLA NAS ZROZUMIAŁE. MOŻLIWOŚĆ PYTANIA O DROGĘ, LUB PRZEWODNIK, KTÓRY NAS DOPROWADZI DO CELU.
+W podróży pomocne są wskazówki, które muszą być dla nas zrozumiałe, możliwość pytania o drogę lub przewodnik, który nas doprowadzi do celu.
 
+Podróżowanie na wielbłądzie mogłoby być ciekawym doświadczeniem, ale chyba nie dla mnie i na pewno nie na dłuższe odległości.
 
+Jeżdżąc dorożką po Krakowie, czuję się wspaniale. Doskonale wczułam się w tamtejsze klimaty — nowych, obcych dla mnie miejsc. Chciałabym powrócić do czasów, kiedy nie było samochodów i dorożka była jedynym środkiem transportu.
 
-PODRÓŻOWANIE NA WIELBŁĄDZIE MOGŁOBY BYĆ CIEKAWYM DOŚWIADCZENIEM, ALE CHYBA NIE DLA MNIE I NA PEWNO NIE NA DŁUŻSZE ODLEGŁOŚCI.
+Autobus angielski pozwala oglądać Londyn podczas jazdy, z wysokości pierwszego piętra. Tęsknię do czasów, kiedy poznawałam to miasto właśnie w ten sposób.
 
-
-
-JEŻDZĄC DOROŻKĄ PO KRAKOWIE CZUJĘ SIĘ WSPANIALE. DOSKONALE WCZUWAM SIĘ W TAMTEJSZE KLIMATY - NOWYCH, OBCYCH DLA MNIE MIEJSC. CHCIAŁABYM POWRÓCIĆ DO CZASÓW, KIEDY NIE BYŁO SAMOCHODÓW I DOROŻKA BYŁA JEDYNYM ŚRODKIEM TRANSPORTU.
-
-
-
-AUTOBUS ANGIELSKI POZWALA OGLĄDAĆ LONDYN PODCZAS JAZDY, Z WYSOKOŚCI PIERWSZEGO PIĘTRA. TĘSKNIE DO CZASÓW, KIEDY POZNAWAŁAM TO MIASTO WŁAŚNIE W TEN SPOSÓB. 
-
-
-
-OD  ZAWSZE  TELEFON ŁĄCZYŁ   NAS. PAMIĘTAM GDY      TAKIE  ROZMOWY ODBYWAŁY SIĘ Z BUDKI TELEFONICZNEJ, WYPARTEJ DZIŚ PRZEZ TELEFONY KOMÓRKOWE. A SZKODA! CHĘTNIE KORZYSTAŁABYM Z TAK ŚLICZNEGO "DOMKU DO DZWONIENIA".
+Od zawsze telefon łączył nas. Pamiętam, gdy takie rozmowy odbywały się z budki telefonicznej, wypartej dziś przez telefony komórkowe. A szkoda! Chętnie korzystałabym z tak ślicznego „domku do dzwonienia”.

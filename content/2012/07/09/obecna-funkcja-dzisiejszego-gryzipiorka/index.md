@@ -1,18 +1,18 @@
 ---
-title: "OBECNA FUNKCJA DZISIEJSZEGO \"GRYZIPIÓRKA\""
+title: "Obecna funkcja dzisiejszego \"gryzipiórka\""
 date: 2012-07-09
 ---
 
-**DZIENNIKARSTWO OBYWATELSKIE**
+**Dziennikarstwo obywatelskie**
 
-DZISIAJ KAŻDA OSOBA MOŻE BYĆ UCZESTNIKIEM DEBATY NA KAŻDY TEMAT, SAMA JESTEM TAKIM PRZYKŁADEM. UMOŻLIWIŁ MI TO INTERNET. W DOBIE INTERNETU ZOSTAJE OTWARTY WIELKI, CODZIENNY ŚWIAT, DOTĄD MOCNO NIEZNANY ZWYCZAJNYM LUDZIOM. W SIECI KAŻDY MOŻE BYĆ TYM KIM CHCE, NIE MA OGRANICZEŃ. DLATEGO WIELU Z NAS MOŻE PEŁNIĆ ROLĘ DZIENNIKARZY, UJAWNIAJĄC ODMIENNE POGLĄDY, ROŻNORAKIE SFORMUŁOWANIA.
+Dzisiaj każda osoba może być uczestnikiem debaty na każdy temat, sama jestem takim przykładem. Umożliwił mi to Internet. W dobie Internetu zostaje otwarty wielki, codzienny świat, dotąd mocno nieznany zwyczajnym ludziom. W sieci każdy może być tym, kim chce – nie ma ograniczeń. Dlatego wielu z nas może pełnić rolę dziennikarzy, ujawniając odmienne poglądy, różnorakie sformułowania.
 
-MOŻNA POWIEDZIEĆ, ŻE DZIENNIKARSTWO OBYWATELSKIE JEST DZISIAJ PANACEUM NA KRYZYS DZIENNIKARSTWA TRADYCYJNEGO. ALE JAK WSZYSTKO, MA ONO WIELU ZWOLENNIKÓW I KRYTYKÓW. PO PIERWSZE NIE POTRZEBUJE SZKOŁY ANI WYKSZTAŁCENIA. KIM NA PRZYKŁAD JESTEM JA DZISIAJ, BĘDĄC OSOBĄ NA WÓZKU, NA TRZECIM - LICENCJACKIM ROKU STUDIÓW?
+Można powiedzieć, że dziennikarstwo obywatelskie jest dzisiaj panaceum na kryzys dziennikarstwa tradycyjnego. Ale jak wszystko, ma ono wielu zwolenników i krytyków. Po pierwsze, nie potrzebuje szkoły ani wykształcenia. Kim na przykład jestem ja dzisiaj, będąc osobą na wózku, na trzecim – licencjackim – roku studiów?
 
-POJAWIAJĄ SIĘ OPINIE, ŻE ZWYKŁY CZŁOWIEK MOŻE POPRZEZ NORMALNE BLOGI, NIE DO KOŃCA STAĆ SIĘ, ALE CHOCIAŻ POCZUĆ JAK TRADYCYJNY DZIENNIKARZ.
+Pojawiają się opinie, że zwykły człowiek może poprzez normalne blogi nie do końca stać się, ale chociaż poczuć jak tradycyjny dziennikarz.
 
-DZIENNIKARSTWO NIE JEST TYLKO ZAWODEM, KTÓRY WIĄŻE SIĘ Z PRACĄ ZAROBKOWĄ. TO PRZEDE WSZYSTKIM POWOŁANIE DO PEŁNIENIA SŁUŻBY PUBLICZNEJ, DZIAŁALNOŚĆ NA RZECZ SPOŁECZEŃSTWA LUB PO PROSTU CHĘĆ DZIELENIA SIĘ SWOIM ŻYCIEM Z INNYMI.
+Dziennikarstwo nie jest tylko zawodem, który wiąże się z pracą zarobkową. To przede wszystkim powołanie do pełnienia służby publicznej, działalność na rzecz społeczeństwa lub po prostu chęć dzielenia się swoim życiem z innymi.
 
-TUTAJ POJAWIA SIĘ SPÓR JAK NAZWAĆ OSOBY, KTÓRE ZAMIESZCZAJĄ REGULARNIE INFORMACJE W SIECI, CZYLI SĄ ŹRÓDŁEM INFORMACJI. OKREŚLANE SĄ ONE PRZEZ INNYCH JAKO DZIENNIKARZE: OBYWATELSCY, UCZESTNICZĄCY, ODDOLNI, CYWILNI, SPOŁECZNI, AMATORSCY.
+Tutaj pojawia się spór, jak nazwać osoby, które zamieszczają regularnie informacje w sieci, czyli są źródłem informacji. Określane są one przez innych jako dziennikarze: obywatelscy, uczestniczący, oddolni, cywilni, społeczni, amatorscy.
 
-ALE TAK NAPRAWDĘ NAJWIĘKSZA RÓŻNICA JEST POMIĘDZY DZIENNIKARSTWEM OBYWATELSKIM A UCZESTNICZĄCYM. TO PIERWSZE DZIENNIAKRSTWO I OBECNI W NIM LUDZIE - TO OSOBY, KTÓRE MAJĄ POTRZEBĘ DZIAŁANIA NA RZECZ SPOŁECZNOŚCI LOKALNEJ I RÓŻNYCH ORGANIZACJI. REALIZUJĄ SIĘ POPRZEZ PEŁNIENIE ROLI DZIENNIKARZA. NATOMIAST DZIENNIKARZE UCZESTNICZĄCY TO PRAKTYCZNIE WSZYSCY, KTÓRZY PISZĄ W INTERNECIE, NIEZALEŻNIE OD TEMATU. SAMI TWÓRCY OKREŚLAJĄ SWOJĄ DZIAŁALNOŚĆ JAKO _"GRASS ROOTS JOURNALISM"_, PONIEWAŻ SKUPIAJĄ SIĘ NA PROBLEMACH ŻYCIA CODZIENNEGO - RELACJACH ZWYKŁYCH LUDZI, KTÓRZY ZNAJDUJĄ SIĘ NAJBLIŻEJ TYCH WYDARZEŃ. ICH MOTTO BRZMI: **"PRZEZ LUDZI, DO LUDZI!"**.
+Ale tak naprawdę największa różnica jest pomiędzy dziennikarstwem obywatelskim a uczestniczącym. To pierwsze dziennikarstwo i obecni w nim ludzie – to osoby, które mają potrzebę działania na rzecz społeczności lokalnej i różnych organizacji. Realizują się poprzez pełnienie roli dziennikarza. Natomiast dziennikarze uczestniczący to praktycznie wszyscy, którzy piszą w Internecie, niezależnie od tematu. Sami twórcy określają swoją działalność jako _"grass roots journalism"_, ponieważ skupiają się na problemach życia codziennego – relacjach zwykłych ludzi, którzy znajdują się najbliżej tych wydarzeń. Ich motto brzmi: **"Przez ludzi, do ludzi!"**

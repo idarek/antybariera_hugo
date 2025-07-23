@@ -1,34 +1,31 @@
 ---
-title: "BARIERY W ŻYCIU CZŁOWIEKA"
+title: "Bariery w życiu człowieka"
 date: 2012-11-20
 ---
 
-CZŁOWIEK NAPOTYKA NA SWOJEJ DRODZE WIELE BARIER. MOŻEMY JE PODZIELIĆ
+Człowiek napotyka na swojej drodze wiele barier. Możemy je podzielić  
+na kilka rodzajów. Są to:
 
-NA KILKA RODZAJÓW. SĄ TO:
+- bariera czasu i historii;  
+- bariera kodu i języka wyrazu;  
+- bariera kultury i religii;  
+- bariera przestrzeni i środków transportu;  
+- bariera technologii i narzędzi komunikacji.
 
-- BARIERA CZASU I HISTORII;
-- BARIERA KODU I JĘZYKA WYRAZU;
-- BARIERA KULTURY I RELIGII;
-- BARIERA PRZESTRZENI I ŚRODKÓW TRANSPORTU;
-- BARIERA TECHNOLOGII I NARZĘDZI KOMUNIKACJI.
+Nie wszystkie z nich udaje nam się zlikwidować. Czasami przełamanie stojących na naszej drodze barier trwa wiele lat, a czasami jest wręcz niemożliwe.
 
-NIE WSZYSTKIE Z NICH UDAJE NAM SIĘ ZLIKWIDOWAĆ. CZASAMI PRZEŁAMANIE STOJĄCYCH NA NASZEJ DRODZE BARIER TRWA WIELE LAT, A CZASAMI JEST WRĘCZ NIEMOŻLIWE.
+**Dziś chciałabym zająć się barierą kodu i języka wyrazu.**
 
-**DZIŚ CHCIAŁABYM ZAJĄĆ SIĘ BARIERĄ KODU I JĘZYKA WYRAZU.**
+Istotną barierą komunikacji może być język wyrazu. Ludzie, porozumiewając się, używają różnych systemów znaków (kodów komunikacji). Skuteczność komunikacji zależeć będzie od sprawności, z jaką uczestnicy komunikacji będą się tymi systemami posługiwać. Najważniejszą przesłanką będzie umiejętność rozumienia (rozkodowania znaczenia). A to nie zawsze jest proste.  
 
-ISTOTNĄ BARIERĄ KOMUNIKACJI MOŻE BYĆ JĘZYK WYRAZU. LUDZIE POROZUMIEWAJĄC SIĘ UŻYWAJĄ RÓŻNYCH SYSTEMÓW ZNAKÓW (KODÓW KOMUNIKACJI). SKUTECZNOŚĆ KOMUNIKACJI ZALEŻEĆ BĘDZIE OD SPRAWNOŚCI, Z JAKĄ UCZESTNICY KOMUNIKACJI BĘDĄ SIĘ TYMI SYSTEMAMI POSŁUGIWAĆ. NAJWAŻNIEJSZĄ PRZESŁANKĄ BĘDZIE UMIEJĘTNOŚĆ ROZUMIENIA (ROZKODOWANIA ZNACZENIA). A TO NIE ZAWSZE JEST PROSTE.  
+Niejednokrotnie *„odbiorca”* się bardzo myli.
 
-NIEJEDNOKROTNIE ''ODBIORCA''  SIĘ  BARDZO   MYLI .
-
-KAŻDY ODWIEDZAJĄCY TĄ INSTALACJĘ NA PEWNO BĘDZIE MIAŁ INNE SKOJARZENIE I NIE DOMYŚLI SIĘ CO AUTOR MIAŁ NA MYŚLI.  
+Każdy odwiedzający tę instalację na pewno będzie miał inne skojarzenie i nie domyśli się, co autor miał na myśli.  
   
-  
-PALEC WSKAZUJĄCY DLA KAŻDEGO SYMBOLIZOWAĆ MOŻE COŚ INNEGO, TYM BARDZIEJ, ŻE SKIEROWANY JEST KU GÓRZE. KU NIEBU, A MOŻE KU BOGU...  
+Palec wskazujący dla każdego symbolizować może coś innego, tym bardziej że skierowany jest ku górze. Ku niebu, a może ku Bogu...  
 
-NIEZNAJOMOŚĆ JĘZYKA JEST OGROMNYM UTRUDNIENIEM PODCZAS POBYTU W OBCYM KRAJU. MOŻE PROWADZIĆ DO  NIEPOROZUMIEŃ, ŚCIĄGNĄĆ NA NAS KŁOPOTY, A NAWET DOPROWADZIĆ DO KONFLIKTÓW.  
+Nieznajomość języka jest ogromnym utrudnieniem podczas pobytu w obcym kraju. Może prowadzić do nieporozumień, ściągnąć na nas kłopoty, a nawet doprowadzić do konfliktów.  
 
-PODZIWIAM LUDZI, KTÓRYM UDAŁO SIĘ ROZSZYFROWAĆ ZNACZENIE HIEROGLIFÓW. ZWŁASZCZA, ŻE TAK NAPRAWDĘ NIE BYŁO JUŻ W TYM CZASIE NIKOGO, KTO BY TEN JĘZYK PAMIĘTAŁ  ALBO  PO PROSTU  JE  ZNAŁ.
+Podziwiam ludzi, którym udało się rozszyfrować znaczenie hieroglifów. Zwłaszcza że tak naprawdę nie było już w tym czasie nikogo, kto by ten język pamiętał albo po prostu je znał.
 
-
-NAPISZCIE, CZY NA SWOJEJ DRODZE KOMUNIKACJI  MIĘDZYLUDZKIEJ NAPOTYKACIE NA JAKIEŚ BARIERY?
+Napiszcie, czy na swojej drodze komunikacji międzyludzkiej napotykacie na jakieś bariery?

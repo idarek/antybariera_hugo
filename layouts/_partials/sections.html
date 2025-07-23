@@ -1,0 +1,8 @@
+<div class="sections">
+  <div>Sekcje:</div>
+  <ul>
+  {{ range .Site.Sections }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+</div>

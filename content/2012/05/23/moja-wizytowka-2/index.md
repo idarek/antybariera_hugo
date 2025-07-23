@@ -1,36 +1,34 @@
 ---
-title: "MOJA  WIZYTÓWKA"
+title: "Moja wizytówka"
 date: 2012-05-23
 ---
 
-**NAZYWAM SIĘ AGATA KROKOSZ.** WE WRZEŚNIU 2013R. OTRZYMAŁAM DYPLOM UKOŃCZENIA STUDIÓW PIERWSZEGO STOPNIA, NA KIERUNKU DZIENNIKARSTWA I KOMUNIKACJI SPOŁECZNEJ UNIWERSYTETU JAGIELLOŃSKIEGO W KRAKOWIE. W PAŹDZIERNIKU 2014R. ROZPOCZĘŁAM STUDIA II STOPNIA W INSTYTUCIE DZIENNIKARSTWA I KOMUNIKACJI SPOŁECZNEJ TEGOŻ UNIWERSYTETU.
+**Nazywam się Agata Krokosz.** We wrześniu 2013 r. otrzymałam dyplom ukończenia studiów pierwszego stopnia, na kierunku dziennikarstwa i komunikacji społecznej Uniwersytetu Jagiellońskiego w Krakowie. W październiku 2014 r. rozpoczęłam studia II stopnia w Instytucie Dziennikarstwa i Komunikacji Społecznej tegoż uniwersytetu.
 
-MIESZKAM W KOSZALINIE. 
+Mieszkam w Koszalinie. 
 
 ![](images/db653-agata05.jpg)
 
-PO DOŚĆ DŁUGIEJ PRZERWIE W NAUCE,KTÓRĄ SPOWODOWAŁ WYPADEK KOMUNIKACYJNY, WRÓCIŁAM NA STUDIA Z WIELKIM ŻYCIOWYM PLANEM I MARZENIEM. KONTYNUUJĘ NAUKĘ, KTÓRĄ NA CHWILĘ OBECNĄ CHCIAŁABYM ZWIEŃCZYĆ DYPLOMEM MAGISTRA.
+Po dość długiej przerwie w nauce, którą spowodował wypadek komunikacyjny, wróciłam na studia z wielkim życiowym planem i marzeniem. Kontynuuję naukę, którą na chwilę obecną chciałabym zwieńczyć dyplomem magistra.
 
-WRÓCĘ DO SWOJEGO WYPADKU. W CZASIE WAKACJI PO II ROKU STUDIÓW,TRAGICZNE SEKUNDY ZBURZYŁY MOJE WSZYSTKIE PLANY I MARZENIA. MOJE ŻYCIE. PRZEŻYŁAM, A TAK NAPRAWDĘ NARODZIŁAM SIĘ PO RAZ DRUGI. DOSTAŁAM SZANSĘ NA NOWE ŻYCIE, ALE JAK BARDZO INNE.
+Wrócę do swojego wypadku. W czasie wakacji po II roku studiów, tragiczne sekundy zburzyły moje wszystkie plany i marzenia. Moje życie. Przeżyłam, a tak naprawdę narodziłam się po raz drugi. Dostałam szansę na nowe życie, ale jak bardzo inne.
 
-**DLACZEGO?! DLA KOGO ?! PO CO?!**
-WYPADEK POZBAWIŁ MNIE NIE TYLKO MOŻLIWOŚCI CHODZENIA, (DZISIAJ STAWIAM JAK BARDZO UPRAGNIONE PIERWSZE KROKI). NAJWIĘKSZYM DRAMATEM DLA MNIE JEST BRAK KOMUNIKACJI WERBALNEJ (NIE MÓWIĘ). MYŚLAŁAM ŻE TO KONIEC MOICH MARZEŃ O DZIENNIKARSTWIE. STAŁO SIĘ INACZEJ. NA SZCZĘŚCIE MOJA GŁOWA - MÓZG OCALAŁ. DZIĘKI NAJNOWSZEJ TECHNICE KOMPUTEROWEJ I INTERNETOWI MAM OTWARTE OKNO NA ŚWIAT. OKNO SZEROKO OTWARTE DZIĘKI POMOCY WIELU LUDZI. ZAMIERZAM Z NIEGO KORZYSTAĆ NA MAKSA!!!
+**Dlaczego?! Dla kogo?! Po co?!**  
+Wypadek pozbawił mnie nie tylko możliwości chodzenia (dzisiaj stawiam jak bardzo upragnione pierwsze kroki). Największym dramatem dla mnie jest brak komunikacji werbalnej (nie mówię). Myślałam, że to koniec moich marzeń o dziennikarstwie. Stało się inaczej. Na szczęście moja głowa – mózg ocalał. Dzięki najnowszej technice komputerowej i Internetowi mam otwarte okno na świat. Okno szeroko otwarte dzięki pomocy wielu ludzi. Zamierzam z niego korzystać na maksa!!!
 
-POWSTAŁA MOJA ANTYBARIERA.  
-  
-W TAKI SPOSÓB – MOŻE I NIETUZINKOWY WYGLĄDAŁY  JEDNE Z PIERWSZYCH ZAJĘĆ Z KOMPUTEREM NA UCZELNI. WSZYSCY WIEDZĄ, ŻE DZISIAJ WIĘKSZOŚĆ DZIENNIKARZY, ZE MNĄ NA CZELE CIĄGLE KORZYSTAJĄ Z KOMPUTERA I Z INTERNETU.
-**DLACZEGO I PO CO ?**
+Powstała moja Antybariera.  
 
-TO JUŻ WIEM. JEŻELI MI SIĘ UDA, ANTYBARIERA UMOŻLIWI MI W PRZYSZŁOŚCI WYKONYWANIE PRACY W KOCHANYM ZAWODZIE TJ.DZIENNIKARSTWIE. TROCHĘ INACZEJ, ALE CZY TO TAKIE WAŻNE?! NIE!!! NAJWAŻNIEJSZE, ŻE ZACZYNAM POMAŁU REALIZOWAĆ SWOJE MARZENIA. SKORO BARDZO SIĘ PRAGNIE TO NAPRAWDĘ SIĘ SPEŁNIAJĄ. JA TO WIEM!
+W taki sposób – może i nietuzinkowy – wyglądały jedne z pierwszych zajęć z komputerem na uczelni. Wszyscy wiedzą, że dzisiaj większość dziennikarzy, ze mną na czele, ciągle korzystają z komputera i z Internetu.  
+**Dlaczego i po co?**
 
-**DLA KOGO?**
+To już wiem. Jeżeli mi się uda, Antybariera umożliwi mi w przyszłości wykonywanie pracy w kochanym zawodzie, tj. dziennikarstwie. Trochę inaczej, ale czy to takie ważne?! Nie!!! Najważniejsze, że zaczynam pomału realizować swoje marzenia. Skoro bardzo się pragnie, to naprawdę się spełniają. Ja to wiem!
 
-DLA ZWYCZAJNYCH LUDZI, KTÓRZY CHCĄ POGADAĆ, A MAJĄ Z TYM WIELKI PROBLEM. NIEPOTRZEBNIE!!! MÓWIĘ TO Z WŁASNEGO DOŚWIADCZENIA. NIE MA NIC GORSZEGO JAK PRZEKONANIE : "JAK NIE MÓWI TO NA PEWNO NIESPEŁNA ROZUMU - PO PROSTU GŁUPIA".
+**Dla kogo?**
 
-ANTYBARIERA POCZĄTKOWO PISANA BYŁA DUŻYMI LITERAMI I Z DUŻYMI ODSTĘPAMI MIĘDZY SŁOWAMI. TAK BYŁO, BO MIAŁAM TRUDNOŚCI Z ODCZYTYWANIEM TEKSTU NA EKRANIE.   
-  
+Dla zwyczajnych ludzi, którzy chcą pogadać, a mają z tym wielki problem. Niepotrzebnie!!! Mówię to z własnego doświadczenia. Nie ma nic gorszego jak przekonanie: "Jak nie mówi, to na pewno niespełna rozumu – po prostu głupia".
 
+Antybariera początkowo pisana była dużymi literami i z dużymi odstępami między słowami. Tak było, bo miałam trudności z odczytywaniem tekstu na ekranie.  
 
-ZNAJDZIEJSZ MNIE RÓWNIEŻ NA FACEBOOK'U:   
+Znajdziesz mnie również na Facebooku:  
 
- https://www.facebook.com/agata.krokosz
+https://www.facebook.com/agata.krokosz

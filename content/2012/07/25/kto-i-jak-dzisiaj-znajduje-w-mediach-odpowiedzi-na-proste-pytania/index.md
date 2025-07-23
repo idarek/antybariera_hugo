@@ -1,10 +1,10 @@
 ---
-title: "KTO I JAK DZISIAJ ZNAJDUJE W MEDIACH ODPOWIEDZI NA PROSTE PYTANIA"
+title: "Kto i jak dzisiaj znajduje w mediach odpowiedzi na proste pytania"
 date: 2012-07-25
 ---
 
-   JEDNYM Z PIERWSZYCH PORTALI DZIENNIKARSTWA UCZESTNICZĄCEGO SĄ WŁAŚNIE IDYMEDIA. POWSTAŁ ON 30.11.1999r. PRZY OKAZJI PROTESTÓW PRZECIW SPOTKANIU ŚWIATOWEJ ORGANIZACJI HANDLU W SEATTLE. UCZESTNICY STRAJKÓW ZOSTALI SPACYFIKOWANI PRZEZ GWARDIĘ NARODOWĄ, A INFORMACJA O TYM NIE POJAWIŁA SIĘ W ŻADNYM Z GŁÓWNYCH MEDIÓW. DEMONSTRANCI POSTANOWLI SAMI STWORZYĆ MEDIUM, KTÓRE BĘDZIE OTWARTE NA WSZYSTKIE INFORMACJE. ICH HASŁO PRZEWODNIE BRZMIAŁO: "DON'T HATE THE MEDIA, BECOME THE MEDIA", CZYLI "PRZESTAŃ NIENAWIDZIĆ MEDIÓW, ZRÓB SOBIE WŁASNE!".
+Jednym z pierwszych portali dziennikarstwa uczestniczącego są właśnie Indymedia. Powstał on 30.11.1999 r. przy okazji protestów przeciw spotkaniu Światowej Organizacji Handlu w Seattle. Uczestnicy strajków zostali spacyfikowani przez Gwardię Narodową, a informacja o tym nie pojawiła się w żadnym z głównych mediów. Demonstranci postanowili sami stworzyć medium, które będzie otwarte na wszystkie informacje. Ich hasło przewodnie brzmiało: "Don't hate the media, become the media", czyli "Przestań nienawidzić mediów, zrób sobie własne!".
 
-   TWÓRCY INDYMEDIÓW ZREZYGNOWALI ZE STWORZENIA SOBIE CENTRALNEGO PORTALU. W ZAMIAN ZA TO KRAJOWE STRUKTURY PROWADZĄ NIEZALEŻNE STRONY INTERNETOWE, KTÓRE WSPÓŁPRACUJĄ ZE SOBĄ.
+Twórcy Indymediów zrezygnowali ze stworzenia sobie centralnego portalu. W zamian za to krajowe struktury prowadzą niezależne strony internetowe, które współpracują ze sobą.
 
-   KAŻDA OSOBA, KTÓRA CHCE POCZUĆ SIĘ DZIENNIKARZEM, MOŻE ZAMIEŚCIĆ SWÓJ TEKST NA ŁAMACH INDYMEDIÓW. SĄ DWIE DROGI. MOŻNA WYSŁAĆ ARTYKUŁ DO TZW. STREFY OTWARTEGO PUBLIKOWANIA I Z PEWNOŚCIĄ POJAWI SIĘ ON NA STRONIE W ODPOWIEDNIM DZIALE TEMATYCZNYM. NATOMIAST JEŚLI AUTOR CHCE UMIEŚCIĆ SWÓJ ARTYKUŁ NA STRONIE GŁÓWNEJ. MUSI WCZEŚNIEJ WYSŁAĆ GO DO TZW. KOLEKTYWU REDAKCYJNEGO, KTÓRE POPRZEZ GŁOSOWANIE PODEJMUJE DECYZJE O JEGO PUBLIKACJI LUB WPROWADZENIU EWENTUALNYCH POPRAWEK. DLATEGO STRONA GŁÓWNA ZAWIERA TEKSTY NAJWAŻNIEJSZE, WZBUDZAJACE NAJWIĘKSZE ZAINTERESOWANIE UŻYTKOWNIKÓW.
+Każda osoba, która chce poczuć się dziennikarzem, może zamieścić swój tekst na łamach Indymediów. Są dwie drogi. Można wysłać artykuł do tzw. strefy otwartego publikowania i z pewnością pojawi się on na stronie w odpowiednim dziale tematycznym. Natomiast jeśli autor chce umieścić swój artykuł na stronie głównej, musi wcześniej wysłać go do tzw. kolektywu redakcyjnego, który poprzez głosowanie podejmuje decyzję o jego publikacji lub wprowadzeniu ewentualnych poprawek. Dlatego strona główna zawiera teksty najważniejsze, wzbudzające największe zainteresowanie użytkowników.

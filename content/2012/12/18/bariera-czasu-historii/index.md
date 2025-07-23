@@ -1,24 +1,16 @@
 ---
-title: "BARIERA CZASU - HISTORII"
+title: "Bariera czasu — historii"
 date: 2012-12-18
 ---
 
-W RÓŻNYCH OKRESACH HISTORII MIELIŚMY DO CZYNIENIA Z RÓŻNYMI RODZAJAMI BARIER. CENZURA, UKŁAD POLITYCZNY, POWODUJĄCY, ŻE NIE Z KAŻDYM WOLNO SIĘ KOMUNIKOWAĆ, CZASAMI BARIERA BYŁA DOSŁOWNA: BYŁ NIĄ NP. MUR BERLIŃSKI, KTÓRY NA WIELE LAT ZABLOKOWAŁ MOŻLIWOŚĆ KOMUNIKACJI NAWET MIĘDZY CZŁONKAMI  RODZIN.
+W różnych okresach historii mieliśmy do czynienia z różnymi rodzajami barier. Cenzura, układ polityczny powodujący, że nie z każdym wolno się komunikować, czasami bariera była dosłowna: był nią np. mur berliński, który na wiele lat zablokował możliwość komunikacji nawet między członkami rodzin.
 
-SAMA HISTORIA JEST ISTOTNĄ BARIERĄ, WTEDY, GDY WYDARZENIA HISTORYCZNE STAJĄ SIĘ BARIERĄ WE WZAJEMNYM POROZUMIENIU . CZAS JEST OGRANICZENIEM ZWŁASZCZA WTEDY, KIEDY GO NIE MAMY! CZAS OGRANICZA NAS TEŻ KIEDY PRACUJEMY ORAZ KOMUNIKUJEMY SIĘ POD JEGO PRESJĄ. ŻYJEMY PRZECIEŻ BARDZO KRÓTKO! BARIERĘ HISTORII, PRZEMIJANIA W WYMIARZE CZASU, POKONAĆ MOŻEMY PRÓBUJĄC UTRWALAĆ WSPOMNIENIA TYCH, KTÓRZY BYLI ŚWIADKAMI WYDARZEŃ Z PRZESZŁOŚCI. TRUDNIEJSZA DO POKONANIA BARIERA HISTORYCZNA STAJE SIĘ WÓWCZAS, KIEDY JUŻ BEZPOŚREDNIO NIE MOŻEMY POROZMAWIAĆ ZE ŚWIADKAMIA. BYWA, ŻE STAJE SIĘ TO WÓWCZAS BARIERĄ NIE DO POKONANIA I NASZA WIEDZA HISTORYCZNA MUSI OGRANICZAĆ SIĘ DO SPEKULACJI I PRZYPUSZCZEŃ.
+Sama historia jest istotną barierą, wtedy gdy wydarzenia historyczne stają się barierą we wzajemnym porozumieniu. Czas jest ograniczeniem, zwłaszcza wtedy, kiedy go nie mamy! Czas ogranicza nas też, kiedy pracujemy oraz komunikujemy się pod jego presją. Żyjemy przecież bardzo krótko! Barierę historii, przemijania w wymiarze czasu, pokonać możemy, próbując utrwalać wspomnienia tych, którzy byli świadkami wydarzeń z przeszłości. Trudniejsza do pokonania bariera historyczna staje się wówczas, kiedy już bezpośrednio nie możemy porozmawiać ze świadkami. Bywa, że staje się to wówczas barierą nie do pokonania i nasza wiedza historyczna musi ograniczać się do spekulacji i przypuszczeń.
 
+Od wieków ludzie toczyli ze sobą wojny, stawiali mury pomiędzy państwami. Stanowiły one barierę oddzielającą narody. Na szczęście i takie przeszkody mądrzy ludzie potrafią obalić.
 
+Nasze życie niestety kiedyś się kończy. Jest to póki co nieuniknione, lecz wierzę, że pewnego dnia naukowcom uda się przeskoczyć i ubiec również ową barierę.
 
-OD WIEKÓW LUDZIE TOCZYLI ZE SOBĄ WOJNY, STAWIALI MURY POMIĘDZY PAŃSTWAMI. STANOWIŁY ONE BARIERĘ ODDZIELAJĄCĄ NARODY. NA SZCZĘŚCIE I TAKIE PRZESZKODY MĄDRZY LUDZIE POTRAFIĄ OBALIĆ.
+Brak czasu ogranicza nas w sposób nieugięty. Coraz szybciej żyjemy — coraz mniej mamy czasu dla siebie i swoich bliskich. Nie ma już również czasu na życie towarzyskie z przyjaciółmi.
 
-
-
-NASZE ŻYCIE NIESTETY KIEDYŚ SIĘ KOŃCZY. JEST TO PÓKI CO NIEUNIKNIONE, LECZ WIERZĘ, ŻE PEWNEGO DNIA NAUKOWCOM UDA SIĘ PRZESKOCZYĆ  I  UBIEC RÓWNIEŻ OWĄ BARIERĘ.
-
-
-
-BRAK CZASU OGRANICZA NAS W SPOSÓB NIEUGIĘTY. CORAZ SZYBCIEJ ŻYJEMY - CORAZ MNIEJ MAMY CZASU DLA SIEBIE I SWOICH BLISKICH. NIE MA JUŻ RÓWNIEŻ CZASU NA ŻYCIE TOWARZYSKIE  Z  PRZYJACIÓŁMI.
-
-
-
-WIELE OSÓB PRZEKRACZA BARIERĘ NIEŚMIERTELNOŚCI DZIĘKI SWOIM BLISKIM LUB ODDANYM SOBIE LUDZIOM. NIE POZWALAJĄ O NICH ZAPOMNIEĆ TABLICE PAMIĄTKOWE WIESZANE W CZASAMI BARDZO WYJĄTKOWYCH MIEJSCACH.
+Wiele osób przekracza barierę nieśmiertelności dzięki swoim bliskim lub oddanym sobie ludziom. Nie pozwalają o nich zapomnieć tablice pamiątkowe wieszane czasami w bardzo wyjątkowych miejscach.

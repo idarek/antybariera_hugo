@@ -1,54 +1,54 @@
 ---
-title: "MÓJ SPACER PO GALERII"
+title: "Mój spacer po galerii"
 date: 2012-07-14
 ---
 
-WEJŚCIE DO GALERII, W WIĘKSZOŚCI DRZWI SĄ AUTOMATYCZNIE OTWIERANE (UFF -JAKA ULGA!!!) I JUŻ NA WEJŚCIU NATURALNEJ WIELKOŚCI WAGON TRAMWAJOWY, KTÓRY WZBUDZA CIEKAWOŚĆ WCHODZĄCYCH KLIENTÓW. CO BĘDZIE DALEJ?! NO TO W DROGĘ!
+Wejście do galerii, w większości drzwi są automatycznie otwierane (uff - jaka ulga!!!) i już na wejściu naturalnej wielkości wagon tramwajowy, który wzbudza ciekawość wchodzących klientów. Co będzie dalej?! No to w drogę!
 
-SKLEPY,DUŻO SKLEPÓW, KTÓRE ZACHĘCAJĄ RÓŻNYMI ATRAKCJAMI DO ZAKUPÓW. W HOLU EKSPONATY STARYCH MODELI AUT (LATA 70-TE ). WIERZYĆ SIĘ NIE CHCE, MOŻNA BYŁO TYM JEŹDZIĆ?!
+Sklepy, dużo sklepów, które zachęcają różnymi atrakcjami do zakupów. W holu eksponaty starych modeli aut (lata 70-te). Wierzyć się nie chce, można było tym jeździć?!
 
-POTENCJALNY KLIENT W TYM MIEJSCU MA CZAS NA ZASTANOWIENIE I DECYZJĘ, CZY WCZEŚNIEJ UPATRZONY ARTYKUŁ W SKLEPIE RZECZYWIŚCIE JEST NIEZBĘDNY I KONIECZNY DO KUPIENIA.
+Potencjalny klient w tym miejscu ma czas na zastanowienie i decyzję, czy wcześniej upatrzony artykuł w sklepie rzeczywiście jest niezbędny i konieczny do kupienia.
 
-CIEKAWA SPRAWA ALE I FAKT! DLACZEGO NIE MA TAM ZEGARÓW?
+Ciekawa sprawa ale i fakt! Dlaczego nie ma tam zegarów?
 
-CZYŻBY KTOŚ ZADBAŁ O NASZ BEZSTRESOWY CZAS, NIEOGRANICZONY POBYT W GALERII?! ŚWIETNY POMYSŁ. NA WŁASNYM PRZYKŁADZIE TO WIEM, ŻE TRACI SIĘ POCZUCIE UPŁYWAJĄCEGO CZASU.
+Czyżby ktoś zadbał o nasz bezstresowy czas, nieograniczony pobyt w galerii?! Świetny pomysł. Na własnym przykładzie to wiem, że traci się poczucie upływającego czasu.
 
-DLACZEGO NIE MA TAM OKIEN? NIE WOLNO NAM ROZPRASZAĆ UWAGI, MAMY SIĘ TYLKO SKONCENTROWAĆ NA WYDAWANIU PIENIĘDZY!!! W ZAMIAN KTOŚ ZADBAŁ O WRAŻENIA ŚRODOWISKA NATURALNEGO (OLBRZYMIE SZTUCZNE PALMY, FONTANNY). Z MIERNYM BO KRÓTKOTRWAŁYM SKUTKIEM, ALE TAK JEST ZAWSZE!
+Dlaczego nie ma tam okien? Nie wolno nam rozpraszać uwagi, mamy się tylko skoncentrować na wydawaniu pieniędzy!!! W zamian ktoś zadbał o wrażenia środowiska naturalnego (olbrzymie sztuczne palmy, fontanny). Z miernym bo krótkotrwałym skutkiem, ale tak jest zawsze!
 
-MOIM SKROMNYM ZDANIEM, GDYBY NIE BYŁO TAKICH MIEJSC -"ŚWIEŻYCH ODDECHÓW", CAŁOŚĆ SPRAWIAŁABY WRAŻENIE CIEMNEGO BUNKRA - PONUREGO MIEJSCA, GDZIE BARDZO SZYBKO CZŁOWIEK POCZUŁBY SIĘ ZMĘCZONY I STRACIŁBY OCHOTĘ NA WSZYSTKO. WYCHODZIŁBY ZNUŻONY I NIEZADOWOLONY. NIE ZREALIZOWAŁBY SWOICH PLANÓW CZY MARZEŃ! PIENIĄDZE ZOSTAŁYBY W NASZYM PORTFELU! DLATEGO "ZARZĄDZAJĄCY" DBAJĄ O NASZE SAMOPOCZUCIE I PORTFEL. JESTEŚMY ZADOWOLENI.
+Moim skromnym zdaniem, gdyby nie było takich miejsc - "świeżych oddechów", całość sprawiałaby wrażenie ciemnego bunkra - ponurego miejsca, gdzie bardzo szybko człowiek poczułby się zmęczony i straciłby ochotę na wszystko. Wychodziłby znużony i niezadowolony. Nie zrealizowałby swoich planów czy marzeń! Pieniądze zostałyby w naszym portfelu! Dlatego "zarządzający" dbają o nasze samopoczucie i portfel. Jesteśmy zadowoleni.
 
-WRAŻENIE OTWARTEJ, JASNEJ PRZESTRZENI ZAPEWNIAJĄ NAM OLBRZYMIE ZAMONTOWANE NA CAŁEJ POWIERZCHNI SUFITU OKNA. KLAUSTROFOBIK W TYM MIEJSCU ZAPOMINA O SWOJEJ DOLEGLIWOŚCI.
+Wrażenie otwartej, jasnej przestrzeni zapewniają nam olbrzymie zamontowane na całej powierzchni sufitu okna. Klaustrofobik w tym miejscu zapomina o swojej dolegliwości.
 
-PO "SKONSUMOWANIU WSZYSTKIEGO" PO DRODZE NADESZŁA PORA NA SKORZYSTANIE Z TOALETY. MIEJSCE DOBRZE USYTUOWANE, MNIEJ WIĘCEJ W POŁOWIE DROGI.
+Po "skonsumowaniu wszystkiego" po drodze nadeszła pora na skorzystanie z toalety. Miejsce dobrze usytuowane, mniej więcej w połowie drogi.
 
-CZAS NA OSOBISTĄ DYGRESJĘ!!!
+Czas na osobistą dygresję!!!
 
-NIESTETY, OLBRZYMIE I CIĘŻKIE DRZWI NAWET DLA LUDZI SPRAWNYCH FIZYCZNIE STANOWIĄ WIELKI PROBLEM. DLA MNIE SĄ PRZESZKODĄ - BARIERĄ, KTÓREJ SAMODZIELNIE NIE POKONAM. PRZYKRE, ŻE WŁAŚNIE W TAKIEJ SYTUACJI KTOŚ O MNIE ZAPOMNIAŁ!!!
+Niestety, olbrzymie i ciężkie drzwi nawet dla ludzi sprawnych fizycznie stanowią wielki problem. Dla mnie są przeszkodą - barierą, której samodzielnie nie pokonam. Przykre, że właśnie w takiej sytuacji ktoś o mnie zapomniał!!!
 
-APEL BARDZO OSOBISTY!!!
+Apel bardzo osobisty!!!
 
-CZŁOWIEKU NA NOGACH, POZOSTAW NAM OSOBOM NIEPEŁNOSPRAWNYM WYZNACZONE INTYMNE MIEJSCE. WÓZKIEM NIE WJADĘ DO OGÓLNIE DOSTĘPNEJ TOALETY. TY ZMIEŚCISZ SIĘ WSZĘDZIE. PAMIĘTAJ, KIEDY KORZYSTASZ Z "NASZEJ TOALETY", ZA DRZWIAMI MOŻE CZEKAĆ WÓZKOWICZ, KTÓRY DOBIJA SIĘ, BO PILNIE POTRZEBUJE TAM WEJŚĆ!!! SŁOWO ''PRZEPRASZAM'' TRACI SENS.
+Człowieku na nogach, pozostaw nam osobom niepełnosprawnym wyznaczone intymne miejsce. Wózkiem nie wjadę do ogólnie dostępnej toalety. Ty zmieścisz się wszędzie. Pamiętaj, kiedy korzystasz z "naszej toalety", za drzwiami może czekać wózkowicz, który dobija się, bo pilnie potrzebuje tam wejść!!! Słowo "przepraszam" traci sens.
 
-ROZUMIESZ TO? DZIĘKUJĘ!
+Rozumiesz to? Dziękuję!
 
-PARTER JUŻ ZALICZONY. CZAS NA WYŻSZE KONDYGNACJE.
+Parter już zaliczony. Czas na wyższe kondygnacje.
 
-W DZISIEJSZYCH GALERIACH NORMĄ SĄ SCHODY. NIE!!! - WINDY! - HURA !
+W dzisiejszych galeriach normą są schody. Nie!!! - windy! - hura!
 
-WINDA,ALE JAKA? CAŁA OSZKLONA! ŚWIETNY POMYSŁ! W CZASIE POKONYWANIA TRASY DAJE MOŻLIWOŚĆ SZYBKIEGO PRZEGLĄDU NADCHODZĄCYCH ATRAKCJI ORAZ SPRYTNEJ KONTROLI CO NAS OMINĘŁO PIĘTRO NIŻEJ. NIC STRACONEGO! ZAWSZE MOŻNA OWE SKLEPY CZY PÓŁKI W DRODZE POWROTNEJ ODWIEDZIĆ.
+Winda, ale jaka? Cała oszklona! Świetny pomysł! W czasie pokonywania trasy daje możliwość szybkiego przeglądu nadchodzących atrakcji oraz sprytnej kontroli co nas ominęło piętro niżej. Nic straconego! Zawsze można owe sklepy czy półki w drodze powrotnej odwiedzić.
 
-BALKONY SĄ RÓWNIEŻ OSZKLONE - CO DAJE 100% WIDOCZNOŚCI NA WSZYSTKIE SKLEPY, DUŻO SKLEPÓW I ICH OFERTY.
+Balkony są również oszklone - co daje 100% widoczności na wszystkie sklepy, dużo sklepów i ich oferty.
 
-KSIĘGARNIA - WYPRZEDAŻ DO 70%! PRZYKRE, ŻE SŁOWO DRUKOWANE JEST WYPIERANE PRZEZ CORAZ NOWSZĄ, BARDZIEJ DOSTĘPNĄ I WYGODNIEJSZĄ TECHNIKĘ. TAKIE NASTAŁY CZASY! JA OSOBIŚCIE NIE OMIJAM TAKICH OKAZJI. MOJĄ ULUBIONĄ PÓŁKĄ SĄ KSIĄŻKI ZA 5-10 ZŁ (POLECAM NP "STOKROTKI NA ŚNIEGU" RICHARD'A PAULA'A EVANS'A ). MOJE ULUBIONE SKLEPY, KTÓRE NIGDY NIE ZAWODZĄ. KIESZEŃ STUDENTA POZWALA JEDYNIE NA BARDZO PRZEMYŚLANE ZAKUPY. TAKIMI SĄ WŁAŚNIE WSZELKIE WYPRZEDAŻE! NP: TRZY BLUZKI W CENIE DWÓCH! PO CO MI AŻ TRZY BLUZKI, ALE TAKIEJ OKAZJI NIE MOGĘ OMINĄĆ! ZAWSZE SIĘ PRZYDA!
+Księgarnia - wyprzedaż do 70%! Przykre, że słowo drukowane jest wypierane przez coraz nowszą, bardziej dostępną i wygodniejszą technikę. Takie nastały czasy! Ja osobiście nie omijam takich okazji. Moją ulubioną półką są książki za 5-10 zł (polecam np. "Stokrotki na śniegu" Richarda Paula Evansa). Moje ulubione sklepy, które nigdy nie zawodzą. Kieszeń studenta pozwala jedynie na bardzo przemyślane zakupy. Takimi są właśnie wszelkie wyprzedaże! Np: trzy bluzki w cenie dwóch! Po co mi aż trzy bluzki, ale takiej okazji nie mogę ominąć! Zawsze się przyda!
 
-W HOLU CENTRUM SĄ OBECNE TAKŻE MIEJSCA ZABAW I KONKURSY, NAJLEPIEJ RODZINNE. DOKŁADNIE W TEN SPOSÓB ZADBANO RÓWNIEŻ O DZIECI, KTÓRE JAK WIADOMO SZYBKO SIĘ NUDZĄ (SZCZEGÓLNIE ZAKUPAMI). PRAWDOPODOBNIE CHWILE TE PRZEDŁUŻĄ POBYT W GALERII CAŁEJ RODZINKI.
+W holu centrum są obecne także miejsca zabaw i konkursy, najlepiej rodzinne. Dokładnie w ten sposób zadbano również o dzieci, które jak wiadomo szybko się nudzą (szczególnie zakupami). Prawdopodobnie chwile te przedłużą pobyt w galerii całej rodzinki.
 
-WIDOCZNE SĄ TU LICZNE BANKOMATY RÓŻNYCH BANKÓW. ZADBANO O KLIENTA A RACZEJ O JEGO WYPŁACALNOŚĆ. W RAZIE POTRZEBY SŁUŻĄ SWOJĄ POMOCĄ.
+Widoczne są tu liczne bankomaty różnych banków. Zadbano o klienta a raczej o jego wypłacalność. W razie potrzeby służą swoją pomocą.
 
-WYDAWAŁOBY SIĘ, ŻE WSZYSTKIE APETYTY KONUMPCYJNE ZOSTAŁY ZREALIZOWANE. AKURAT!!! OKAZUJE SIĘ,ŻE CZUJEMY OGROMNY GŁÓD! ZASIADAMY DO STOŁU, GDZIE DBAJĄ O NASZE PODNIEBIENIE. DO WYBORU, CO KTO LUBI! CHOCIAŻ NIEZBYT ZDROWO, ALE ZA TO DROGO.
+Wydawałoby się, że wszystkie apetyty konsumpcyjne zostały zrealizowane. Akurat!!! Okazuje się, że czujemy ogromny głód! Zasiadamy do stołu, gdzie dbają o nasze podniebienie. Do wyboru, co kto lubi! Chociaż niezbyt zdrowo, ale za to drogo.
 
-OCZYWIŚCIE W TYM MIEJSCU NIE MOŻEMY ZAPOMNIEĆ O KONSUMPCJI KULTURALNEJ. KINO OWSZEM JEST I MOŻE SPEŁNIA POTRZEBY RODZINNE. DLA MNIE OSOBIŚCIE NIE, BO PO PIERWSZE SĄ SCHODY, ALE Z TEGO NIE ROBIĘ PROBLEMU. OBECNY REPERTUAR JEST MAŁO AMBITNY I Z TEGO POWODU NIE CHODZĘ DO KINA.
+Oczywiście w tym miejscu nie możemy zapomnieć o konsumpcji kulturalnej. Kino owszem jest i może spełnia potrzeby rodzinne. Dla mnie osobiście nie, bo po pierwsze są schody, ale z tego nie robię problemu. Obecny repertuar jest mało ambitny i z tego powodu nie chodzę do kina.
 
-WYCHODZĄC CZY RACZEJ WYJEŻDŻAJĄC Z GALERII DOSTRZEGŁAM COŚ SWOISTEGO. ZAZWYCZAJ WSZYSTKIE BUDYNKI SĄ NA ZEWNĄTRZ MAŁO ATRAKCYJNE,BRAKUJE ZIELENI I ŁAWEK. CZYŻBY ZNOWU KTOŚ ZADBAŁ O INTERES FIRMY? SZKODA CZASU NA PRZESIADYWANIE NA POWIETRZU I DLATEGO PROSTO Z PRZYSTANKU (BO REKLAMĘ WIDAĆ Z DALEKA) ZMUSZENI JESTEŚMY UDAĆ SIĘ DO ŚRODKA GALERII, BEZPOŚREDNIO KONSUMOWAĆ.
+Wychodząc czy raczej wyjeżdżając z galerii dostrzegłam coś swoistego. Zazwyczaj wszystkie budynki są na zewnątrz mało atrakcyjne, brakuje zieleni i ławek. Czyżby znowu ktoś zadbał o interes firmy? Szkoda czasu na przesiadywanie na powietrzu i dlatego prosto z przystanku (bo reklamę widać z daleka) zmuszeni jesteśmy udać się do środka galerii, bezpośrednio konsumować.
 
-WE WSZYSTKICH CENTRACH HANDLOWYCH NASZA KONSUMPCJA (PRAKTYCZNA I SPOŁECZNA) REALIZUJE SIĘ NA PODOBNYCH ZASADACH.
+We wszystkich centrach handlowych nasza konsumpcja (praktyczna i społeczna) realizuje się na podobnych zasadach.

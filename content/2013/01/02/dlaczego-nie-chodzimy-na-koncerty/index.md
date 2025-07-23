@@ -1,20 +1,20 @@
 ---
-title: "DLACZEGO NIE CHODZIMY NA KONCERTY"
+title: "Dlaczego nie chodzimy na koncerty"
 date: 2013-01-02
 ---
 
-OD ZAWSZE MY POLACY BARDZO CHCEMY BYĆ UZNAWANI ZA ZNAWCÓW ŚWIATOWYCH GWIAZD.  
+Od zawsze my, Polacy, bardzo chcemy być uznawani za znawców światowych gwiazd.
 
-CAŁKIEM NIEDAWNO ODBYŁ SIĘ KONCERT JENNIFER LOPEZ. JENNY DAŁA ZNOWU ŚWIETNE SHOW - A MIMO TEGO WIDOWNIA ŚWIECIŁA PUSTKAMI.
+Całkiem niedawno odbył się koncert Jennifer Lopez. Jenny dała znowu świetne show – a mimo tego widownia świeciła pustkami.
 
-TO SAMO DZIAŁO SIĘ NA KONCERCIE MADONNY CZY LADY GAGI. TAM RÓWNIEŻ NIE POPISALIŚMY NASZĄ OBECNOŚCIĄ.  
+To samo działo się na koncercie Madonny czy Lady Gagi. Tam również nie popisaliśmy się naszą obecnością.
 
-POSTRZEGAMY SIEBIE ZA ZNAWCÓW MUZYKI, ALE WCIĄŻ MAŁĄ WIDOWNIĄ JESTEŚMY.  
+Postrzegamy siebie za znawców muzyki, ale wciąż małą widownią jesteśmy.
 
-warto zastanowiĆ siĘ, czym moŻe to byĆ spowodowane? chodzi o to, Że organizatorzy koncertów nie mogĄ trafiĆ w nasze gusta muzyczne. a teŻ ceny biletów. czy przeciĘtnego polaka staĆ na Żeby swojĄ np.  czteroosobowĄ rodzinĘ zabraĆ wspaniaŁe show momencie, gdy jeden bilet kosztuje prawie 300 zŁ.  
+Warto zastanowić się, czym może to być spowodowane? Chodzi o to, że organizatorzy koncertów nie mogą trafić w nasze gusta muzyczne, a też ceny biletów. Czy przeciętnego Polaka stać na to, żeby swoją np. czteroosobową rodzinę zabrać na wspaniałe show w momencie, gdy jeden bilet kosztuje prawie 300 zł?
 
-NIE MOŻNA TEŻ ZAPOMNIEĆ O PROBLEMIE OSÓB NIEPEŁNOSPRAWNYCH. BARDZO CZĘSTO BRAK JEST INFORMACJI O MOŻLIWOŚCI DOJAZDU DLA OSÓB PORUSZAJĄCYCH SIĘ NA WÓZKACH INWALIDZKICH. ZDARZA SIĘ, ŻE NA MIEJSCU KONCERTU BRAK JEST PROFESJONALNEJ OBSŁUGI. OSÓB ZORIENTOWANYCH, W JAKI SPOSÓB POMÓC OSOBIE NIEPEŁNOSPRAWNEJ DOSTAĆ SIĘ DO WYZNACZONEGO MIEJSCA.  
+Nie można też zapomnieć o problemie osób niepełnosprawnych. Bardzo często brak jest informacji o możliwości dojazdu dla osób poruszających się na wózkach inwalidzkich. Zdarza się, że na miejscu koncertu brak jest profesjonalnej obsługi – osób zorientowanych, w jaki sposób pomóc osobie niepełnosprawnej dostać się do wyznaczonego miejsca.
 
-kolejny problem to toalety dla niepeŁnosprawnych, które wiecznie zajmowane sĄ przez osoby w peŁni sprawne.  
+Kolejny problem to toalety dla niepełnosprawnych, które wiecznie zajmowane są przez osoby w pełni sprawne.
 
-czy u ciebie w mieŚcie z koncertami gwiazd jest podobnie?
+Czy u ciebie w mieście z koncertami gwiazd jest podobnie?

@@ -295,36 +295,11 @@ article img {
 
 /* Sticky shrinking header with centred logo */
 
-.site-header {
-  position: sticky;
-  top: 0;
-  background: #ffffff;
-  z-index: 999;
-  transition: all 0.3s ease;
-  padding: 1.5rem 0;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
 .logo {
-  max-width: 200px;
+  max-width: 400px;
   transition: all 0.3s ease;
   margin: 0 auto;
-}
-
-/* Shrink effect on scroll */
-body.scrolled .site-header {
-  padding: 0.5rem 0;
-}
-
-body.scrolled .logo {
-  max-width: 120px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .logo, .site-header {
-    transition: none !important;
-  }
+  padding: 1rem 1rem 3rem 1rem;
 }
 
 /* Section and Article */

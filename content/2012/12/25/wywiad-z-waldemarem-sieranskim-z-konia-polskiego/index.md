@@ -1,68 +1,65 @@
 ---
-title: "WYWIAD Z WALDEMAREM SIERAŃSKIM Z KONIA POLSKIEGO"
+title: "Wywiad z Waldemarem Sierańskim z Konia Polskiego"
 date: 2012-12-25
 ---
 
-  
+**Waldemar Sierański** (ur. 5 kwietnia 1958 r. w Warszawie) aktor i artysta kabaretowy, związany od ponad 20 lat z kabaretem „Koń Polski”. Znany z występów telewizyjnych i seriali takich jak „Badziewiakowie”, „Skarb sekretarza” i „Marian i Hela”.
 
-**WALDEMAR SIERAŃSKI** (UR. 5 KWIETNIA1958 R. W WARSZAWIE) AKTOR I ARTYSTA KABARETOWY, ZWIĄZANY OD PONAD 20 LAT Z KABARETEM „KOŃ POLSKI”. ZNANY Z WYSTĘPÓW TELEWIZYJNYCH I SERIALI TAKICH JAK „BADZIEWIAKOWIE”, „SKARB SEKRETARZA” I „MARIAN I HELA”.  
+**Agata Krokosz** – witam Pana i jako młodziutka i dla wielu osób nieznana, ale niezwykle wnerwiająca dziennikarka, mam kilka poważnych i osobistych pytań dla czytelników mojego bloga (Antybariera Dziennikarska). Proszę się przedstawić – (załóżmy, że moi czytelnicy nie znają „Konia Polskiego”).
 
-**AGATA KROKOSZ - WITAM PANA I JAKO MŁODZIUTKA I  DLA  WIELU OSÓB NIEZNANA, ALE NIEZWYKLE  WNERWIAJĄCA DZIENNIKARKA,  MAM KILKA POWAŻNYCH I OSOBISTYCH PYTAŃ  DLA  CZYTELNIKÓW MOJEGO BLOGA ( ANTYBARIERA  DZIENNIKARSKA). PROSZĘ SIĘ PRZEDSTAWIĆ - (ZAŁÓŻMY, ŻE MOI CZYTELNICY NIE ZNAJĄ "KONIA POLSKIEGO")**  
+**Waldemar Sierański** – Nazywam się Waldemar Sierański, jestem członkiem kabaretu „Koń Polski”. Kabaret powstał w 1985 r. w środowisku Koszalińskiej Wyższej Szkoły Inżynierskiej (obecnej Politechniki). Założycielem kabaretu jest Leszek Malinowski. Ja do kabaretu dołączyłem w roku 1988.
 
-WALDEMAR SIERAŃSKI - NAZYWAM SIĘ WALDEMAR SIERAŃSKI, JESTEM CZŁONKIEM KABARETU „KOŃ POLSKI”. KABARET POWSTAŁ W 1985 R. W ŚRODOWISKU KOSZALINSKIEJ WYŻSZEJ SZKOŁY INŻYNIERSKIEJ (OBECNEJ POLITECHNIKI). ZAŁOŻYCIELEM KABARETU JEST LESZEK MALINOWSKI. JA DO KABARETU DOŁĄCZYŁEM W ROKU 1988.
+**AK** – Jeżeli to możliwe, to proszę w wielkim skrócie przedstawić swój dorobek scenicznym, czyli życie kabareciarza.
 
-  
+**WS** – Przed moim przyjściem do kabaretu, kabaret już zdobył pierwsze miejsce i Grand Prix na krakowskim festiwalu PAKA, a już ze mną w składzie pierwsze miejsca na festiwalach: Foka w Warszawie, Otaka we Wrocławiu, Złotą Szpilkę na Biesiadach Satyry i Humoru w Lidzbarku, nagrodę Programu Drugiego TVP oraz nagrodę Młodych im. Wyspiańskiego przyznawaną przez urząd Rady Ministrów. Kabaret wziął udział w serialach TV „Badziewiakowie” i „Skarb sekretarza”, a od blisko 20 lat jest gospodarzem Festiwalu Kabaretów w Koszalinie. Kabaret występował również poza granicami kraju dla Polonii: w Niemczech, Francji, Włoszech, Austrii, Belgii, USA, Kanadzie, Irlandii, Wielkiej Brytanii, na Ukrainie oraz we Wspólnocie Niepodległych Państw.
 
-**AK - JEŻELI TO MOŻLIWE TO PROSZĘ W WIELKIM SKRÓCIE PRZEDSTAWIĆ SWÓJ DOROBEK SCENICZNY, CZYLI ŻYCIE KABARECIARZA.**  
+Najbardziej osobliwym wyróżnieniem były nagrody, jakie dostaliśmy w 1992 roku na przeglądzie „Paka” w Krakowie. Odjazdowe, niezapomniane i niepowtarzalne. Dla Leszka: spacer po krakowskim zoo w towarzystwie księdza profesora Józefa Tischnera, a mnie prywatna audiencja oraz pamiątkowa fotografia z ówczesnym rektorem Uniwersytetu Jagiellońskiego.
 
-WS - PRZED MOIM PRZYJŚCIEM DO KABARETU, KABARET JUŻ ZDOBYŁ PIERWSZE MIEJSCE I GRAND PRIX NA KRAKOWSKIM FESTIWALU PAKA A JUŻ ZE MNĄ W SKŁADZIE PIERWSZE MIEJSCA NA FESTIWALACH: FOKA W WARSZAWIE, OTAKA WE WROCŁAWIU, ZŁOTĄ SZPILKĘ NA BIESIADACH SATYRY I HUMORU W LIDZBARKU, NAGRODĘ PROGRAMU DRUGIEGO TVP ORAZ NAGRODĘ MŁODYCH IM. WYSPIAŃSKIEGO PRZYZNAWANĄ PRZEZ URZĄD RADY MINISTRÓW. KABARET WZIĄŁ UDZIAŁ W SERIALACH TV „BADZIEWIAKOWIE" I „SKARB SEKRETARZA” A OD BLISKO 20 LAT JEST GOSPODARZEM FESTIWALU KABARETÓW W KOSZALINIE. KABARET WYSTĘPOWAŁ RÓWNIEŻ POZA GRANICAMI KRAJU DLA POLONII: W NIEMCZECH, FRANCJI, WŁOSZECH, AUSTRII, BELGII, USA, KANADZIE, IRLANDII, WIELKIEJ BRYTANII, NA UKRAINIE ORAZ WE WSPÓLNOCIE NIEPODLEGŁYCH PAŃSTW.  
+**AK** – Skąd biorą się pomysły do Konia Polskiego? (Hela!!!)
 
-najbardziej osobliwym wyróŻnieniem byŁy nagrody jakie dostaliŚmy w 1992 roku na przeglĄdzie „paka” krakowie. odjazdowe, niezapomniane i niepowtarzalne. dla leszka: spacer po krakowskim zoo towarzystwie ksiĘdza profesora józefa tischnera, a mnie prywatna audiencja oraz pamiĄtkowa fotografia z ówczesnym rektorem uniwersytetu jagielloŃskiego.
+**WS** – Pomysły niesie życie. Bywało, że inspiracją do skeczy były zasłyszane przypadkiem rozmowy bądź audycje radiowe. Pierwowzorem Heli są kobiety otaczające autorów skeczu (czyli Leszka Malinowskiego, Piotra Kryszana i mnie). To z ich wypowiedzi został „ulepiony” pierwszy skecz o Marianie i Heli, następnie powstawały kolejne wersje numeru, których tematem były zjawiska zaobserwowane w realnym świecie.
 
+**AK** – Proszę mi opowiedzieć swój najlepszy wieczór z widownią.
 
-**AK - SKĄD BIORĄ SIĘ POMYSŁY DO KONIA POLSKIEGO? (HELA!!!)**  
+**WS** – Jednym z takich wieczorów było spotkanie z widownią w Pile. Występ zorganizowano na rzecz kilkuletniej dziewczynki chorującej na wątrobę. Zbierano pieniądze na skomplikowaną operację w USA. Był to z naszej strony charytatywny występ, publiczność bawiła się doskonale, ale najbardziej wzruszyła nas beneficjentka, która po występie czekała w garderobie z własnoręcznie namalowaną laurką. Trafiła ona do archiwum „Konia”.
 
-WS - POMYSŁY NIESIE ŻYCIE. BYWAŁO, ŻE INSPIRACJĄ DO SKECZY BYŁY ZASŁYSZANE PRZYPADKIEM ROZMOWY, BĄDŹ AUDYCJE RADIOWE. PIERWOWZÓREM HELI SĄ KOBIETY OTACZAJĄCE AUTORÓW SKECZU (CZYLI LESZKA MALINOWSKIEGO, PIOTRA KRYSZANA I MNIE). TO Z ICH WYPOWIEDZI ZOSTAŁ „ULEPIONY” PIERWSZY SKECZ O MARIANIE I HELI, NASTĘPNIE POWSTAWAŁY KOLEJNE WERSJE NUMERU, KTÓRYCH TEMATEM BYŁY ZJAWISKA ZAOBSERWOWANE W REALNYM ŚWIECIE.  
+**AK** – Pana zdaniem – czy w dzisiejszym dniu kabaret jest potrzebny czy niezbędny?
 
-**AK - PROSZĘ MI OPOWIEDZIEĆ SWÓJ NAJLEPSZY WIECZÓR Z WIDOWNIĄ**  
+**WS** – Kabaret to nie woda i da się bez niego żyć. Można by długo dyskutować o tym, czym jest dzisiaj, a czym było kiedyś określenie „kabaret”. Natomiast tak długo, jak ludzie będą chcieli oglądać rzeczywistość w krzywym zwierciadle, tak długo kabaret będzie potrzebny. Motto „Konia Polskiego” brzmi: „Minuta śmiechu to jeden dzień życia dłużej.”
 
-WS - jedym z takich wieczorów byŁo spotkanie widowniĄ w pile. wystĘp zorganizowano na rzecz kilkuletniej dziewczynki chorujĄcej wĄtrobĘ. zbierano pieniĄdze skomplikowanĄ operacjĘ usa.  byŁ to naszej strony charytatywny, publicznoŚĆ bawiŁa siĘ doskonale. ale najbardziej wzruszyŁa nas beneficjentka, która po wystĘpie czekaŁa garderobie wŁasnorĘcznie namalowanĄ  laurkĄ. trafiŁa ona do archiwum „konia”.  
- **AK - PANA ZDANIEM - CZY W DZISIEJSZYM DNIU KABARET JEST POTRZEBNY CZY NIEZBĘDNY?  
+**AK** – Wiem, że staję się natrętną dziennikarką, ale czym zajmowałby się Pan, gdyby nie istniał kabaret?
 
-WS - KABARET TO NIE WODA I DA SIĘ BEZ NIEGO ŻYĆ. MOŻNA BY DŁUGO DYSKUTOWAĆ O TYM CZYM JEST DZISIAJ A CZYM BYŁO KIEDYŚ OKREŚLENIE "KABARET". NATOMIAST TAK DŁUGO, JAK LUDZIE BĘDĄ CHCIELI OGLADAĆ RZECZYWISTOŚC W KRZYWYM ZWIERCIADLE, TAK DŁUGO KABARET BĘDZIE POTRZEBNY. MOTTO „KONIA POLSKIEGO” BRZMI: „MINUTA ŚMIECHU TO JEDEN DZIEŃ ŻYCIA DŁUŻEJ.”  
+**WS** – Pracowałem w wielu różnych zawodach, bezpośrednio przed kabaretem byłem żołnierzem zawodowym. Już będąc kabareciarzem, działałem w produkcji reklam radiowych, robiłem tam też audycje dla dzieci. Trudno powiedzieć, co bym robił, na pewno byłoby to związane z muzyką. Lubię słuchać różnego rodzaju muzyki, pisać teksty piosenek, pracować nad ich końcowym kształtem. Mam na swoim koncie autorstwo słów do kilkudziesięciu piosenek: kabaretowych, teatralnych, reklamowych. Jako ciekawostkę mogę dodać, że wspólnie z Jarkiem Barowem – muzykiem „Konia”, jestem autorem hymnu jednej z podkoszalińskich szkół.
 
- **AK - WIEM, ŻE STAJE SIĘ NATRĘTNĄ DZIENNIKARKĄ, ALE CZYM ZAJMOWAŁBY SIĘ PAN GDYBY NIE ISTNIAŁ KABARET?**  
+**AK** – Jak wygląda Pana zwykły dzień poza sceną?
 
-WS - pracowaŁem w wielu róŻnych zawodach, bezpoŚrenio przed kabaretem byŁem ŻoŁnierzem zawodowym. juŻ bĘdĄc kabareciarzem dziale produkcji reklam radiu, robiŁem tam teŻ audycje dla dzieci. trudno powiedzieĆ ,co bym robiŁ, na pewno byŁo by to zwiĄzane z muzykĄ. lubiĘ sŁuchaĆ róŻnego rodzaju muzyki, pisaĆ teksty piosenek, pracowaĆ nad ich koŃcowym ksztaŁtem. mam swoim koncie autorstwo sŁów do kilkudziesiĘciu piosenek : kabaretowych, teatralnych, reklamowych. jako ciekawostkĘ, mogĘ dodaĆ, Że wspólnie jarkiem barowem – muzykiem „konia”, jestem autorem hymnu jednej podkoszaliŃskich szkóŁ.**
+**WS** – Jeżeli jest to dzień przed występem lub po, to przeważnie cały spędzam w samochodzie. Po powrocie do domu, jeśli pogoda sprzyja, wolny czas spędzam w ogrodzie lub na korcie tenisowym. Pasjami zdobywam też wyspy i miasta starożytnej Grecji – oczywiście wirtualnie.
 
-AK - JAK WYGLĄDA PANA ZWYKŁY DZIONEK POZA SCENĄ?**  
+**AK** – Koty! Wieści niosą, że Pan je uwielbia! Dlaczego? Proszę opowiedzieć najciekawszą historyjkę z Panem i kotami w roli głównej.
 
-WS - JEŻELI JEST TO DZIEŃ PRZED WYSTĘPEM LUB PO, TO PRZEWAŻNIE CAŁY SPĘDZAM W SAMOCHODZIE. PO POWROCIE DO DOMU, JEŻELI POGODA SPRZYJA ,WOLNY  CZAS SPĘDZAM W OGRODZIE LUB NA KORCIE TENISOWYM. PASJAMI ZDOBYWAM TEŻ WYSPY I MIASTA STAROŻYTNEJ GRECJI – OCZYWIŚCIE WIRTUALNIE.  
-  
-**AK - KOTY! - WIEŚCI NIOSĄ, ŻE PAN JE UWIELBIA! DLACZEGO? PROSZĘ OPOWIEDZIEĆ NAJCIEKAWSZĄ HISTORYJKĘ Z PANEM I KOTAMI W ROLI GŁÓWNEJ,  
+**WS** – Koty, jak ludzie, mają swoje charaktery... ale potrafią też przejmować zachowania typowe dla innych zwierząt. Na przykład moje koty wychodzą na spacer razem z psem, idą za nim gęsiego z podniesionymi do góry ogonami. W razie niebezpieczeństwa wlazą pod psa. Koty pojawiły się w moim życiu razem z domem, zaczęło się od Bońka, przyniesionego przez syna. Kolejne to osobniki uratowane przed utopieniem, zakopaniem bądź podrzucone do przydomowej altany. W sumie było ich już 7. Obecnie mam dwa koty (Simbę i Psikota) oraz kotkę Heksę vel Ziutę. Nie ma już Wacława, Lucjana i Dychy. Jak widać, prawie wszystkie nosiły ludzkie imiona. Zabawnych sytuacji jest co niemiara, trudno mi wybrać jedną z nich. Koty warto obserwować – polecam!
 
-WS - KOTY, JAK LUDZIE MAJĄ SWOJE CHARAKTERY...ALE POTRAFIĄ TEŻ PRZEJMOWAĆ ZACHOWANIA TYPOWE DLA INNYCH ZWIERZĄT. NA PRZYKŁAD MOJE KOTY WYCHODZĄ NA SPACER RAZEM Z PSEM, IDĄ ZA NIM GĘSIEGO Z PODNIESIONYMI DO GÓRY OGONAMI. W RAZIE NIEBEZPIECZEŃSTWA WŁAŻĄ POD PSA.  KOTY POJAWIŁY SIĘ W MOIM ZYCIU RAZEM Z DOMEM, ZACZĘŁO SIĘ OD BOŃKA, PRZYNIESIONEGO PRZEZ SYNA. KOLEJNE TO OSOBNIKI URATOWANE PRZED UTOPIENIEM, ZAKOPANIEM BĄDŹ PODRZUCONE DO PRZYDOMOWEJ ALTANY. W SUMIE BYŁO ICH JUŻ 7. OBECNIE MAM DWA KOTY (SIMBĘ I PSIKOTA) ORAZ KOTKĘ HEKSĘ VEL ZIUTĘ. NIE MA JUŻ WACŁAWA, LUCJANA I DYCHY. JAK WIDAĆ PRAWIE WSZYSTKIE NOSIŁY LUDZKIE IMIONA. ZABAWNYCH SYTUACJI JEST CO NIEMIARA, TRUDNO MI WYBRAĆ JEDNĄ Z NICH. KOTY WARTO OBSERWOWAĆ – POLECAM!  
+**AK** – Czy na naszej kuli ziemskiej jest takie miejsce, które chciałby Pan zobaczyć?
 
-**AK - CZY NA NASZEJ KULI ZIEMSKIEJ JEST TAKIE MIEJSCE , KTÓRE CHCIAŁBY PAN ZOBACZYĆ?**  
+**WS** – Sporo już widziałem, ale wiele chciałbym jeszcze zobaczyć. Najbardziej, z racji przyrody i krajobrazów, Nową Zelandię.
 
-WS - sporo juŻ widziaŁem ale wiele chciaŁbym jeszcze zobaczyĆ. najbardziej, z racji przyrody i krajobrazów, nowĄ zelandiĘ.  
+**AK** – Czy jest ktoś, z kim chciałby Pan wystąpić wspólnie? Mam na myśli również artystów ze sceny światowej.
 
-**AK - CZY JEST K TOŚ Z KIM CHCIAŁBY PAN WYSTĄPIĆ WSPÓLNIE? MAM NA MYŚLI RÓWNIEŻ ARTYSTÓW ZE SCENY ŚWIATOWEJ?  
+**WS** – Miałem niewątpliwą przyjemność wystąpienia u boku Hanki Bielickiej. Na polskiej scenie kabaretowej nie ma dla mnie większego od niej autorytetu. Jeżeli chodzi o zagranicę, chętnie wystąpiłbym z „chłopakami” z „Monty Pythona”.
 
-WS - MIAŁEM NIEWĄTPLIWĄ PRZYJEMNOŚĆ WYSTAPIENIA U BOKU HANKI BIELICKIEJ. NA POLSKIEJ SCENIE KABARETOWEJ NIE MA DLA MNIE WIĘKSZEGO OD NIEJ AUTORYTETU.JEŻELI CHODZI O ZAGRANICĘ ,CHĘTNIE WYSTAPIŁBYM Z „CHŁOPAKAMI” Z „MONTHY PYTONA”
+**AK** – Czy zna Pan osoby niepełnosprawne, które zajmują się kabaretem?
 
-**AK - CZY ZNA PAN OSOBY NIEPEŁNOSPRAWNE, KTÓRE ZAJMUJĄ SIĘ KABARETEM?**  
+**WS** – Znam. Istnieje taka teoria, że wszyscy kabareciarze są niepełnosprawni, a poważnie: kilkanaście lat temu na krakowskiej Pace pojawił się „Kabaret Absurdalny” złożony z ludzi niepełnosprawnych umysłowo. Dystans, jaki mieli do siebie, i trafność obserwacji własnych ograniczeń tak zachwyciła publiczność i jury, że wyjechali z Krakowa pierwszą nagrodą.
 
-WS - znam. istnieje taka teoria ,Że wszyscy kabareciarze sĄ niepeŁnosprawni a powaŻnie: kilkanaŚcie lat temu na krakowskiej pace pojawiŁ siĘ „kabaret absurdalny” zŁoŻony z ludzi niepeŁnosprawnych umysŁowo. dystans jaki mieli do siebie i trafnoŚĆ obserwacji wŁasnych ograniczeŃ tak zachwyciŁa publicznoŚĆ jury, Że wyjechali krakowa pierwszĄ nagrodĄ.  
+W tej chwili to pole nie jest zagospodarowane, dlatego zachęcam wszystkich niepełnosprawnych do przełamywania barier, a tych uzdolnionych kabaretowo do spróbowania swoich sił na scenie.
 
-W TEJ CHWILI TO POLE NIE JEST ZAGOSPODAROWANE, DLATEGO ZACHĘCAM WSZYSTKICH NIEPEŁNOSPRAWNYCH DO PRZEŁAMYWANIA BARIER A TYCH UZDOLNIONYCH KABARETOWO DO SPROBÓWANIA SWOICH SIŁ NA SCENIE.  
+**AK** – Czy istnieją tematy, których do dzisiaj nie poruszał Pan na scenie kabaretu?
 
-**AK - CZY ISTNIEJĄ TEMATY, KTÓRYCH DO DZISIAJ NIE PORUSZAŁ PAN NA SCENIE KABARETU?**  
+**WS** – Mnóstwo... Każdy temat czeka na swój czas i pomysł. Trzeba pamiętać, że: „I śmiech może być nauką, jeżeli się z przywar nie ludzi natrząsa”.
 
-WS - mnóstwo... kaŻy temat czeka na swój czas i pomysŁ.trzeba pamiĘtaĆ, Że: „i Śmiech moŻe byĆ naukĄ, jeŻeli siĘ z przywar nie ludzi natrzĄsa”.  
+**AK** – Bardzo dziękuję za poświęcony mi i moim czytelnikom czas oraz przeobrażenie swoistej rozmowy w wywiad.
 
-**AK - BARDZO DZIĘKUJĘ ZA POŚWIĘCONY MI I MOIM CZYTELNIKOM CZAS ORAZ  PRZEOBRAŻENIE  SWOISTEJ  ROZMOWY  W  WYWIAD.**
+**Moich czytelników zaś informuję, iż więcej na temat „Konia Polskiego” mogą znaleźć na stronach:**  
+[www.kabaretkonpolski.pl](https://kabaretkonpolski.pl) i [www.kabarety.pl](https://kabarety.pl).
 
-**MOICH CZYTELNIKÓW ZAŚ INFORMUJĘ, IŻ WIĘCEJ NA TEMAT „KONIA POLSKIEGO” MOGĄ ZNALEŹĆ NA STRONACH: [WWW.KABARETKONPOLSKI.PL](https://kabaretkonpolski.pl) I [WWW.KABARETY.PL](https://kabarety.pl).  
-  
 {{< youtube pk3ExB6ohVw >}}
