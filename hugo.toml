@@ -4,10 +4,31 @@ DefaultContentLanguage = "pl"
 title = 'AntyBariera Dziennikarska Agaty Krokosz'
 pluralizeListTitles = false
 
+[outputs]
+  page = [ "html"]
+  home = [ "html", "rss" ]
+
 [pagination]
   disableAliases = false
   pagerSize = 10
   path = 'strona'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# Link for individual tags
+[permalinks]
+  tags = "/tag/:slug/"
+
+# Link for all categories and all tags pages
+[permalinks.taxonomy]
+  categories = "kategorie"
+  tags = "tagi"
+
+# Link for individual categories
+[permalinks.term]
+  categories = "/kategoria/:slug"
 
 [params]
   title_short = "AntyBariera"
@@ -15,3 +36,17 @@ pluralizeListTitles = false
   [params.author]
     name = 'Agata Krokosz'
     email = 'kontakt@antybariera.pl'
+    
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[privacy]
+  [privacy.youtube]
+     disable = false
+     privacyEnhanced = true

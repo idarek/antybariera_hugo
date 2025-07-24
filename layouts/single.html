@@ -7,9 +7,10 @@
       {{ partial "featured-image.html" . }}
 
       {{ .Content }}
+
+      {{ partial "terms.html" . }}
     </article>
   </section>
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 
   {{ partial "navigation.html" . }}
 
