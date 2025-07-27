@@ -1,6 +1,9 @@
 {{ define "main" }}
 
   <section>
+
+   <div class="sections-head">Wpisy z roku {{ .Title }}</a></div>
+
   {{ range .Paginator.Pages }}
     <article id="article" class="article">
       <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

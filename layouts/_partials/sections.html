@@ -1,8 +1,11 @@
 <div class="sections">
-  <div class="sections-title">Sekcje:</div>
-  <ul>
-  {{ range .Site.Sections }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-  </ul>
+  <div class="sections-title">Wpisy w poszczególnych latach</div>
+  <nav aria-label="Nawigacja archiwum według roku">
+      <ul>
+        {{ range .Site.Sections }}
+          <li class="sections-list"><a href="{{ .Permalink }}"><span class="sr-only">Zobacz wpisy z roku </span>{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    
+  </nav>
 </div>

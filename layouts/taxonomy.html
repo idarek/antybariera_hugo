@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  <section>
+    <div class="sections-title">Tagi użyte we wpisach na stronie</a></div>
+  
+    <div class="list-of-tags">
+    {{ range .Site.Taxonomies.tags.ByCount }}
+        <div class="tag"><strong>#</strong><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | lower }}</a>  <sup>{{ .Count }}</sup></div>
+    {{ end }}
+    </div>
+
+  </section>
+
+{{ end }}

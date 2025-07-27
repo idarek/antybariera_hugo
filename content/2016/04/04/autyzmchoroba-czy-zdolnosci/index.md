@@ -13,13 +13,6 @@ W oko wpadł mi ciekawy artykuł (Newseek 02.04.2016r.),w którym przedstawiane 
 
 ## Gdy mózg przypomina wyszukiwarkę internetową. Czyli o mocnych stronach autyzmu
 
-02-04-2016 , ostatnia aktualizacja 02-04-2016 17:18
-
-- [Poleć](https://www.facebook.com/sharer/sharer.php?u=https://nauka.newsweek.pl/co-to-jest-autyzm-jak-rozpoznac-osobe-autystyczna-,artykuly,383215,1.html)
-
-- [Tweet](https://twitter.com/intent/tweet?url=https://nauka.newsweek.pl/co-to-jest-autyzm-jak-rozpoznac-osobe-autystyczna-,artykuly,383215,1.html)
-- [Skomentuj](https://nauka.newsweek.pl/co-to-jest-autyzm-jak-rozpoznac-osobe-autystyczna-,artykuly,383215,1.html#forum)
-
 Jeszcze do niedawna siedzieli w domach, bez pracy i pomysłu na życie. Teraz niezwykłe talenty osób dotkniętych autyzmem coraz częściej doceniają pracodawcy.
 
 Zachwyt budzą przede wszystkim sawanci. Stephen Wilshire, który raz przeleci helikopterem nad częścią jakiegoś miasta, a już może narysować w najmniejszych szczegółach całą jego panoramę, aż do najmniejszego parapetu okiennego. Czy Leslie Lemke, która gdy raz usłyszy utwór muzyczny w dowolnym stylu, łącznie ze skomplikowanym kompozycjami muzyki klasycznej, odtworzy go na pianinie. Ale wyjątkowe zdolności ma wiele osób autystycznych, trzeba tylko znaleźć ich mocne strony, przekonuje prof. Temple Grandin w wydanej właśnie książce „Mózg autystyczny. Podróż w głąb niezwykłych umysłów”.

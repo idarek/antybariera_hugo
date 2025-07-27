@@ -1,10 +1,8 @@
 {{ with .GetTerms "tags" }}
   <div class="terms">
     <div class="terms-title">Tagi:</div>
-    <ul>
-      {{- range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
+    {{ range . }}
+        <div class="tag"><strong>#</strong><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | lower }}</a></div>
+    {{ end }}
   </div>
 {{- end }}

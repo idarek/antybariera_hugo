@@ -46,6 +46,7 @@
   --orange-high-contrast: #ffa500;
   --blackish: #343434;
   --dark-gray: #333333;
+  --soft-gray: #e0e0e0;
   
   --white: #fff;
   --black: #000;
@@ -142,8 +143,8 @@ body {
   font-family: var(--font);
   font-size: var(--base);
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: var(--white);
+  color: var(--blackish);
 }
 
 /* 2. Accessible Typography */
@@ -159,7 +160,7 @@ p {
 }
 
 .entry-title {
-  font-size: calc(2 * var(--h1));
+  font-size: calc(1.5 * var(--h1));
   text-align: center;
   font-weight: 900;
 }
@@ -197,8 +198,8 @@ button,
 input[type="submit"],
 input[type="button"] {
   font: inherit;
-  background: #005fcc;
-  color: #fff;
+  background: var(--orange);
+  color: var(--white);
   border: none;
   padding: 0.6em 1.2em;
   border-radius: 4px;
@@ -207,11 +208,11 @@ input[type="button"] {
 
 button:hover,
 button:focus {
-  background: #004799;
+  background: var(--orange-dark);
 }
 
 button:focus {
-  outline: 3px solid #ffa500;
+  outline: 3px solid var(--orange-high-contrast);
   outline-offset: 2px;
 }
 
@@ -221,7 +222,7 @@ textarea,
 select {
   font: inherit;
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid var(--orange);
   border-radius: 4px;
   width: 100%;
   max-width: 100%;
@@ -230,8 +231,8 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 3px solid #ffa500;
-  border-color: #555;
+  outline: 3px solid var(--orange-high-contrast);
+  border-color: var(--dark-gray);
 }
 
 /* 6. Images */
@@ -250,7 +251,7 @@ article img {
 
 /* 7. Focus Outline for All Focusable Elements */
 :focus-visible {
-  outline: 3px solid #ffa500;
+  outline: 3px solid var(--orange-high-contrast);
   outline-offset: 2px;
 }
 
@@ -259,8 +260,8 @@ article img {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #000;
-  color: #fff;
+  background: var(--black);
+  color: var(--white);
   padding: 8px;
   z-index: 100;
   text-decoration: none;
@@ -332,7 +333,7 @@ hr.styled-separator {
   /* Visual styling */
   border: none; /* Remove default border */
   height: 1px; /* Make it a thin line */
-  background-color: #e0e0e0; /* A soft, modern grey */
+  background-color: var(--soft-gray); /* A soft, modern grey */
   margin: 3em 0; /* Plenty of vertical space for visual separation */
   width: calc(100% - 2rem); /* Not full width, adds a modern touch */
   max-width: 44rem; /* Limits width on very wide screens */
@@ -394,6 +395,7 @@ footer {
   width: calc(100% - 1rem);
   margin: 0 auto;
   padding: 1rem 0;
+  font-weight: 700;
 }
 
 .navi a {
@@ -482,6 +484,60 @@ figcaption {
 .sections-title {
   font-weight: 700;
   font-size: var(--h2);
+}
+
+.sections-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sections-head {
+  font-size: var(--h2);
+  text-align: center;
+  font-weight: 700;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.sections ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.sections li {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+}
+
+.sections-list a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid var(--orange);
+  border-radius: 4px; /* Increased radius */
+  position: relative; /* For the ::before pseudo-element */
+
+  color: var(--dark-gray);
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.sections-list a:hover {
+  text-decoration: underline;
+  border: 2px solid var(--orange);
+}
+
+.tag {
+  display: inline-block;
+  padding-right: 0.5rem;
+  overflow-wrap: none;
 }
 
 /* lightbox css */
