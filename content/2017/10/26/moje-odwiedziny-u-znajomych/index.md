@@ -1,6 +1,8 @@
 ---
 title: "Moje odwiedziny u znajomych"
 date: 2017-10-26
+aliases:
+ - "/2017/10/27/moje-odwiedziny-u-znajomych/"
 
 tags: 
   - "baska"

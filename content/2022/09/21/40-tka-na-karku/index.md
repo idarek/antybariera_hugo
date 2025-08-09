@@ -1,6 +1,8 @@
 ---
 title: "40-tka na karku"
 date: 2022-09-21
+aliases:
+ - '/2022/09/22/40-tka-na-karku/'
 ---
 
 ![](images/img20220920105848.jpg)

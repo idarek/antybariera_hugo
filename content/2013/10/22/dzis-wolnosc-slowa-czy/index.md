@@ -1,5 +1,5 @@
 ---
-title: "DZIŚ -  WOLNOŚĆ  SŁOWA  CZY…?"
+title: "Dziś -  Wolność Słowa czy…?"
 date: 2013-10-22
 ---
 

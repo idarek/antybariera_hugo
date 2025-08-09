@@ -1,6 +1,8 @@
 ---
 title: "Dzikie zwierzęta a dzieci, gdy dorosłych zawiodła wyobraźnia"
 date: 2016-06-20
+aliases: 
+ - "/2016/06/21/dzikie-zwierzeta-a-dzieci-gdy-doroslych-zawiodla-wyobraznia/"
 ---
 
 Ostatnie tragedie w miejscach, gdzie spotykamy w niewoli dzikie zwierzęta  dały mi wiele  

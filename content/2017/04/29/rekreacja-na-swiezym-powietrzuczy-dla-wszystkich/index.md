@@ -1,6 +1,8 @@
 ---
 title: "Rekreacja na świeżym powietrzu, czy dla wszystkich"
 date: 2017-04-29
+aliases: 
+ - "/2017/04/30/rekreacja-na-swiezym-powietrzuczy-dla-wszystkich/"
 
 tags: 
   - "integracja"

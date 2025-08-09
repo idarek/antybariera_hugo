@@ -1,6 +1,8 @@
 ---
 title: "Obecna funkcja dzisiejszego \"gryzipiórka\""
 date: 2012-05-24
+aliases:
+ - "obecna-funkcja-dzisiejszego-gryzipiorka-2"
 ---
 
 **Dziennikarstwo obywatelskie**

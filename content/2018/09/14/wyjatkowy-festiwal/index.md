@@ -1,6 +1,8 @@
 ---
 title: "Wyjątkowy festiwal"
 date: 2018-09-14
+aliases:
+ - "/2018/09/15/wyjatkowy-festiwal/"
 
 tags: 
   - "ciche dziecko"

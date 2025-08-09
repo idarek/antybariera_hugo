@@ -1,6 +1,8 @@
 ---
 title: "Moja wizytówka"
 date: 2012-05-23
+aliases: 
+ - moja-wizytowka-2
 ---
 
 **Nazywam się Agata Krokosz.** We wrześniu 2013 r. otrzymałam dyplom ukończenia studiów pierwszego stopnia, na kierunku dziennikarstwa i komunikacji społecznej Uniwersytetu Jagiellońskiego w Krakowie. W październiku 2014 r. rozpoczęłam studia II stopnia w Instytucie Dziennikarstwa i Komunikacji Społecznej tegoż uniwersytetu.

@@ -1,6 +1,8 @@
 ---
-title: "NIEZWYKLE WAŻNE FOTO"
+title: "Niezwykle ważne foto"
 date: 2012-07-04
+aliases:
+ - "niezwykle-wazne-foto-2"
 ---
 
 Z ogromnego albumu "100 ZDJĘĆ, KTÓRE ZMIENIŁY ŚWIAT" wybrałam zdjęcie Matuschki - "BREAST CANCER" (1993r.) Tłumacząc wybór tej fotografii powinnam się mocno otworzyć. Może to głupie albo wręcz śmieszne, ale ja się z autorką tej fotografii identyfikuję.

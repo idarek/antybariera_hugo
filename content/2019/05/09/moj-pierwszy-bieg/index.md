@@ -1,6 +1,8 @@
 ---
 title: "Mój pierwszy...bieg"
 date: 2019-05-09
+aliases: 
+ - "/2019/05/10/moj-pierwszy-bieg/"
 
 tags: 
   - "bieg"

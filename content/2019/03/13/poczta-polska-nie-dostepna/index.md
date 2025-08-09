@@ -1,6 +1,8 @@
 ---
 title: "Poczta Polska nie-dostępna"
 date: 2019-03-13
+aliases:
+ - "/2019/03/14/poczta-polska-nie-dostepna/"
 
 tags: 
   - "dostosowanie"

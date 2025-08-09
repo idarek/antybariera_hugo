@@ -1,6 +1,8 @@
 ---
 title: "Którędy jechać?"
 date: 2020-09-16
+aliases:
+ - "/2020/09/17/ktoredy-jechac/"
 
 tags: 
   - "dostepnosc"

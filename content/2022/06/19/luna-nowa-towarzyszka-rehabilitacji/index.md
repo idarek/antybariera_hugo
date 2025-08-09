@@ -1,6 +1,8 @@
 ---
 title: "Luna – nowa \"towarzyszka\" rehabilitacji"
 date: 2022-06-19
+aliases:
+ - "/2022/06/20/luna-nowa-towarzyszka-rehabilitacji/"
 ---
 
 

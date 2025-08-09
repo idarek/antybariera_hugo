@@ -1,6 +1,8 @@
 ---
 title: "Mój rówieśnik"
 date: 2017-09-12
+aliases:
+ - "/2017/09/13/moj-rowiesnik/"
 
 tags: 
   - "elektroniczny-painball"

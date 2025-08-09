@@ -1,6 +1,8 @@
 ---
 title: "Mistrzowska gra"
 date: 2018-06-05
+aliases: 
+ - "/2018/06/06/mistrzowska-gra/"
 
 tags: 
   - "eliminacje"

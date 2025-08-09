@@ -1,6 +1,8 @@
 ---
 title: "Wojna na wodę"
 date: 2017-04-18
+aliases:
+ - "/2017/04/19/wojna-na-wode/"
 ---
 
 ![](images/ea1aa-imgres.jpg)

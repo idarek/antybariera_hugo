@@ -1,6 +1,8 @@
 ---
 title: "Wsiąść do pociągu.."
 date: 2019-02-13
+aliases:
+ - "/2019/02/14/wsiasc-do-pociagu/"
 
 tags: 
   - "drezyna"

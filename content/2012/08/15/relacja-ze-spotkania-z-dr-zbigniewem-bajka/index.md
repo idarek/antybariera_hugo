@@ -1,6 +1,8 @@
 ---
 title: "Relacja ze spotkania z dr Zbigniewem Bajką na temat kondycji i problemów dziennikarstwa obywatelskiego w Polsce"
 date: 2012-08-15
+aliases:
+ - "relacja-ze-spotkania-z-dr-zbigniewem-bajka-na-temat-kondycji-i-problemow-dziennikarstwa-obywatelskiego-w-polsce"
 ---
 
 W spotkaniu udział wzięli:

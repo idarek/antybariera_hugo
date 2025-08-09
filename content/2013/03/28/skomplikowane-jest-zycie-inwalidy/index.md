@@ -1,5 +1,5 @@
 ---
-title: "SKOMPLIKOWANE JEST ŻYCIE INWALIDY"
+title: "Skomplikowane jest życie inwalidy"
 date: 2013-03-28
 ---
 

@@ -2,6 +2,8 @@
 title: "Cuda się zdarzają: koncert zespołu Scorpions na żywo."
 date: 2025-06-22
 featuredImage: "images/9.jpg"
+aliases: 
+ - "/2025/06/23/cuda-sie-zdarzaja-koncert-zespolu-scorpions-na-zywo/"
 ---
 
 > Moje serce od kilku dni tętni szczęściem, ukochany Kraków udostępnił mi swoje mury na całe cztery tygodnie. Zamierzam wykorzystać ten czas w 100%.

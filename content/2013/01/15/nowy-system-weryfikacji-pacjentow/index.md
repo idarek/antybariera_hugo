@@ -1,5 +1,5 @@
 ---
-title: "NOWY SYSTEM  WERYFIKACJI PACJENTÓW"
+title: "Nowy system weryfikacji pacjentów"
 date: 2013-01-15
 ---
 

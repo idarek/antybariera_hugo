@@ -1,6 +1,8 @@
 ---
 title: "Mój osobisty katalog savoir-vivre’u – czyli jak powinnam się zachować przy obcej osobie i czego ja od tej osoby oczekuję?"
 date: 2013-02-05
+aliases: 
+ - "moj-osobisty-katalog-savoir-vivreu-czyli-jak-powinnam-sie-zachowac-przy-obcej-osobie-i-czego-ja-od-tej-osoby-oczekuje"
 ---
 
 1\. Wzrok - czyli jak odbieram spojrzenia innych na mnie i co ja chcę przekazać swoim wzrokiem.  

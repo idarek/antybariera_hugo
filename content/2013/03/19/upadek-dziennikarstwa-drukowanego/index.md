@@ -1,5 +1,5 @@
 ---
-title: "Upadek  dziennikarstwa  drukowanego"
+title: "Upadek  dziennikarstwa drukowanego"
 date: 2013-03-19
 ---
 
