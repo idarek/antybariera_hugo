@@ -36,6 +36,11 @@ pluralizeListTitles = false
   [params.author]
     name = 'Agata Krokosz'
     email = 'kontakt@antybariera.pl'
+
+  [params.social]
+    facebook = 'https://www.facebook.com/antybariera'
+    instagram = 'https://www.instagram.com/antybariera.pl'
+
     
 [markup]
   [markup.goldmark]
