@@ -12,6 +12,10 @@
     </article>
   </section>
 
+  {{- if not .Params.hidden }}
+    {{ partial "share-buttons.html" . }}
+  {{ end -}}
+
   {{ partial "navigation.html" . }}
 
 {{ end }}

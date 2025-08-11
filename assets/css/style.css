@@ -49,7 +49,13 @@
   --soft-gray: #e0e0e0;
   
   --white: #fff;
+  --permwhite: #fff;
   --black: #000;
+
+  --facebook: #3b5998;
+  --instagram: #c73b92;
+  --whatsapp: #49DE82;
+  --rss: #59af58;
 
   /* Brightness */
   --brightness-level: brightness(100%);
@@ -380,6 +386,224 @@ hr.styled-separator {
 }
 /* end of read more link */
 
+/* .follow-head-buttons */
+.follow-head-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Default: no wrapping on larger screens */
+  justify-content: center;
+  align-items: center; /* Aligns the figures (buttons) in the row */
+  gap: 1rem; /* Space between the full clickable buttons */
+  padding-bottom: 2rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+  .follow-head-buttons {
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    row-gap: 1rem; /* Adds vertical spacing between wrapped items */
+  }
+}
+
+/* Style the <figure> tag directly to be the button container */
+.follow-head-buttons figure {
+  position: relative;
+  padding: 0.5rem 1rem; /* Padding for the entire button */
+  display: flex; /* Make the figure a flex container */
+  align-items: center; /* Align icon and text to their vertical midpoints inside the figure */
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0; /* Remove default margin on figure */
+  border-radius: 4px; /* Apply border-radius here for the whole button */
+  flex-shrink: 0; /* Prevent figures from shrinking too much on wrap */
+}
+
+/* Style the <a> tag inside the figure to be the clickable overlay */
+.follow-head-buttons figure a {
+  display: flex; /* Make the link a flex container */
+  align-items: center; /* Ensure icon and text are aligned within the link */
+  text-decoration: none; /* Remove default link underline */
+  color: inherit; /* Inherit color from parent (figure) */
+  /* Ensure the link takes up the full space of the figure for clickability */
+  width: 100%;
+  height: 100%;
+  /* Optional: Remove any padding/margin that the <a> might inherit or have by default */
+  padding: 0;
+  margin: 0;
+}
+
+/* Base font size for figcaption (controlled by figure's font-size) */
+.follow-head-buttons figure figcaption {
+  font-size: 1em; /* Use 1em to inherit font-size from figure */
+  font-weight: bold;
+}
+
+/* Hover transformations on the figure */
+.follow-head-buttons figure:nth-child(odd):hover {
+  transform: rotate(10deg);
+}
+
+.follow-head-buttons figure:nth-child(even):hover {
+  transform: rotate(-10deg);
+}
+
+.follow-head-buttons figure svg {
+  font-size: calc(0.7 * var(--h1)); /* Icon size */
+  flex-shrink: 0; /* Prevent SVG from shrinking */
+  /* Removed margin-top, using vertical-align for better control */
+  vertical-align: middle; /* Align the middle of the SVG with the text's baseline */
+}
+
+/* Adjust figcaption to be inline with the SVG */
+.follow-head-buttons figure figcaption {
+  display: inline;
+  margin-left: 0.5rem; /* Space between icon and text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  line-height: 1; /* Ensures consistent height for vertical centering */
+}
+
+/* Apply specific button styles to the <figure> based on its class */
+.follow-head-buttons figure.facebook {
+  background: var(--white);
+  border: 2px solid var(--facebook);
+}
+.follow-head-buttons figure.facebook svg {
+  fill: var(--facebook);
+}
+.follow-head-buttons figure.facebook figcaption {
+  color: var(--facebook);
+}
+
+.follow-head-buttons figure.instagram {
+  background: var(--white);
+  border: 2px solid var(--instagram);
+}
+.follow-head-buttons figure.instagram svg {
+  fill: var(--instagram);
+}
+.follow-head-buttons figure.instagram figcaption {
+  color: var(--instagram);
+}
+/* end of follow-head buttons */
+
+/* .share-buttons */
+.share-head {
+  text-align: center;
+  font-size: var(--h2);
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.share-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Default: no wrapping on larger screens */
+  justify-content: center;
+  align-items: center; /* Aligns the figures (buttons) in the row */
+  gap: 1rem; /* Space between the full clickable buttons */
+  padding-bottom: 2rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+  .share-buttons {
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    row-gap: 1rem; /* Adds vertical spacing between wrapped items */
+  }
+}
+
+/* Style the <figure> tag directly to be the button container */
+.share-buttons figure {
+  position: relative;
+  padding: 0.5rem 1rem; /* Padding for the entire button */
+  display: flex; /* Make the figure a flex container */
+  align-items: center; /* Align icon and text to their vertical midpoints inside the figure */
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0; /* Remove default margin on figure */
+  border-radius: 4px; /* Apply border-radius here for the whole button */
+  flex-shrink: 0; /* Prevent figures from shrinking too much on wrap */
+}
+
+/* Style the <a> tag inside the figure to be the clickable overlay */
+.share-buttons figure a {
+  display: flex; /* Make the link a flex container */
+  align-items: center; /* Ensure icon and text are aligned within the link */
+  text-decoration: none; /* Remove default link underline */
+  color: inherit; /* Inherit color from parent (figure) */
+  /* Ensure the link takes up the full space of the figure for clickability */
+  width: 100%;
+  height: 100%;
+  /* Optional: Remove any padding/margin that the <a> might inherit or have by default */
+  padding: 0;
+  margin: 0;
+}
+
+/* Base font size for figcaption (controlled by figure's font-size) */
+.share-buttons figure figcaption {
+  font-size: 1em; /* Use 1em to inherit font-size from figure */
+  font-weight: bold;
+}
+
+/* Hover transformations on the figure */
+.share-buttons figure:nth-child(odd):hover {
+  transform: rotate(10deg);
+}
+
+.share-buttons figure:nth-child(even):hover {
+  transform: rotate(-10deg);
+}
+
+.share-buttons figure svg {
+  font-size: calc(0.7 * var(--h1)); /* Icon size */
+  flex-shrink: 0; /* Prevent SVG from shrinking */
+  /* Removed margin-top, using vertical-align for better control */
+  vertical-align: middle; /* Align the middle of the SVG with the text's baseline */
+}
+
+/* Adjust figcaption to be inline with the SVG */
+.share-buttons figure figcaption {
+  display: inline;
+  margin-left: 0.5rem; /* Space between icon and text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  color: var(--white); /* Text colour */
+  line-height: 1; /* Ensures consistent height for vertical centering */
+}
+
+/* Apply specific button styles to the <figure> based on its class */
+.share-buttons figure.facebook {
+  background: var(--facebook);
+  border: 1px solid var(--facebook);
+}
+.share-buttons figure.facebook svg {
+  fill: var(--white);
+}
+
+.share-buttons figure.instagram {
+  background: var(--instagram);
+  border: 1px solid var(--instagram);
+}
+.share-buttons figure.instagram svg {
+  fill: var(--white);
+}
+
+.share-buttons figure.whatsapp {
+  background: var(--whatsapp);
+  border: 1px solid var(--whatsapp);
+}
+.share-buttons figure.whatsapp svg {
+  fill: var(--white);
+}
+
+.share-buttons figure.mail {
+  background: var(--orange);
+  border: 1px solid var(--orange);
+}
+.share-buttons figure.mail svg {
+  fill: var(--white);
+}
+/* end of share buttons */
+
 footer {
   text-align: center;
   padding: 2rem 0;
@@ -387,6 +611,44 @@ footer {
   color: var(--dark-gray);
   line-height: .25rem;
 }
+
+/* .follow-buttons */
+.follow-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  vertical-align: middle;
+  padding-bottom: 2rem;
+}
+.follow-buttons:after {
+  content: "";
+  display: block;
+}
+.follow-buttons figure {
+  position: relative;
+  padding: 0 0.5rem;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+  vertical-align: top; /* Aligns figures consistently */
+  margin: 0; /* Optional: Adds spacing between figures */
+}
+
+.follow-buttons figure:nth-child(odd):hover { transform: rotate(10deg); }
+
+.follow-buttons figure:nth-child(even):hover { transform: rotate(-10deg); }
+
+.follow-buttons figure svg {
+  font-size: calc(1.5 * var(--h1));
+  padding: 0.4rem;
+}
+
+.follow-buttons figure.facebook svg  { fill: var(--orange); }
+.follow-buttons figure.instagram svg { fill: var(--orange); }
+.follow-buttons figure.rss svg       { fill: var(--orange); }
+/* end of follow buttons */
 
 /* nav */
 .navi {

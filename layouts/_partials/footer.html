@@ -1,4 +1,7 @@
 <footer>
+
+    {{ partial "follow-buttons.html" . }}
+    
     <p>&copy; {{ now.Format "2006"}} – {{ .Site.Params.author.name }}</p>
     <p>Strona zrobiona w <a href="https://gohugo.io" target="_blank" rel="nofollow noreferrer">Hugo</a> przez <a href="https://dariusz.wieckiewicz.org" target="_blank" rel="nofollow noopener">Dariusz Więckiewicz</a></p>
 </footer>

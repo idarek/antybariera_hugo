@@ -38,8 +38,8 @@ pluralizeListTitles = false
     email = 'kontakt@antybariera.pl'
 
   [params.social]
-    facebook = 'https://www.facebook.com/antybariera'
-    instagram = 'https://www.instagram.com/antybariera.pl'
+    facebook = 'antybariera'
+    instagram = 'antybariera.pl'
 
     
 [markup]

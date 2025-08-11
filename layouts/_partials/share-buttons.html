@@ -1,0 +1,32 @@
+<div class="share-head">Udostępnij:</div>
+{{ $pageurl := .Permalink }}
+<div class="share-buttons">
+
+  <figure class="facebook">
+    <a title="Udostępnij na Facebook" href="https://www.facebook.com/sharer/sharer.php?text={{ .Title }}&amp;u={{ $pageurl }}%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noreferrer noopener">
+        <svg width="1em" height="1em" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/>
+        </svg>
+    <figcaption><span class="visuallyhidden">Udostępnij na </span>Facebook</figcaption>
+    </a>
+  </figure>
+
+  <figure class="whatsapp">
+    <a title="Udostępnij przez WhatsApp" href="https://api.whatsapp.com/send?text={{ .Title }}%0d%0a{{ $pageurl }}" target="_blank" rel="noreferrer noopener">
+        <svg width="1em" height="1em" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="m25.2.9c-1.1-.3-2.3-.6-3.5-.7-.3 0-.6 0-1.5-.1-1.1 0-2.2.1-3.2.3-6.6 1.5-11.2 5.4-13.9 11.7-1.2 2.8-1.6 5.8-1.4 8.8.2 2.9 1 5.6 2.4 8.1.5.9-3 10.4-3.1 10.7v.1c3.3-1.1 6.6-2.2 9.9-3.3.3-.1.5 0 .7.1 2.9 1.6 6 2.3 9.2 2.2 8.2-.3 15.3-6.2 17.3-14.5 2.6-10.2-3.2-20.6-12.9-23.4zm1.1 27.5c-.9.3-1.8.2-2.7-.1-2.1-.7-4.1-1.4-5.9-2.8-1.6-1.3-3-2.9-4.3-4.6-.8-1.2-1.6-2.3-2-3.7-.7-2.2-.3-4.1 1.2-5.8.5-.5.9-.7 1.8-.8 1 0 1.2.5 1.5 1.2.4 1 .8 2 1.2 3 .3.6.2 1.1-.2 1.5-.3.4-.6.8-.9 1.2-.3.3-.3.6-.1 1 1.2 2.1 2.8 3.8 4.9 4.9.4.2.9.4 1.3.6.5.2.7.2 1-.3.4-.5.9-1.1 1.3-1.6s.6-.6 1.1-.3c1.2.6 2.4 1.2 3.7 1.8.3.1.4.3.4.7.1 2.2-1 3.4-3.3 4.1z"/>
+        </svg>
+    <figcaption><span class="visuallyhidden">Udostępnij przez </span>WhatsApp</figcaption>
+    </a>
+  </figure>
+
+  <figure class="mail">
+    <a title="Udostępnij przez Email" href="mailto:?subject={{ .Title }}&amp;body={{ .Title }}%0d%0a%0d%0a{{ $pageurl }}%0d%0a%0d%0a{{ .Summary | plainify }}">
+        <svg width="1em" height="1em" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/>
+        </svg>
+    <figcaption><span class="visuallyhidden">Udostępnij przez </span>Email</figcaption>
+    </a>
+  </figure>
+
+</div>
