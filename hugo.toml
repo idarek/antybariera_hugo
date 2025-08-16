@@ -41,6 +41,9 @@ pluralizeListTitles = false
 [params]
   title_short = "AntyBariera"
   search = "/szukaj/"
+  og_image = "png/antybariera_og_image.png"
+  logo = "svg/antybariera_logo.svg"
+  bft = "svg/bft-color.svg"
 
   [params.author]
     name = 'Agata Krokosz'

@@ -1,0 +1,42 @@
+{{- $href := .Permalink -}}
+{{- with and .Page.IsNode .Paginator -}}
+    {{- if gt .PageNumber 1 -}}
+    {{- $href = .URL | absURL -}}
+    {{- end -}}
+{{- end -}}
+<meta property="og:url" content="{{ $href }}">
+
+{{- with or site.Title site.Params.title | plainify }}
+  <meta property="og:site_name" content="{{ . }}">
+{{- end }}
+
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta property="og:title" content="{{ . }}">
+{{- end }}
+
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta property="og:description" content="{{ trim . "\n\r\t " }}">
+{{- end }}
+
+{{- with or .Params.locale site.Language.LanguageCode }}
+  <meta property="og:locale" content="{{ replace . `-` `_` }}">
+{{- end }}
+
+<meta property="og:type" content="{{- if .IsPage }}article{{ else }}website{{ end }}">
+
+<meta property="og:image" content="{{- with resources.Get .Site.Params.og_image }}{{ .Permalink }}{{ end }}"> <!-- use 1.91:1 minimum 1200x630 -->
+  {{ if (findRE `(?s)<img.+?>` .Content) }}{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }}{{ end }}
+  <meta property="og:image" content="{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }}">
+  {{ end }}{{ end }}
+
+{{- with site.Params.social }}
+  {{- if reflect.IsMap . }}
+    {{- with .facebook_app_id }}
+      <meta property="fb:app_id" content="{{ . }}">
+    {{- else }}
+      {{- with .facebook_admin }}
+        <meta property="fb:admins" content="{{ . }}">
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}

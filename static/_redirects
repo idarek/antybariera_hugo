@@ -1,0 +1,15 @@
+https://antybariera.netlify.com https://antybariera.pl 301!
+https://antybariera.netlify.com/* https://antybariera.pl/:splat 301!
+
+/g/collect	                        https://www.google-analytics.com/g/collect		                    200
+/a/green.js                         https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js      200
+
+/rss	/index.xml              200
+/feed	/index.xml              200
+/atom	/index.xml              200
+/rss.xml    /index.xml          200
+/feed.xml    /index.xml         200
+
+/:context/rss       /index.xml
+/:context/feed       /index.xml
+/:context/atom       /index.xml

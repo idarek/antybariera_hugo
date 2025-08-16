@@ -1,0 +1,9 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": {{ absLangURL "" }},
+      {{- $logo := resources.Get  .Site.Params.logo -}}
+      "logo": "{{ $logo.Permalink }}"
+    }
+  </script>

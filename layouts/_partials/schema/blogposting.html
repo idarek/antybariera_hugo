@@ -1,0 +1,72 @@
+<script type="application/ld+json">
+    // schema for posts
+    {
+        "@context":"http://schema.org",
+        "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage" },
+      "headline": {{ .Title }},
+        {{ if .Params.featuredImage }}
+
+        {{- $ftimgsrc := "" -}}
+        {{ if hasPrefix .Params.featuredImage "/" }}
+            {{ $ftimgsrc = resources.Get .Params.featuredImage }}
+        {{ else }}
+            {{ if .Page.BundleType }}
+                {{ $ftimgsrc = .Page.Resources.GetMatch .Params.featuredImage }}
+            {{ else }}
+                {{ $path := path.Join .Page.File.Dir .Params.featuredImage }}
+                {{ $ftimgsrc = resources.Get $path }}
+            {{ end }}
+        {{ end }}
+        
+        "image": {{ $ftimgsrc.Permalink }},
+        {{- else -}}
+        {{- $og_image := resources.Get .Site.Params.og_image -}}
+      "image": {{ $og_image.Permalink }},{{ end }}
+        "url": {{ .Permalink }},
+      "datePublished": {{ .PublishDate }},
+      "dateModified": {{ .Lastmod }},
+        "inLanguage": {{ site.Language.LanguageCode }},
+        "isFamilyFriendly": "true",
+        "copyrightYear": "{{ now.Format "2006"}}",
+        "copyrightHolder": {
+            "@type": "Person",
+            "name": {{ .Site.Params.Author.name }}
+        },
+        "accountablePerson": {
+            "@type": "Person",
+            "name": {{ .Site.Params.Author.name }},
+            "url": {{ absLangURL "" }}
+        },
+        "author": {
+            "@type": "Person",
+            "name": {{ .Site.Params.Author.name }},
+            "url": {{ absLangURL "" }}
+        },
+        "creator": {
+            "@type": "Person",
+            "name": {{ .Site.Params.Author.name }},
+            "url": {{ absLangURL "" }}
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": {{ .Site.Params.Author.name }},
+            "url": {{ absLangURL "" }},
+            "logo": {
+                "@type": "ImageObject",
+                {{- $logo := resources.Get  .Site.Params.logo -}}
+                "url": {{ $logo.Permalink }}
+            }
+        },
+        "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
+    {{- with .WordCount }}
+        "wordCount": {{ . }},
+    {{- end }}
+    {{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+        "description": {{ trim . "\n\r\t " }},
+    {{- end }}
+    
+      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+
+    }
+    </script>

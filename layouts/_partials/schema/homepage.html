@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+    // homepage
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebPage",
+      {{- with or site.Title site.Params.title | plainify }}
+      "name": "{{ . }}",
+      {{- end }}
+      "url": {{ absLangURL "" }},
+      "inLanguage": {{ site.Language.LanguageCode }},
+      "isFamilyFriendly": "true",
+      "copyrightYear": "{{ now.Format "2006"}}",
+      "copyrightHolder": {
+        "@type": "Person",
+        "name": {{ .Site.Params.Author.name }}
+      },
+      "accountablePerson": {
+        "@type": "Person",
+        "name": {{ .Site.Params.Author.name }},
+        "url": {{ absLangURL "" }}
+      },
+      "author": {
+        "@type": "Person",
+        "name": {{ .Site.Params.Author.name }},
+        "url": {{ absLangURL "" }}
+      },
+      "creator": {
+        "@type": "Person",
+        "name": {{ .Site.Params.Author.name }},
+        "url": {{ absLangURL "" }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ .Site.Params.Author.name }},
+        "url": {{ absLangURL "" }},
+        "logo": {
+          "@type": "ImageObject",
+          {{- $logo := resources.Get .Site.Params.logo -}}
+          "url": {{ $logo.Permalink }}
+        }
+      },
+    }
+    </script>

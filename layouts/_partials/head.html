@@ -2,3 +2,74 @@
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "css/style.html" . }}
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+    };
+  </script>
+
+<link rel="preload" href="/fonts/lato-v24-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/lato-v24-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/lato-v24-latin-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/lato-v24-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+
+<meta name="view-transition" content="same-origin">
+
+<meta name="author" content="{{ .Site.Params.Author.name }}">
+
+  {{- $description := or (.Description) (.Site.Params.Description) -}}
+  {{ if in .Permalink "/tag/" }}<meta name="description" content="Lista wpisów na stonie zawierających tag {{ with .Title }}{{ . }}{{ end }}, ułatwiające użytkownikom przeglądanie wyselekcjonowanych treści w danym temacie">{{ else }}
+    {{ if $description -}}<meta name="description" content="{{ $description }}">{{- end }}
+  {{ end }}
+
+<link rel="icon" href="/svg/bft-color.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon-144.png" type="image/png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+
+  {{- with .Site.GetPage "/" }} <!-- Because I want RSS in header on every page -->
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    {{ range .Translations }} <!-- If other languages present output RSS for them as well -->
+    {{ $titleLang := .Title }}
+      {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $titleLang | safeHTML }}
+      {{ end -}}
+    {{ end }}
+  {{- end }}
+
+<link rel="manifest" href="/manifest.webmanifest">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="AntyBariera Dziennikarska">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  {{- $href := .Permalink -}}
+  {{- with and .Page.IsNode .Paginator -}}
+      {{- if gt .PageNumber 1 -}}
+      {{- $href = .URL | absURL -}}
+      {{- end -}}
+  {{- end -}}
+  <link rel="canonical" href="{{ $href }}">
+  
+<meta name="theme-color" content="#fff">
+
+  {{ if .Params.featuredImage }}<meta name="robots" content="max-image-preview:large">{{ end }}
+
+  {{ if .Params.noindex }}
+    <meta name="robots" content="noindex,nofollow">
+  {{ else }}
+    <meta name="robots" content="index, follow">
+  {{ end }}
+
+{{ hugo.Generator }}
+
+{{ partial "opengraph.html" . }}
+{{ partial "schema.html" . }}
+
+{{ if hugo.IsProduction }}
+    {{ partial "analytics-ga4-alt.html" . }}
+{{ end }}

@@ -1,0 +1,24 @@
+<script>
+
+    let blocked = false;
+  
+    const ascript = document.createElement('script');
+    ascript.src = 'https://www.google-analytics.com/g/collect';
+  
+    ascript.onload = function() {
+      blocked = false;
+      const successScript = document.createElement('script');
+      successScript.src = '/js/success.js';
+      document.head.appendChild(successScript);
+    }
+  
+    ascript.onerror = function() {
+      blocked = true;
+      const alternateScript = document.createElement('script');
+      alternateScript.src = '/js/alternate.js';
+      document.head.appendChild(alternateScript);
+    }
+  
+    document.head.appendChild(ascript);
+  
+  </script>
