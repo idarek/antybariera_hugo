@@ -1,6 +1,8 @@
 backend:
   name: github
   repo: idarek/antybariera_hugo
+  branch: staging
+  automatic_deployments: false
 
 local_backend: true
 
@@ -60,5 +62,3 @@ collections:
         name: "tags"
         widget: "list"
         required: false
-
-
