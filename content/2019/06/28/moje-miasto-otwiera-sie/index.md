@@ -1,5 +1,5 @@
 ---
-title: "Moje miasto otwiera się.."
+title: "Moje miasto otwiera się..."
 date: 2019-06-28
 
 tags: 

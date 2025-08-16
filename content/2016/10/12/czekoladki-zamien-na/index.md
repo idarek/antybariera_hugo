@@ -1,5 +1,5 @@
 ---
-title: "Czekoladki zamień na....."
+title: "Czekoladki zamień na..."
 date: 2016-10-12
 ---
 

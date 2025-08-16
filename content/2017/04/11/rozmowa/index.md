@@ -1,5 +1,5 @@
 ---
-title: "Rozmowa.."
+title: "Rozmowa..."
 date: 2017-04-11
 ---
   

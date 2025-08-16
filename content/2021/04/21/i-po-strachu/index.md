@@ -1,5 +1,5 @@
 ---
-title: "...I po strachu.."
+title: "...I po strachu"
 date: 2021-04-21
 
 tags: 

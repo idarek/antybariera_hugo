@@ -6,7 +6,15 @@ pluralizeListTitles = false
 
 [outputs]
   page = [ "html"]
-  home = [ "html", "rss" ]
+  home = [ "html", "rss", "imagessitemap", "json" ]
+
+[outputFormats.imagessitemap]
+  baseName  = 'imagessitemap'
+  mediaType = 'application/xml'
+  noUgly = true # default is false
+
+[imaging]
+  resampleFilter = "Lanczos"
 
 [pagination]
   disableAliases = false
@@ -32,6 +40,7 @@ pluralizeListTitles = false
 
 [params]
   title_short = "AntyBariera"
+  search = "/szukaj/"
 
   [params.author]
     name = 'Agata Krokosz'

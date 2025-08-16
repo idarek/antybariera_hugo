@@ -484,6 +484,18 @@ hr.styled-separator {
 .follow-head-buttons figure.instagram figcaption {
   color: var(--instagram);
 }
+
+.follow-head-buttons figure.szukaj {
+  background: var(--white);
+  border: 2px solid var(--blackish);
+}
+.follow-head-buttons figure.szukaj svg {
+  fill: var(--blackish);
+}
+.follow-head-buttons figure.szukaj figcaption {
+  color: var(--blackish);
+}
+
 /* end of follow-head buttons */
 
 /* .share-buttons */
@@ -649,6 +661,28 @@ footer {
 .follow-buttons figure.instagram svg { fill: var(--orange); }
 .follow-buttons figure.rss svg       { fill: var(--orange); }
 /* end of follow buttons */
+
+/* breadcrumbs */
+.breadcrumb {
+  max-width: 45rem;
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.breadcrumb a:hover { text-decoration: underline; }
+
+ol.breadcrumb li { display: inline; }
+/* end of breadcrumbs */
 
 /* nav */
 .navi {
@@ -834,3 +868,90 @@ figcaption {
 }
 
 /* end:lightbox css */
+
+/* search */
+
+.search-output-head {
+  font-weight: 700;
+}
+
+.search-output-head a {
+  font-size: var(--h1);
+}
+
+.search-output-date {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 3pt 0;
+}
+
+.search-output-summary {
+ padding-bottom: 6pt;
+}
+
+.search-output-summary p {
+  display: inline;
+}
+
+#custom-search-field {
+  display: block;
+  font-size: 14pt;
+
+  max-width: 45rem;
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+
+  padding: 12px 18px;
+  border-radius: 5px;
+  background-color: var(--white);
+  border: 2px solid var(--orange);
+  color: var(--blue);
+}
+
+#custom-search-results {
+  margin-bottom: 2rem;
+}
+
+.search-options {
+  padding-left: 1rem;
+}
+
+.search-icon-on-page {
+  cursor: pointer;
+  height: 2rem;
+  position: relative;
+  top: 8px;
+  left: 6px;
+}
+
+form#custom-search button[type="submit"] { 
+  display: block;
+  
+  max-width: 45rem;
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+
+  color: var(--white);
+  font-size: 14pt;
+  margin: 1rem 1vw;
+  padding: 12px 18px;
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+  border-radius: 5px;
+}
+
+form#custom-search button[type="submit"]:hover {
+  color: var(--orange);
+  background-color: var(--orange);
+}
+
+.external-search {
+ padding: 0 6pt 12pt 12pt;
+}
+
+.end-of-search {
+  padding: 0 0 12pt 0;
+  text-align: center;
+}
+
+/* END search */

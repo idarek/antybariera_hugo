@@ -1,8 +1,8 @@
 {{ define "main" }}
   <section>
     <article id="article" class="article">
-      <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ partial "date.html" . }}
+      <h2 class="entry-title">{{ .LinkTitle }}</h2>
+      {{- if not .Params.omitDate }}{{ partial "date.html" . }}{{ end -}}
 
       {{ partial "featured-image.html" . }}
 
@@ -15,6 +15,8 @@
   {{- if not .Params.hidden }}
     {{ partial "share-buttons.html" . }}
   {{ end -}}
+
+  {{ partial "breadcrumbs.html" . }}
 
   {{ partial "navigation.html" . }}
 

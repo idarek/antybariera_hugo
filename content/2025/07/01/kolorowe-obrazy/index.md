@@ -1,5 +1,5 @@
 ---
-title: "Kolorowe obrazy."
+title: "Kolorowe obrazy"
 date: 2025-07-01
 ---
 

@@ -1,0 +1,63 @@
+<search role="search">
+    <form id="custom-search" name="custom-search" method="post" action="" onsubmit="customSearchResults(); return false;" aria-label="Szukaj tutaj">
+        <p class="search">
+        <input id="custom-search-field" type="text" name="search" value="" title="Fraza wyszukania" placeholder="Fraza wyszukania">
+        <button type="submit">Szukaj</button>
+        </p>
+        <!-- <p><em>Search Section:</em><br>
+            <input type="checkbox"name="section[]" value="site" checked="checked"> all<br>
+            <input type="checkbox" name="section[]" value="post"> Blog<br>
+            <input type="checkbox" name="section[]" value="other-section"> Other Section
+        </p>
+        -->
+        <p class="search-options">
+            <input type="radio" name="option" value="AND" checked="checked" id="oraz"> <label for="oraz">ORAZ</label><br>
+            <input type="radio" name="option" value="OR" id="lub"> <label for="lub">LUB</label>
+        </p>
+        
+    </form>
+</search>
+
+<div id="custom-search-results"></div>
+
+<script>
+// CUSTOM AREA
+let params = {
+    json_src       : '/index.json', // for multiple sources: comma separated list of JSONarrays
+    minlength      : 3,
+    defaultsearch  : 'AND',
+    sort_date      : 'DESC',
+    autocomplete   : 0, // 0: form needs a submit button
+    section_search : 0, // 1: needs checkboxes with name="section[]"
+    badwords       : 'and,there,the,this,that,you', //ignore this words
+    json_wait      : '<p>ładowanie...</p>',
+    json_ready     : '<p><strong>Proszę wprowadzić frazę wyszukania</strong></p>',
+    extern_icon    : ' (odnośnik zewnętrzny)', // marker for external links (optional)
+    err_badstring  : '<p><strong>Za krótkie!</strong> (minimum 3 znaki)</p>',
+    err_noresult   : '<p><strong>Niestety, nic nie znaleziono. Proszę spróbować ponownie z inną frazą.</strong></p>',
+    err_norequest  : '<p style="text-align: center; color:red;">Wyszukanie całego tekstu jest w tym momencie niedostępne.</p>',
+    err_filefailed : '<p style="text-align: center;color: red;">Indeks wyszukania nie może zostać znaleziony.</p>',
+    res_one_item   : '<p><strong>[CNT] Wynik</strong></p>',
+    res_more_items : '<p><strong>[CNT] Wyników</strong></p>',
+    res_out_top    : '<div class="search-output">',
+    res_out_bottom : '</div><div class="end-of-search">- koniec wyszukania -</div>',
+    res_item_tpl   : '<div class="search-output-head"><a href="[URL]">[TITLE]</a></div><div class="search-output-date">Opublikowano: [DATE]</div><div class="search-output-summary">[SUMMARY]</div><hr>',
+    add_searchlink : '<div class="external-search"><a href="https://duckduckgo.com/?q=site:antybariera.pl [QUERY]" target="_blank">Nie jesteś zadowolony z wyniku wyszukania? Spróbuj wyszykać przy pomocy DuckDuckGo...</a></div>'
+};
+
+// Translation of section name (optional)
+let section_trans = {
+    "post" : "Blog",
+    // "other-section" : "Other Section"
+};
+
+let searchfield_weight = {
+    "title"   : 6,
+    "tags"    : 5,
+    "summary" : 2,
+    "content" : 1
+};
+// CUSTOM AREA END
+</script>
+
+{{ partialCached "js/search.html" . }}

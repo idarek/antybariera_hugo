@@ -1,5 +1,5 @@
 ---
-title: "Hau, hau... miau, miau.."
+title: "Hau, hau... miau, miau"
 date: 2020-05-02
 
 tags: 

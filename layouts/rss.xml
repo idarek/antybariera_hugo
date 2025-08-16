@@ -1,0 +1,101 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml-stylesheet href=\"/rss-style.xsl\" type=\"text/xsl\"?>" | safeHTML }}
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xml:base="{{ .Permalink }}"
+>
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo</generator>
+    <language>{{ site.Language.LanguageCode }}</language>
+    <copyright>© {{ now.Format "2006"}} | {{ or .Site.Params.title .Site.Title }}</copyright>{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{ range where $pages ".Params.rss_exclude" "ne" true }}
+    <item>
+      <title>{{ .Title | transform.XMLEscape }}</title>
+      <link>{{ .Permalink }}</link>
+      {{- if not .Lastmod.IsZero -}}
+      <pubDate>{{ safeHTML ( .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" ) }}</pubDate>
+      <dc:date>{{ safeHTML ( .Lastmod.UTC.Format "2006-01-02T15:04:05Z" ) }}</dc:date>
+      {{- end -}}
+      <guid>{{ .Permalink }}</guid>
+
+      {{- if .Params.featuredImage -}}
+
+      {{- $ftimgsrc := "" -}}
+      {{ if hasPrefix .Params.featuredImage "/" }}
+          {{ $ftimgsrc = resources.Get .Params.featuredImage }}
+      {{ else }}
+          {{ if .Page.BundleType }}
+              {{ $ftimgsrc = .Page.Resources.GetMatch .Params.featuredImage }}
+          {{ else }}
+              {{ $path := path.Join .Page.File.Dir .Params.featuredImage }}
+              {{ $ftimgsrc = resources.Get $path }}
+          {{ end }}
+      {{ end }}
+
+        {{ $webpResized := $ftimgsrc.Resize "856x webp" }}
+        <media:content url="{{ $webpResized.Permalink }}" medium="image" isDefault="true" type="image/webp" />
+        <media:content url="{{ $ftimgsrc.Permalink }}" medium="image" type="image/jpeg" />
+
+        {{ $thumbnailwebp := $ftimgsrc.Fill "150x150 Center webp" }}
+        {{ $thumbnail := $ftimgsrc.Fill "150x150 Center" }}
+        <media:thumbnail url="{{ $thumbnailwebp.Permalink }}" type="image/webp" />
+        <media:thumbnail url="{{ $thumbnail.Permalink }}" type="image/jpeg" />
+
+      {{ end }}
+      {{ if (findRE `(?s)<img.+?>` .Content) }}{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }}{{ end }}
+      <media:content url="{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }}" medium="image" />
+      {{ end }}
+        {{ end }}
+      
+      {{- if .Params.featuredImage -}}
+
+      {{- $ftimgsrc := "" -}}
+      {{ if hasPrefix .Params.featuredImage "/" }}
+          {{ $ftimgsrc = resources.Get .Params.featuredImage }}
+      {{ else }}
+          {{ if .Page.BundleType }}
+              {{ $ftimgsrc = .Page.Resources.GetMatch .Params.featuredImage }}
+          {{ else }}
+              {{ $path := path.Join .Page.File.Dir .Params.featuredImage }}
+              {{ $ftimgsrc = resources.Get $path }}
+          {{ end }}
+      {{ end }}
+
+        <description>{{ .Summary | transform.Plainify | transform.XMLEscape | safeHTML }}</description>
+        <content:encoded>{{ "<![CDATA["  | safeHTML  }}{{ printf "<img src=\"%s\" />" $ftimgsrc.Permalink | safeHTML }}{{ .Summary | safeHTML }}{{ "]]>" | safeHTML  }}</content:encoded>
+      {{ else }}
+        <description>{{ .Summary | transform.Plainify | transform.XMLEscape | safeHTML }}</description>
+        <content:encoded>{{ "<![CDATA["  | safeHTML  }}{{ .Summary | safeHTML }}{{ "]]>" | safeHTML  }}</content:encoded>
+      {{ end }}
+
+      {{ with .GetTerms "categories"}}{{ range . }}<category>{{ .LinkTitle | lower }}</category>{{ end }}{{ end }}
+      {{ with .GetTerms "tags" }}{{ range . }}<category>{{ .LinkTitle | lower }}</category>{{ end }}{{ end }}
+
+      <dc:creator>{{ "<![CDATA["  | safeHTML  }}{{ .Site.Params.Author.name }}{{ "]]>" | safeHTML  }}</dc:creator>
+
+    </item>
+    {{ end }}
+  </channel>
+</rss>

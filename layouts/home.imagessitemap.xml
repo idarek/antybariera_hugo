@@ -1,0 +1,49 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+
+{{ range where $pages "Sitemap.Disable" "ne" true }}
+  {{ if or (.Params.featuredImage) (findRE `(?s)<img.+?>` .Content) }}
+    {{- if .Permalink -}}
+      <url>
+        <loc>{{ .Permalink }}</loc>
+        {{ if .Params.featuredImage }}
+
+          {{- $ftimgsrc := "" -}}
+          {{ if hasPrefix .Params.featuredImage "/" }}
+              {{ $ftimgsrc = resources.Get .Params.featuredImage }}
+          {{ else }}
+              {{ if .Page.BundleType }}
+                  {{ $ftimgsrc = .Page.Resources.GetMatch .Params.featuredImage }}
+              {{ else }}
+                  {{ $path := path.Join .Page.File.Dir .Params.featuredImage }}
+                  {{ $ftimgsrc = resources.Get $path }}
+              {{ end }}
+          {{ end }}
+
+          <image:image>
+            <image:loc>{{ $ftimgsrc.Permalink }}</image:loc>
+          </image:image>{{ end }}{{ if (findRE `(?s)<img.+?>` .Content) }}{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }}{{ end }}
+            <image:image>
+              <image:loc>{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }}</image:loc>
+            </image:image>{{ end }}
+        {{ end }}
+      </url>{{- end -}}
+  {{ end }}
+{{ end }}
+  
+</urlset>

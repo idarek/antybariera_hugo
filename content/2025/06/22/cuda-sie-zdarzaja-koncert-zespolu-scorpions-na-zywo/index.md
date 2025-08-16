@@ -1,5 +1,5 @@
 ---
-title: "Cuda się zdarzają: koncert zespołu Scorpions na żywo."
+title: "Cuda się zdarzają: koncert zespołu Scorpions na żywo"
 date: 2025-06-22
 featuredImage: "images/9.jpg"
 aliases: 

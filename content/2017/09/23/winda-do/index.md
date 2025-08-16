@@ -1,5 +1,5 @@
 ---
-title: "Windą do.."
+title: "Windą do..."
 date: 2017-09-23
 
 tags: 

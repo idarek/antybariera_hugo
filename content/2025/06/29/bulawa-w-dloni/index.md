@@ -1,5 +1,5 @@
 ---
-title: "Buława w dłoni."
+title: "Buława w dłoni"
 date: 2025-06-29
 ---
 

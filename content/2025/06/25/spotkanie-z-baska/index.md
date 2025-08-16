@@ -1,5 +1,5 @@
 ---
-title: "Spotkanie z Baśką."
+title: "Spotkanie z Baśką"
 date: 2025-06-25
 aliases:
  - "/2025/06/26/spotkanie-z-baska/"
