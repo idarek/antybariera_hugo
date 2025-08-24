@@ -3,6 +3,7 @@ backend:
   repo: idarek/antybariera_hugo
   branch: staging
   automatic_deployments: false
+  logout_redirect_url: 'https://antybariera.pl'
 
 local_backend: true
 
@@ -10,7 +11,7 @@ media_folder: "static/images"
 public_folder: "/images"
 
 i18n:
-  default_locale: "pl"
+  default_locale: pl
   locales:
     - pl
     - en
@@ -29,19 +30,21 @@ collections:
     sortable_fields:
       fields: [ date ]
       default:
-        fields: date
+        field: date
         direction: descending
     thumbnail: featuredImage
 
     view_groups:
-      - label: Rok (Year)
-        field: date
-        # groups items based on the value matched by the pattern
-        pattern: \d{4}
-      - label: Data
-        field: date
-        # groups items based on the value matched by the pattern
-        pattern: \d{4}-\d{2}-\d{2}
+      groups:
+        - name: year
+          label: Rok (Year)
+          field: date
+          pattern: \d{4}
+        - name: date
+          label: Data
+          field: date
+          pattern: \d{4}-\d{2}-\d{2}
+      default: year
     fields:
       - label: "Tytuł"
         name: "title"
