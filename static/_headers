@@ -1,5 +1,5 @@
 /*
-Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' blob: data: https://*.githubusercontent.com https://*.openstreetmap.org; media-src blob:; frame-src blob: https://www.youtube-nocookie.com; script-src 'self' https://unpkg.com; connect-src 'self' blob: data: https://unpkg.com https://api.github.com https://www.githubstatus.com https://api.netlify.com https://*.openstreetmap.org;
+Content-Security-Policy: base-uri 'self' 'unsafe-inline' 'unsafe-eval' https: data:
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: strict-origin-when-cross-origin
