@@ -2,7 +2,7 @@ backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: staging
-  automatic_deployments: false
+  skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
 
 local_backend: true
