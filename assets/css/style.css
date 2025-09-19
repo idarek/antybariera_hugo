@@ -387,6 +387,11 @@ hr.styled-separator {
 /* end of read more link */
 
 /* .follow-head-buttons */
+
+.follow-head-buttons a {
+    text-decoration: none; /* Remove default link underline */
+}
+
 .follow-head-buttons {
   display: flex;
   flex-direction: row;
@@ -422,7 +427,6 @@ hr.styled-separator {
 .follow-head-buttons figure a {
   display: flex; /* Make the link a flex container */
   align-items: center; /* Ensure icon and text are aligned within the link */
-  text-decoration: none; /* Remove default link underline */
   color: inherit; /* Inherit color from parent (figure) */
   /* Ensure the link takes up the full space of the figure for clickability */
   width: 100%;
