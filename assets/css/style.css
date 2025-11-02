@@ -173,6 +173,12 @@ p {
   margin: 0 0 1rem;
 }
 
+@supports (text-wrap: pretty) {
+  p {
+    text-wrap: pretty; /* Apply pretty if the browser supports it */
+  }
+}
+
 .entry-title {
   font-size: calc(1.5 * var(--h1));
   text-align: center;
