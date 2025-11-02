@@ -149,6 +149,7 @@ h6 { font-size: var(--h6); }
 html {
   font-size: 100%; /* Use 1rem = 16px as base */
   scroll-behavior: smooth;
+  scrollbar-color: var(--orange) transparent;
 }
 
 body {
