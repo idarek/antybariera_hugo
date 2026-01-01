@@ -26,7 +26,7 @@ Jednak dopiero upowszechnienie internetu doprowadziło do zmiany charakteru tego
 
 **AK: Jak dziennikarstwo obywatelskie wygląda w Polsce w dniu dzisiejszym?** 
 
-**ZB:** Oprócz iThink.pl (bodaj pierwszego tego typu) mamy portale dla niezawodowych dziennikarzy stworzone przez dwie zagraniczne grupy medialne (Polskapresse – Wiadomości24.pl, Mecom – MMM Moje Miasto), podobny serwis stworzyła Interia (Interia360.pl) oraz Onet ([www.wiadomosci.onet.pl/waszymzdaniem/index.html](https://www.wiadomosci.onet.pl/waszymzdaniem/index.html)). Od 2004 roku działa w Elblągu ESWiP (Pozarządowiec i Telewizja Obywatelska – bardzo aktywne w ruchu obywatelskim).
+**ZB:** Oprócz iThink.pl (bodaj pierwszego tego typu) mamy portale dla niezawodowych dziennikarzy stworzone przez dwie zagraniczne grupy medialne (Polskapresse – Wiadomości24.pl, Mecom – MMM Moje Miasto), podobny serwis stworzyła Interia (Interia360.pl) oraz Onet (www.wiadomosci.onet.pl). Od 2004 roku działa w Elblągu ESWiP (Pozarządowiec i Telewizja Obywatelska – bardzo aktywne w ruchu obywatelskim).
 
 Oh Yeon Ho, twórca serwisu Ohmynews, posługuje się hasłem „Każdy obywatel jest reporterem” oraz określeniem „dziennikarz – obywatel”. Web 2.0 daje możliwość funkcjonowania wiki-blogom, używania nowych technologii dla powstawania i rozwijania stron internetowych, ale także generowania treści przez użytkowników oraz tworzenia serwisów społecznościowych i wykorzystywania wspólnej pracy dla ważnych społecznie celów. Serwisy społecznościowe właśnie dają wielką szansę dla dziennikarstwa obywatelskiego.
 

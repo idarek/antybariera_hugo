@@ -9,7 +9,7 @@ Bardzo, ale to bardzo cieszę się, że mogłam wziąć udział w tak ciekawej i
 
 ![](images/205345905_143718551073895_8989288618491275514_n.jpg)
 
-Przedstawiono kilkadziesiąt ciekawych krótko i długometrażowych filmów, po których odbywały się spotkania z twórcami i bohaterami wyświetlanych obrazów. Każdy dzień seansów filmowych kończył się nocnym koncertem muzycznym. Fantastyczna impreza, chciałoby się uczestniczyć w każdym wydarzeniu, niestety doba za krótka, nie dałam fizycznie rady. Lista zwycięzców jest oficjalnie dostępna, również na stronie [40\. Koszaliński Festiwal Debiutów Filmowych MŁODZI I FILM (mlodziifilm.pl)](http://www.mlodziifilm.pl/)mój faworyt znalazł się wśród laureatów.
+Przedstawiono kilkadziesiąt ciekawych krótko i długometrażowych filmów, po których odbywały się spotkania z twórcami i bohaterami wyświetlanych obrazów. Każdy dzień seansów filmowych kończył się nocnym koncertem muzycznym. Fantastyczna impreza, chciałoby się uczestniczyć w każdym wydarzeniu, niestety doba za krótka, nie dałam fizycznie rady. Lista zwycięzców jest oficjalnie dostępna, również na stronie 40\. Koszaliński Festiwal Debiutów Filmowych MŁODZI I FILM mój faworyt znalazł się wśród laureatów.
 
 ![](images/204959934_308817920925150_5149988286813263654_n.jpg)
     

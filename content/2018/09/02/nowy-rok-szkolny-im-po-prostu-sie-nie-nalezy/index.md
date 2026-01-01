@@ -32,4 +32,4 @@ Do drzwi puka nowy rok szkolny 2018/2019. Poruszę wielki problem jakim jest now
 
 Nikt i nic nie stawiał mi kłód pod nogi. Miałam szczęście, bo tak naprawdę to dzisiaj każdy kto chce otrzyma wiedzę z internetu, nie podpartą dyplomem zawodowym. Chodzi tutaj o zupełnie o inną sprawę. Czas pobytu w szkole pozwala nam na kontakt z rówieśnikami, a to jest najważniejsze. Nie tylko przez możliwość weryfikacji własnej wiedzy, ale ten kontakt z kolegami wyzwala niesamowitą motywację i mocne poczucie jestestwa, że jednak coś sami możemy osiągnąć mimo pewnej niepełnosprawności. Mało tego, odniosłam wrażenie, że większość kolegów i koleżanek uczących się razem ze mną też poznało wielką motywację do dalszej pracy, porównując własne możliwości z moimi. Na zawsze w sercu zachowam wspólne chwile na wykładach, warsztatach i egzaminach, choć czasami wcale nie było łatwo. Aktualne przepisy nie dają szansy osobom podobnym do mnie na próbę zdrowej rywalizacji na równych warunkach dla wszystkich. Taka wiedza nikomu nie jest potrzebna. **NIKOMU!!!**
 
-https://youtu.be/UcjBwI5UQOE
+{{< youtube UcjBwI5UQOE >}}

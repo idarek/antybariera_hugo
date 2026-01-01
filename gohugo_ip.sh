@@ -16,7 +16,7 @@ fi
 # Check if we successfully retrieved an IP address
 if [ -n "$local_ip" ]; then
     # Construct the Hugo server command with the obtained IP address
-    ./hugo server --renderToMemory --logLevel info --printPathWarnings --bind "$local_ip" --baseURL "http://$local_ip/"
+    hugo server --renderToMemory --logLevel info --printPathWarnings --bind "$local_ip" --baseURL "http://$local_ip/"
 else
     echo "Error: Could not determine the local IP address."
     exit 1

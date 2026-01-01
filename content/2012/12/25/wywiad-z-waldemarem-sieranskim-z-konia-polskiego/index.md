@@ -59,7 +59,4 @@ W tej chwili to pole nie jest zagospodarowane, dlatego zachęcam wszystkich niep
 
 **AK** – Bardzo dziękuję za poświęcony mi i moim czytelnikom czas oraz przeobrażenie swoistej rozmowy w wywiad.
 
-**Moich czytelników zaś informuję, iż więcej na temat „Konia Polskiego” mogą znaleźć na stronach:**  
-[www.kabaretkonpolski.pl](https://kabaretkonpolski.pl) i [www.kabarety.pl](https://kabarety.pl).
-
 {{< youtube pk3ExB6ohVw >}}

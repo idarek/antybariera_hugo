@@ -40,4 +40,4 @@ Przeglądając portale społecznościowe zauważyłam duży ruch w organizacji r
 
 Zapewne jak większość z nas potrzebujących specjalistycznej rehabilitacji, ja też zaczynam odczuwać jej brak. Proszę o pomoc, może ktoś z wspólnych znajomych-fizykoterapeutów poprowadziłby na odległość w krótkich nagraniach instruktażowych, kilka ćwiczeń, które mogłabym wykonywać z pomocą Gosi. Po wdrożeniu się w konkretne ćwiczenie, mogłabym je umieścić na moim blogu w postaci krótkich filmów. Pomysł wydaje się być dobry, dawałby szansę wielu ludziom na podtrzymanie podstawowej formy fizycznej. Zobaczymy.
 
-https://youtu.be/mPRo69ieBiQ
+{{< youtube mPRo69ieBiQ >}}

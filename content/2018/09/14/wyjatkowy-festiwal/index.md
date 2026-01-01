@@ -26,20 +26,20 @@ Wszystko co fajne jak to zwykle bywa, szybko się kończy. Obiecałam sobie, że
 
 
 
-[![](images/4a993-20180906_113518-e1536963879619.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/4a993-20180906_113518-e1536963879619.jpg)
+[![](images/4a993-20180906_113518-e1536963879619.jpg)](images/4a993-20180906_113518-e1536963879619.jpg)
 
-[![](images/b7731-20180906_113437-e1536963940225.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/b7731-20180906_113437-e1536963940225.jpg)
+[![](images/b7731-20180906_113437-e1536963940225.jpg)](images/b7731-20180906_113437-e1536963940225.jpg)
 
 Od 04.09.2018 do 08.09.2018 r. od 9.30 (dla widzów) do 22.00 pokazy filmów, spotkania z ich twórcami, bohaterami. Imprezy towarzyszące: happeningi, marsz ulicami miasta, gdzie gros ludzi również na wózkach zaprasza przypadkowych przechodniów na imprezę. Pomysł się sprawdza, jestem zaskoczona dużym zainteresowaniem. Koncerty zespołów muzycznych, które w czarodziejskich rytmach „roztańczyły” całą widownię. Wystawa zdjęć autora ukazująca chwile zwykłego dnia osób z niepełnosprawnością z rodziną, a nie raz takie zwyczajne chwile są niezwykle i przez to  i piękne dla ludzi w pełni sprawnych. Portrety malowane długie godziny przez człowieka bez rąk.  
   
   
 Ten najbardziej mi się podobał. We wrześniu od kilkunastu lat o porze staję się naocznym świadkiem i uczestnikiem na żywo pięknej imprezy "Integracja i Ty i Ja". Najpierw uliczny happening, gdzie grupa ludzi z różnymi, niespotkanymi sprawnościami przypadkowym przechodniom przekazuje zaproszenia na ta imprezę.
 
-[![](images/34a3f-20180907_182057-e1536963805746.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/34a3f-20180907_182057-e1536963805746.jpg)
+[![](images/34a3f-20180907_182057-e1536963805746.jpg)](images/34a3f-20180907_182057-e1536963805746.jpg)
 
-[![](images/96238-20180907_135601.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/96238-20180907_135601.jpg)
+[![](images/96238-20180907_135601.jpg)](images/96238-20180907_135601.jpg)
 
-[![](images/fc998-20180907_135612.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/fc998-20180907_135612.jpg)
+[![](images/fc998-20180907_135612.jpg)](images/fc998-20180907_135612.jpg)
 
 Zaskoczyła mnie deklaracja udziału w tym festiwalu. Zespół teatralny Recepta - kilku fajnych młodych ludzi z tej grupy przedstawia szczęście i radość w rodzinie z okazji narodzin dziecka, które przeradza się w dramat i płacz. Okazuje się, że potomek jest niepełnosprawny, cała rodzina odwraca się plecami. Z dzieckiem pozostaje jedynie matka, ze strachu i wstydu chowają się w ciemnościach domu. W życiu słyszy szyderczy śmiech, spotyka wiele przeszkód tworzonych przez mało tolerancyjne społeczeństwo. Ostatecznie po wielu bojach zostaje zaakceptowany w środowisku. Wcześniej pisałam, że jestem stałym bywalcem festiwalu, widziałam dużo koncertów, ale tak jak przy zespole Novembert Prolect nie bawiłam się nigdy. Kolorowe postaci bujające się na scenie w rytmie muzyki reagge sprawiły, że widownia wstała ze swoich miejsc, ja też "pobujałam" wózkiem pod estradę a nawet na scenę. Dawno tak fajnie się nie bawiłam,w towarzystwie m.in. Sebastiana Stankiewicza, naładowanego bardzo pozytywna energią.  
   

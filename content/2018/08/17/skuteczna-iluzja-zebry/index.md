@@ -7,11 +7,11 @@ tags:
   - "zebry"
 ---
 
-[![](images/1177e-z22562641vtrojwymiarowe-przejscie-dla-pieszych-na-islandii.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/1177e-z22562641vtrojwymiarowe-przejscie-dla-pieszych-na-islandii.jpg)
+[![](images/1177e-z22562641vtrojwymiarowe-przejscie-dla-pieszych-na-islandii.jpg)](images/1177e-z22562641vtrojwymiarowe-przejscie-dla-pieszych-na-islandii.jpg)
 
-[![](images/b66f1-picture.png)](https://antybariera.pl/wp-content/uploads/2020/08/b66f1-picture.png)
+[![](images/b66f1-picture.png)](images/b66f1-picture.png)
 
-[![](images/d3333-podwyzszone-przejscie-dla-pieszych.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/d3333-podwyzszone-przejscie-dla-pieszych.jpg)
+[![](images/d3333-podwyzszone-przejscie-dla-pieszych.jpg)](images/d3333-podwyzszone-przejscie-dla-pieszych.jpg)
 
   
 Dzisiaj możliwości techniki ale i pomysłowość zdolnych ludzi nie ma granic. Coraz bardziej popularne (na bezpieczeństwo i życie każdego z nas) stają się na naszych ulicach dosyć oryginalne przejścia dla pieszych.  

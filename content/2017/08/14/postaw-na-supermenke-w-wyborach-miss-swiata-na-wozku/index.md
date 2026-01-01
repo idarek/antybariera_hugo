@@ -25,8 +25,3 @@ Kto by uwierzył? Nie chodzi, nie mówi, mieszka w Koszalinie a studiuje w Krako
 Jakiś czas temu minęłyśmy się z Beatą w Bonarce, trochę za późno skojarzyłam. Nie znamy się osobiście, ale może kiedyś... jakiś wywiadzik?! Zobaczymy.
 
 Beata Jalocha jest jedną z dziesięciu kandydatek Polski do **Miss Świata na wózku**. Głosowanie trwa do 18.08.2017r. Tu moja malutka prośba, zagłosujcie na dziewczynę, która dzięki swoim dokonaniom próbuje udowodnić również ludziom sprawnym, że mimo niepełnosprawności  można spełnić i zrealizować swoje marzenia i wytyczone cele. Sama już zagłosowałam. Trzymam mocno kciuki. Mam nadzieję, że przy naszym licznym wsparciu na szansę wygrać. Dwa lata temu została Vice Miss Polski.
-
-[https://jedyna-taka.pl/miss,6,beata-jalocha.html](https://jedyna-taka.pl/miss,6,beata-jalocha.html)  
-Aby oddać głos na kandydatkę nr **#6**  
-wyślij **SMS** na numer **72068** o treści:  
-**TC.JEDYNA.6**

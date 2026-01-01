@@ -21,11 +21,8 @@ Egzoszkielet to urządzenie, które może pomóc w różnym stopniu osobom niepe
 
 Wśród moich znajomych są ludzie, którzy zapewne mają więcej informacji odnośnie tego "instrumentu" w praktycznym jego użyciu. Tu moja prośba, liczę na podpowiedzi i komentarze, które pomogą mi w zorganizowaniu próby.
 
-Trafiłam na ciekawy [felieton, w którym jego autor testuje egzoszkielet](https://www.spidersweb.pl/2014/12/egzoszkielet-uzywanie.html).
+Trafiłam na ciekawy felieton, w którym jego autor testuje egzoszkielet.
 
 Dawid zaskoczył mnie trafnością przemyśleń, gdyby w pewnej chwili nie wyjawił, że jest zdrowy trwałabym w przekonaniu, że autor felietonu jest osobą niepełnosprawną.
 
-W artykułach, których adresy zamieszczam poniżej,znalazłam cząstkę swojej historii. Im się udało, może...
-
-1. [gazetakrakowska.pl - Stawia pierwsze kroki po ciezkim wypadku sprzed 12-lat](https://www.gazetakrakowska.pl/artykul/3466089,stawia-pierwsze-kroki-po-ciezkim-wypadku-sprzed-12-lat,id,t.html)
-2. [dziennikzachodni.pl - Po czternastu latach wstał z wózka inwalidzkiego i poszedł na spacer](https://www.dziennikzachodni.pl/serwisy/zdrowie/a/po-czternastu-latach-wstal-z-wozka-inwalidzkiego-i-poszedl-na-spacer,9911487/)
+W artykułach,znalazłam cząstkę swojej historii.

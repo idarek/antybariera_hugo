@@ -30,7 +30,7 @@ Zobaczymy, swoją podróż pociągiem do mojego kochanego Krakowa przekładam z 
 
 W Polsce jest sześćdziesiąt miast zapewniających odpowiednią opiekę w podróży osobom na wózkach. Zastanawia mnie jedna sprawa. Nigdzie nie wypatrzyłam warunków wejścia osoby na wózku do wagonu pociągu.
 
-[![](images/55fa9-20140528_104800-e1550101592918.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/55fa9-20140528_104800-e1550101592918.jpg)
+[![](images/55fa9-20140528_104800-e1550101592918.jpg)](images/55fa9-20140528_104800-e1550101592918.jpg)
 
 Mam nadzieję, że platformy w końcu znajdą zastosowanie. Wstanę z wózka, zrobię kilka a nawet kilkadziesiąt kroków na własnych nogach, ale wejście schodami do wagonu sprawia trudność osobom tym bardzo sprawnym. Może kiedyś.....
 

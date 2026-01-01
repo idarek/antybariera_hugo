@@ -39,5 +39,5 @@ Odwiedzę moje kochane miasto.
 ![](images/ad120-20150327_155424.jpg)
     
 ![](images/a80f3-resized_20170528_153909.jpeg)
-    
-https://youtu.be/22CWC6q\_bCw
+
+{{< youtube 22CWC6q\_bCw >}}

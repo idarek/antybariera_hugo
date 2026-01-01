@@ -8,7 +8,7 @@ tags:
 featuredImage: "images/deccf-escape-hunt-room-singapore.jpg"
 ---
 
-[![](images/b652c-download.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/b652c-download.jpg)
+[![](images/b652c-download.jpg)](images/b652c-download.jpg)
 
 Moim zdaniem  powinno się krzyczeć o tej tragedii, której winni są znowu dorośli. Czy my rzeczywiście  potrzebujemy teczek zezwoleń? Chyba tak, bo nie chcemy być przewidywalni, przezorni, szukamy oszczędności w wydatkach ,które zapewniają bezpieczeństwo.
 
@@ -21,4 +21,4 @@ Moim zdaniem  powinno się krzyczeć o tej tragedii, której winni są znowu do
 
 Nie pieniądze, wielka kasa jest najważniejsza w życiu , ale zdrowy rozsądek ludzi, który zapobiegłby z pewnością wielu dramatom.
 
-[![](images/c8d4b-skynews-poland-escape-room_4538468.jpg)](https://antybariera.pl/wp-content/uploads/2020/08/c8d4b-skynews-poland-escape-room_4538468.jpg)
+[![](images/c8d4b-skynews-poland-escape-room_4538468.jpg)](images/c8d4b-skynews-poland-escape-room_4538468.jpg)
