@@ -12,6 +12,8 @@
 
 {{- $random := hash.XxHash $image.RelPermalink }}
 
+<span id="close-{{ $random }}" class="lightbox-close-target"></span>
+
 <figure>
 
 <a href="#image-{{ $random }}" title="Naciśnij aby powiększyć obraz">
@@ -95,7 +97,7 @@
 </figure>
 
 <div>
-        <a href="#_" class="lightbox" id="image-{{ $random }}">
+        <a href="#close-{{ $random }}" class="lightbox" id="image-{{ $random }}">
                 <span style="background-image:url('{{ $image.RelPermalink }}')"></span>        
         </a>
 </div>
