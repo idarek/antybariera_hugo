@@ -1,2 +1,2 @@
 # Hugo version 0.123+
-hugo server --renderToMemory --logLevel info --printPathWarnings
+hugo server --renderToMemory --logLevel info --printPathWarnings --templateMetrics --templateMetricsHints
