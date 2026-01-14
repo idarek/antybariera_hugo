@@ -1,6 +1,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+<title>
+  {{- $siteTitle := .Site.Title -}}
+  {{- $desc := .Site.Params.description -}}
+  {{- $pageNo := "" -}}
+  {{- if and .IsNode (gt .Paginator.PageNumber 1) -}}
+    {{- $pageNo = printf "%s%d" (" | Strona ") .Paginator.PageNumber -}}
+  {{- end -}}
+  {{- if .IsHome -}}
+    {{- if $pageNo -}}
+      {{- printf "%s%s" $siteTitle $pageNo -}}
+    {{- else -}}
+      {{- $fullHome := $desc -}}
+      {{- if lt (len $fullHome) 70 -}}{{- $fullHome -}}{{- else -}}{{- $siteTitle -}}{{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $rawTitle := .Title -}}
+    {{- if in .Permalink "/tag/" -}}
+      {{- $rawTitle = printf "%s: %s" ("Wpisy z tagiem") .Title -}}
+    {{- end -}}
+    {{- $fullTitle := printf "%s | %s%s" $rawTitle $siteTitle $pageNo -}}
+    {{- if lt (len $fullTitle) 70 -}}
+      {{- $fullTitle -}}
+    {{- else -}}
+      {{- if $pageNo -}}
+        {{- printf "%s%s" $rawTitle $pageNo -}}
+      {{- else -}}
+        {{- $rawTitle -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</title>
+
 {{ partialCached "css/style.html" . }}
 
 
