@@ -1,7 +1,7 @@
 {{ define "main" }}
   <section>
     <article id="article" class="article">
-      <h2 class="entry-title">{{ .LinkTitle }}</h2>
+      <h1 class="entry-title">{{ .LinkTitle }}</h1>
       {{- if not .Params.omitDate }}{{ partial "date.html" . }}{{ end -}}
 
       {{ partial "featured-image.html" . }}

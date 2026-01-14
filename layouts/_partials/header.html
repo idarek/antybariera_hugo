@@ -1,14 +1,27 @@
-{{- with resources.Get "svg/antybariera_logo.svg" }}
 <header class="site-header" role="banner">
+  {{ if .IsHome }}
   <h1 class="logo-container">
+  {{ else }}
+  <p class="logo-container">
+  {{ end }}
+    {{- with resources.Get "svg/antybariera_logo.svg" }}
     <a href="/" class="logo-link">
-        <img src="{{ .RelPermalink }}" alt="" aria-hidden="true" class="logo" />
+        <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" aria-hidden="true" class="logo" />
         <span class="visually-hidden">{{ site.Title }}</span>
     </a>
+    {{- end }}
+  {{ if .IsHome }}
   </h1>
+  {{ else }}
+  </p>
+  {{ end }}
 </header>
-{{- end }}
 
 {{ partial "follow-head-buttons.html" . }}
 
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+
+
+
+
