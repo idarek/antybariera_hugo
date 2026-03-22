@@ -9,7 +9,7 @@ locale: pl
 backend:
   name: github
   repo: idarek/antybariera_hugo
-  branch: staging
+  branch: main
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
@@ -19,6 +19,8 @@ backend:
     delete: "Usunięto wpis: {{slug}} (przez {{author-name}})"
     uploadMedia: "Przesłano plik: {{path}} (przez {{author-name}})"
     deleteMedia: "Usunięto plik: {{path}} (przez {{author-name}})"
+
+publish_mode: editorial_workflow
 
 yaml_formatting:
   indent_sequences: true
@@ -69,6 +71,14 @@ collections:
         name: "author"
         widget: "hidden"
         default: "{{author-name}}" # Automatically becomes "Agata Krokosz" (from GitHub)
+      - label: "Status wpisu"
+        name: "status"
+        widget: "select"
+        options: 
+          - { label: "Szkic (Draft)", value: "draft" }
+          - { label: "Do przeglądu (Review)", value: "review" }
+          - { label: "Gotowy (Final)", value: "final" }
+        default: "draft"
       - label: "Tytuł"
         name: "title"
         widget: "string"
