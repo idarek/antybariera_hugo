@@ -10,6 +10,9 @@ backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: main
+  # Updated for modern Netlify/Sveltia authentication
+  base_url: https://api.netlify.com
+  site_id: "dfce4a09-788d-4dc7-ac5a-001782ebdfa5" # Copy the Project ID from Netlify
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
