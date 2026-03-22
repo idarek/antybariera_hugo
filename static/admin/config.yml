@@ -115,6 +115,7 @@ collections:
         line_numbers: true
         media_library:
           allow_external_urls: false # Force images to be saved locally to your Page Bundle
+          max_file_size: 4194304 # Limit to 4MB (2048 * 2048 bytes)
       - label: "Tagi"
         name: "tags"
         widget: "list"
