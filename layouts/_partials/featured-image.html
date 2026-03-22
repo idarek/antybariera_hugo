@@ -12,7 +12,7 @@
     {{ end }}
 {{ end }}
 
-<div class="featured-media" aria-hidden="true">
+<div class="featured-media">
   <picture>
 
 {{ $isJPG := eq (path.Ext $ftimgsrc) ".jpg" }}
@@ -75,13 +75,15 @@
 {{ end }}
 
    <img
-    src="{{ $ftimgsrc.RelPermalink }}"
-    alt="{{ .Title | transform.Plainify | transform.XMLEscape }}"
-    decoding="async"
-    {{ if or ($isJPG) ($isJPEG) ($isPNG) }}width="{{ $ftimgsrc.Width }}"
-    height="{{ $ftimgsrc.Height }}"{{ end }}
-    fetchpriority="high"
-    aria-hidden="true">
+        src="{{ $ftimgsrc.RelPermalink }}"
+        {{ $altText := .Params.featuredImageAlt | default .Title }}
+        alt="{{ $altText | transform.Plainify | transform.XMLEscape }}"
+        decoding="async"
+        {{ if or ($isJPG) ($isJPEG) ($isPNG) }}
+        width="{{ $ftimgsrc.Width }}"
+        height="{{ $ftimgsrc.Height }}"
+        {{ end }}
+        fetchpriority="high">
 
   </picture>
 </div>

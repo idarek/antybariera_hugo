@@ -1,9 +1,27 @@
+site_url: https://antybariera.pl
+display_name: AntyBariera CMS
+app_title: AntyBariera CMS # <--- Added in v0.141.0
+logo:
+  src: https://antybariera.pl/svg/antybariera_logo.svg
+
+locale: pl
+
 backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: staging
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
+  # Custom commit message with the author's name
+  commit_messages:
+    create: "Dodano wpis: {{slug}} (przez {{author-name}})"
+    update: "Aktualizacja wpisu: {{slug}} (przez {{author-name}})"
+    delete: "Usunięto wpis: {{slug}} (przez {{author-name}})"
+    uploadMedia: "Przesłano plik: {{path}} (przez {{author-name}})"
+    deleteMedia: "Usunięto plik: {{path}} (przez {{author-name}})"
+
+yaml_formatting:
+  indent_sequences: true
 
 local_backend: true
 
@@ -14,26 +32,27 @@ i18n:
   default_locale: pl
   locales:
     - pl
-    - en
 
 collections:
   - name: "posts"
     label: "Wpisy"
     folder: "content"
-    create: false # enable later on
-    slug: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    nested: true  # <--- Added in v0.113.0
+    relative_assets: true
+    slug: "{{slug}}"
     extension: "md"
     path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
-    media_folder: "content/{{year}}/{{month}}/{{day}}/{{slug}}/images/"
-    public_folder: "{{year}}/{{month}}/{{day}}/{{slug}}/images"
+    media_folder: "images"
+    public_folder: "images"
+    media_folder_relative: true
     identifier_field: [ date, title ]
     sortable_fields:
       fields: [ date ]
       default:
         field: date
         direction: descending
-    thumbnail: featuredImage
-
+    thumbnail: "featuredImage" # Ensure this field is filled
+    summary: "{{date}} | {{title}}"
     view_groups:
       groups:
         - name: year
@@ -46,21 +65,46 @@ collections:
           pattern: \d{4}-\d{2}-\d{2}
       default: year
     fields:
+      - label: "Autor"
+        name: "author"
+        widget: "hidden"
+        default: "{{author-name}}" # Automatically becomes "Agata Krokosz" (from GitHub)
       - label: "Tytuł"
         name: "title"
         widget: "string"
+      - label: "Opis SEO (Meta Description)"
+        name: "description"
+        widget: "text" # Use text for a multi-line box
+        required: false
+        hint: "Krótki opis widoczny w wyszukiwarce Google (zalecane do 255 znaków)."
       - label: "Data"
         name: "date"
         widget: "datetime"
         default: "{{now}}"
-        time_format: false
+        # NEW in v0.142.0:
+        type: "date"
+        # Optional: Prevent accidental dates before the project started
+        min: "2024-01-01" 
+        # Keeps the Polish display for Agata
+        # This makes the CMS UI look like your Hugo output: 22 Marca 2026
+        display_format: "D MMMM YYYY"
       - label: "Obrazek wyróżniający"
         name: "featuredImage"
         widget: "image"
         required: false
+      - label: "Opis obrazka (SEO/Alt)"
+        name: "featuredImageAlt"
+        widget: "string"
+        required: false
+        hint: "Opisz co jest na zdjęciu dla osób niewidomych i wyszukiwarek."
       - label: "Treść"
         name: "body"
         widget: "markdown"
+        sanitize_preview: false
+        # minimal: true  <-- Keep this in mind if you see weird symbols appearing in your .md files
+        line_numbers: true
+        media_library:
+          allow_external_urls: false # Force images to be saved locally to your Page Bundle
       - label: "Tagi"
         name: "tags"
         widget: "list"
