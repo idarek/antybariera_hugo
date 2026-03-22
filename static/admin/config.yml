@@ -10,7 +10,12 @@ backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: main
+  # This points Sveltia directly to the Identity service on your site
+  base_url: https://antybariera.pl
+  auth_endpoint: .netlify/identity
+  # Keep the site_id as the UUID
   site_id: "dfce4a09-788d-4dc7-ac5a-001782ebdfa5"
+
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
