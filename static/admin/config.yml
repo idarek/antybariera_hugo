@@ -10,8 +10,15 @@ backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: main
-  site_id: "antybariera.pl"
-  skip_ci: true
+
+  # DIRECT GITHUB SETTINGS:
+  # This Client ID tells GitHub which app is requesting access.
+  app_id: "YOUR_GITHUB_CLIENT_ID_HERE" 
+  
+  # This tells Sveltia to use the modern PKCE login flow (no proxy needed)
+  auth_type: pkce
+
+  skip_ci: truegit
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
   commit_messages:
