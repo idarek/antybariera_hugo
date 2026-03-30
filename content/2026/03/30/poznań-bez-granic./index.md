@@ -1,6 +1,6 @@
 ---
 author: AntyBariera.pl
-status: final
+status: review
 title: Poznań bez granic.
 description: '"Biegnę "kolejny raz w stolicy światowego biegu............dla tych co nie mogą.Magiczne miejsce, cudowni ludzie i niezapomniana atmosfera....Lubię wracać tam.....'
 date: 2026-03-30
