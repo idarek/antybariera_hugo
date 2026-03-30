@@ -2,7 +2,7 @@
 author: AntyBariera.pl
 status: final
 title: Poznań bez granic.
-description: '"Biegnę "kolejny raz w stolicy światowego biegu............dla tych co nie mogą.Magiczne miejsce, cudowni ludzie i niezapomniana atmosfera....Lubię wracać tam.....'
+description: '"Biegnę "kolejny raz w stolicy światowego biegu WINGS FOR LIFE WORLD RUN 2026 -dla tych co nie mogą.Magiczne miejsce, cudowni ludzie i niezapomniana atmosfera....Lubię wracać tam.....'
 date: 2026-03-30
 featuredImage: images/4a91bfb41f708fed.jpeg
 featuredImageAlt: Mój numer startowy-16652 w chwilę po otwarciu zapisów
@@ -34,6 +34,6 @@ Największym moim wyzwaniem fizycznym jest "spacer "po bieżni. Ustanawiany jest
 
 Moja Gosieńka cudowne dłonie ,wycisza ból,który towarzyszy mi przewlekle.
 
-![Dziękuję. Jesteś  wyjątkowa](images/cd75ccb6-aa53-4d73-9383-679b6021b4eb.jpeg)
+![Kosmitka na koziołku w trakcie masażu.To ja](images/cd75ccb6-aa53-4d73-9383-679b6021b4eb.jpeg)
 
 Czas bezkarnie goni,moje skrzydła choć tak mocno przykurczone staram się rozwinąć.Popełniam krok do przodu,ale zdarza się i przestój. NIgdy się nie cofnęłam,choć czasami tak bardzo się chce!!!
