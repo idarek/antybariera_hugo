@@ -34,6 +34,6 @@ Największym moim wyzwaniem fizycznym jest "spacer "po bieżni. Ustanawiany jest
 
 Moja Gosieńka cudowne dłonie ,wycisza ból,który towarzyszy mi przewlekle.
 
-![Dziękuję.](images/cd75ccb6-aa53-4d73-9383-679b6021b4eb.jpeg)
+![Dziękuję. Jesteś  wyjątkowa](images/cd75ccb6-aa53-4d73-9383-679b6021b4eb.jpeg)
 
 Czas bezkarnie goni,moje skrzydła choć tak mocno przykurczone staram się rozwinąć.Popełniam krok do przodu,ale zdarza się i przestój. NIgdy się nie cofnęłam,choć czasami tak bardzo się chce!!!
