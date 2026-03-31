@@ -6,6 +6,12 @@ logo:
 
 locale: pl
 
+# NEW: Forces all media uploads and filenames to be URL-safe for Hugo
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 backend:
   name: github
   repo: idarek/antybariera_hugo
