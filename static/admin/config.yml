@@ -40,7 +40,9 @@ collections:
   - name: "posts"
     label: "Wpisy"
     folder: "content"
-    nested: true  # <--- Added in v0.113.0
+    # NEW in v0.151.0 - Allows Agata to clone existing posts
+    duplicate: true 
+    nested: true
     relative_assets: true
     slug: "{{slug}}"
     extension: "md"
@@ -121,3 +123,5 @@ collections:
         name: "tags"
         widget: "list"
         required: false
+        # NEW in v0.151.0 - Prevents Agata from adding the exact same tag twice
+        allow_duplicate: false
