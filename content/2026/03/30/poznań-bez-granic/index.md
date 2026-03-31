@@ -4,6 +4,7 @@ status: final
 title: Poznań bez granic
 description: '"Biegnę "kolejny raz w stolicy światowego biegu WINGS FOR LIFE WORLD RUN 2026 - dla tych co nie mogą. Magiczne miejsce, cudowni ludzie i niezapomniana atmosfera.... Lubię wracać tam.....'
 date: 2026-03-30
+lastmod: 2026-03-31
 featuredImage: images/4a91bfb41f708fed.jpeg
 featuredImageAlt: Mój numer startowy-16652 w chwilę po otwarciu zapisów
 ---
@@ -12,6 +13,7 @@ featuredImageAlt: Mój numer startowy-16652 w chwilę po otwarciu zapisów
 
 Od kilku lat o tej porze intensywnie przygotowuję się do światowego biegu. Biorę udział w Wings For Life World Run 2026 organizowanym w polskiej stolicy tej imprezy - w Poznaniu. 10 mają  2026r. o godzinie 13-tej (czasu polskiego) startuje jednocześnie kilkaset tysięcy biegaczy na całej kuli ziemskiej. Po upływie 30 minut zawodników zaczyna gonić ruchoma meta-samochód pościgowy, który w Poznaniu prowadzi Adam Małysz.
 
+![Z Gosią i Mamą próbujemy objąć skrzydła życia w 2025r.](images/ec325e3b-fe1e-41a0-82bd-b092bbb05c1a.jpeg)
 Mój aktualny trening wzmacnia mięśnie przy jednoczesnym ich rozciąganiu.
 
 ![Rower ręczny "Jola", która skutecznie pomaga w rozciągnięciu lewej ręki.](images/54a715fe-11e7-4221-8336-97533ae65e35.jpeg)
