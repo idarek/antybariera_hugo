@@ -11,6 +11,8 @@ slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "-"
+  # NEW in v0.152.0: Uses Agata's local time for {{year}}/{{month}}/{{day}} folders
+  timezone: "local"
 
 backend:
   name: github
