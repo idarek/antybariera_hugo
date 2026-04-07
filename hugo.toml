@@ -1,8 +1,15 @@
 baseURL = 'https://antybariera.pl/'
-languageCode = 'pl-pl'
 DefaultContentLanguage = "pl"
 title = 'AntyBariera Dziennikarska'
 pluralizeListTitles = false
+
+[languages]
+  [languages.pl]
+    contentDir = "content"
+    direction = "ltr"
+    weight = 1
+    locale = "pl-PL"
+    label = "Polski"
 
 [outputs]
   page = [ "html"]
