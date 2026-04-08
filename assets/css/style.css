@@ -1,38 +1,44 @@
 /* lato-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local(''), url('/fonts/lato-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  text-rendering: optimizeSpeed;
+  src: url('/fonts/lato-v25-latin-regular.woff2') format('woff2');
 }
 /* lato-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local(''), url('/fonts/lato-v25-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  text-rendering: optimizeSpeed;
+  src: url('/fonts/lato-v25-latin-italic.woff2') format('woff2');
 }
 /* lato-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local(''), url('/fonts/lato-v25-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  text-rendering: optimizeSpeed;
+  src: url('/fonts/lato-v25-latin-700.woff2') format('woff2');
 }
 /* lato-900 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: local(''), url('/fonts/lato-v25-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  text-rendering: optimizeSpeed;
+  src: url('/fonts/lato-v25-latin-900.woff2') format('woff2');
+}
+
+body {
+  /* Enables standard ligatures (like 'fi', 'fl') */
+  font-variant-ligatures: common-ligatures;
+  /* Ensures proper spacing between characters */
+  font-kerning: normal;
+  /* Standard way to help with font smoothing on macOS/iOS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /**
@@ -146,6 +152,14 @@ html {
   font-size: 100%; /* Use 1rem = 16px as base */
   scroll-behavior: smooth;
   scrollbar-color: var(--orange) transparent;
+}
+
+/* Chrome, Edge, and Safari */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
 }
 
 body {
@@ -636,7 +650,7 @@ footer {
   padding: 2rem 0;
   font-size: 0.8rem;
   color: var(--dark-gray);
-  line-height: .25rem;
+  line-height: 1.5;
 }
 
 /* .follow-buttons */
@@ -648,10 +662,6 @@ footer {
   align-items: baseline;
   vertical-align: middle;
   padding-bottom: 2rem;
-}
-.follow-buttons:after {
-  content: "";
-  display: block;
 }
 .follow-buttons figure {
   position: relative;
@@ -956,8 +966,8 @@ form#custom-search button[type="submit"] {
 }
 
 form#custom-search button[type="submit"]:hover {
-  color: var(--orange);
-  background-color: var(--orange);
+  background-color: var(--orange-dark);
+  border-color: var(--orange-dark);
 }
 
 .external-search {
