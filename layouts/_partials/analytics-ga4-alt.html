@@ -1,24 +1,32 @@
 <script>
+  /**
+   * Minimal Analytics 4 - Hybrid Detection Loader
+   * Prioritises direct tracking; falls back to proxied tracking if blocked.
+   */
+  (function() {
+    // We check a known script URL that ad-blockers always target
+    const target = 'https://www.google-analytics.com/analytics.js';
 
-    let blocked = false;
-  
-    const ascript = document.createElement('script');
-    ascript.src = 'https://www.google-analytics.com/g/collect';
-  
-    ascript.onload = function() {
-      blocked = false;
-      const successScript = document.createElement('script');
-      successScript.src = '/js/success.js';
-      document.head.appendChild(successScript);
+    fetch(target, { 
+      mode: 'no-cors', 
+      cache: 'no-store',
+      // We set a short timeout so we don't wait forever on a slow connection
+      signal: AbortSignal.timeout(1500) 
+    })
+    .then(() => {
+      // Not blocked: Load the direct script
+      loadScript('/js/success.js');
+    })
+    .catch(() => {
+      // Blocked or Timed Out: Load the masked script
+      loadScript('/js/alternate.js');
+    });
+
+    function loadScript(src) {
+      const s = document.createElement('script');
+      s.src = src;
+      s.async = true; 
+      document.head.appendChild(s);
     }
-  
-    ascript.onerror = function() {
-      blocked = true;
-      const alternateScript = document.createElement('script');
-      alternateScript.src = '/js/alternate.js';
-      document.head.appendChild(alternateScript);
-    }
-  
-    document.head.appendChild(ascript);
-  
-  </script>
+  })();
+</script>
