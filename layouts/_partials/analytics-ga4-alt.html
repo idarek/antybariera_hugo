@@ -1,32 +1,38 @@
 <script>
-  /**
-   * Minimal Analytics 4 - Hybrid Detection Loader
-   * Prioritises direct tracking; falls back to proxied tracking if blocked.
-   */
-  (function() {
-    // We check a known script URL that ad-blockers always target
-    const target = 'https://www.google-analytics.com/analytics.js';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
 
-    fetch(target, { 
-      mode: 'no-cors', 
-      cache: 'no-store',
-      // We set a short timeout so we don't wait forever on a slow connection
-      signal: AbortSignal.timeout(1500) 
-    })
-    .then(() => {
-      // Not blocked: Load the direct script
-      loadScript('/js/success.js');
-    })
-    .catch(() => {
-      // Blocked or Timed Out: Load the masked script
-      loadScript('/js/alternate.js');
-    });
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+
+  // Global Function: Both the Head and the Cookie Banner will call this
+  window.fireMinimalGA4 = function() {
+    // Prevent double-loading
+    if (window.ma4Loaded) return;
+    window.ma4Loaded = true;
+
+    const target = 'https://www.google-analytics.com/analytics.js';
+    fetch(target, { mode: 'no-cors', cache: 'no-store', signal: AbortSignal.timeout(1500) })
+      .then(() => loadScript('/js/success.js'))
+      .catch(() => loadScript('/js/alternate.js'));
 
     function loadScript(src) {
       const s = document.createElement('script');
-      s.src = src;
-      s.async = true; 
+      s.src = src; s.async = true;
       document.head.appendChild(s);
     }
-  })();
+  };
+
+  // Immediate fire for returning users
+  if (localStorage.getItem("cookie_consent_status") === "granted") {
+    gtag('consent', 'update', {
+      'ad_storage': 'granted', 'ad_user_data': 'granted',
+      'ad_personalization': 'granted', 'analytics_storage': 'granted'
+    });
+    window.fireMinimalGA4();
+  }
 </script>

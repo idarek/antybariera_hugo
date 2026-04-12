@@ -1,0 +1,14 @@
+[CookieNoticeHeader]
+other = "Ustawienia prywatności"
+[CookieNoticeAcceptExplain]
+other = "Używamy plików cookie i pamięci lokalnej do analizy ruchu oraz poprawy komfortu użytkowania."
+[CookieNoticePermLinkTitle]
+other = "Polityka cookies"
+[CookieNoticePermLink]
+other = "polityka-cookies"
+[CookieAcceptBtn]
+other = "Zaakceptuj wszystko"
+[CookieNoticeRejectExplain]
+other = "Masz prawo odmówić śledzenia. W przypadku odrzucenia będziemy używać wyłącznie niezbędnych technicznych plików cookie."
+[CookieRejectBtn]
+other = "Odrzuć wszystko"

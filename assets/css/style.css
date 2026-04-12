@@ -225,7 +225,7 @@ a:focus {
 }
 
 /* 4. Buttons */
-button,
+.search button,
 input[type="submit"],
 input[type="button"] {
   font: inherit;
@@ -237,8 +237,8 @@ input[type="button"] {
   cursor: pointer;
 }
 
-button:hover,
-button:focus {
+.search button:hover,
+.search button:focus {
   background: var(--orange-dark);
 }
 
@@ -980,3 +980,118 @@ form#custom-search button[type="submit"]:hover {
 }
 
 /* END search */
+
+/* Universal Cookie Banner Template */
+
+:root {
+    /* Site-specific variables */
+    --cookie-bg: #ffffff;
+    --cookie-text: #2f3640;
+    --cookie-accept-bg: #F47C20;
+    --cookie-accept-text: #ffffff;
+    --cookie-reject-border: #2f3640;
+    --cookie-reject-text: #2f3640;
+    --cookie-radius: 12px;
+    --cookie-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+#CookieBanner {
+    display: none; /* Managed by js/cookie.js */
+    position: fixed;
+    z-index: 10000;
+    background: var(--cookie-bg);
+    color: var(--cookie-text);
+    box-shadow: var(--cookie-shadow);
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.cookie-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cookie-header h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Typography */
+.cookie-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+.cookie-section a {
+    color: var(--cookie-text);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Buttons - "Equal Prominence" Layout */
+.cookie-btn {
+    width: 100%;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: var(--cookie-radius);
+    transition: transform 0.1s ease, opacity 0.2s ease;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Spacing between Accept and Reject text */
+}
+
+.cookie-btn:active {
+    transform: scale(0.98);
+}
+
+/* Specific Button Logic */
+.btn-accept {
+    background: var(--cookie-accept-bg);
+    color: var(--cookie-accept-text);
+    border: 2px solid var(--cookie-accept-bg);
+}
+
+.btn-reject {
+    background: #ffffff;
+    color: var(--cookie-reject-text);
+    border: 2px solid var(--cookie-reject-border);
+    margin-bottom: 0; /* Final element in container */
+}
+
+/* --- DESKTOP: Corner Floating Card --- */
+@media (min-width: 835px) {
+    #CookieBanner {
+        right: 25px;
+        bottom: 25px;
+        width: 380px;
+        max-height: 60vh;
+        border-radius: var(--cookie-radius);
+        border: 1px solid rgba(0,0,0,0.05);
+    }
+}
+
+/* --- MOBILE: Bottom Sheet --- */
+@media (max-width: 834px) {
+    #CookieBanner {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        min-height: 45vh; /* Covers the "Thumb Zone" for engagement */
+        border-radius: 20px 20px 0 0;
+    }
+
+    .cookie-container {
+        justify-content: center; /* Vertical centering for the 50% height effect */
+    }
+}
+
+/* END of Universal Cookie Banner Template */

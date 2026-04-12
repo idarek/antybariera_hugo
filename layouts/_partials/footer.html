@@ -3,5 +3,8 @@
     {{ partial "follow-buttons.html" . }}
     
     <p>&copy; {{ now.Format "2006"}} – {{ .Site.Params.author.name }}</p>
+    <p><a href="/polityka-cookies/" title="Polityka plików Cookies i Pamięci lokalnej">Polityka plików Cookies i Pamięci lokalnej</a></p>
     <p>Strona zrobiona w <a href="https://gohugo.io" target="_blank" rel="nofollow noreferrer">Hugo</a> przez <a href="https://dariusz.wieckiewicz.org" target="_blank" rel="nofollow noopener">Dariusz Więckiewicz</a></p>
 </footer>
+
+{{ partial "cookie-notice.html" }}

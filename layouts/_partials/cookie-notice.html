@@ -1,0 +1,28 @@
+<div id="CookieBanner" class="cookie-banner js-cookie-banner" style="display: none;">
+    <div class="cookie-container">
+        <div class="cookie-header">
+            <h3>{{ T "CookieNoticeHeader" | default "Privacy Settings" }}</h3>
+        </div>
+
+        <div class="cookie-section">
+            <p>
+                {{ T "CookieNoticeAcceptExplain" | default "We use cookies and local storage to analyse our traffic and improve your experience." }}
+                <a href="/{{ T "CookieNoticePermLink" }}/">{{ T "CookieNoticePermLinkTitle" | default "Cookies Policy" }}</a>.
+            </p>
+            <button class="cookie-btn btn-accept">
+                {{ T "CookieAcceptBtn" | default "Accept All" }}
+            </button>
+        </div>
+
+        <div class="cookie-section section-reject">
+            <p>
+                {{ T "CookieNoticeRejectExplain" | default "You have the right to refuse tracking. If you reject, we will only use essential technical storage." }}
+            </p>
+            <button class="cookie-btn btn-reject">
+                {{ T "CookieRejectBtn" | default "Reject All" }}
+            </button>
+        </div>
+    </div>
+</div>
+
+{{ partialCached "js/cookie.html" . }}
