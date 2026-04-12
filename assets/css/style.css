@@ -996,22 +996,24 @@ form#custom-search button[type="submit"]:hover {
 }
 
 #CookieBanner {
-    display: none; /* Managed by js/cookie.js */
+    display: none; /* Standard starting point */
     position: fixed;
     z-index: 10000;
     background: var(--cookie-bg);
     color: var(--cookie-text);
-    box-shadow: var(--cookie-shadow);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
     box-sizing: border-box;
-    font-family: inherit;
+    /* Force iOS to use the GPU to render this element and its children */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .cookie-container {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    box-sizing: border-box;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cookie-header h3 {

@@ -4,32 +4,32 @@ const initCookieBanner = () => {
 
     if (!banner) return;
 
-    // 1. Strict Check for Consent
     const currentConsent = localStorage.getItem(consentKey);
     const hasValidChoice = (currentConsent === 'granted' || currentConsent === 'denied');
 
     if (!hasValidChoice) {
-        // Force the banner and its children to be visible
-        banner.style.setProperty('display', 'flex', 'important');
-        banner.style.opacity = "1";
-        banner.style.visibility = "visible";
+        // 1. Show the banner
+        banner.style.display = "flex";
+        
+        // 2. THE "DOM KICK" (Fixes iOS White Box)
+        // Reading offsetHeight forces Safari to render the children immediately.
+        const forceRender = banner.offsetHeight; 
+        
+        // 3. Set states
         banner.removeAttribute('inert');
         banner.setAttribute('aria-hidden', 'false');
         banner.setAttribute('data-processing', 'false');
     } else {
-        // If choice exists, ensure it is hidden
         banner.style.display = "none";
         banner.setAttribute('inert', '');
-        banner.setAttribute('aria-hidden', 'true');
         return;
     }
 
-    // 2. The Main Handler
+    // The Global Handler
     window.handleConsent = function(status) {
         if (banner.getAttribute('data-processing') === 'true') return;
         banner.setAttribute('data-processing', 'true');
 
-        console.log("Consent decision recorded:", status);
         localStorage.setItem(consentKey, status);
         
         if (typeof gtag === 'function') {
@@ -45,19 +45,14 @@ const initCookieBanner = () => {
             if (typeof window.fireMinimalGA4 === 'function') {
                 window.fireMinimalGA4();
             } else {
-                console.warn("Local Dev: Minimal GA4 would trigger.");
+                console.warn("Local Dev: GA4 would trigger.");
             }
         }
 
-        // Move focus back and hide
         document.body.focus();
         banner.style.display = "none";
-        banner.setAttribute('inert', '');
-        banner.setAttribute('aria-hidden', 'true');
     };
 
-    // 3. Attach Listeners 
-    // We use IDs to ensure we are grabbing the specific buttons
     const btnAccept = banner.querySelector('.btn-accept');
     const btnReject = banner.querySelector('.btn-reject');
 
@@ -78,17 +73,10 @@ const initCookieBanner = () => {
     }
 };
 
-// --- THE FIXES FOR iOS BLANK STATE ---
+// Listen for pageshow (handles iOS navigation/back buttons)
+window.addEventListener('pageshow', initCookieBanner);
 
-// 1. Pageshow handles the navigation/back-button logic
-window.addEventListener('pageshow', (event) => {
-    // Reset the processing state on new page show
-    const banner = document.getElementById('CookieBanner');
-    if (banner) banner.setAttribute('data-processing', 'false');
-    initCookieBanner();
-});
-
-// 2. DOMContentLoaded handles the initial cold load
+// Listen for DOM load
 if (document.readyState !== 'loading') {
     initCookieBanner();
 } else {
