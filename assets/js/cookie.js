@@ -73,12 +73,31 @@ const initCookieBanner = () => {
     }
 };
 
-// Listen for pageshow (handles iOS navigation/back buttons)
-window.addEventListener('pageshow', initCookieBanner);
+// --- THE "HUNTING" TRIGGER ---
 
-// Listen for DOM load
-if (document.readyState !== 'loading') {
+const startBanner = () => {
+    // If iOS Safari executed the script before drawing the HTML, wait 50ms and try again.
+    if (!document.getElementById('CookieBanner')) {
+        setTimeout(startBanner, 50);
+        return;
+    }
     initCookieBanner();
+};
+
+// 1. Standard Page Loads
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    startBanner();
 } else {
-    document.addEventListener('DOMContentLoaded', initCookieBanner);
+    document.addEventListener('DOMContentLoaded', startBanner);
 }
+
+// 2. iOS Back/Forward Cache (bfcache)
+window.addEventListener('pageshow', (e) => {
+    // e.persisted means the page was pulled from Safari's frozen memory
+    if (e.persisted) startBanner();
+});
+
+// 3. Hugo Theme Seamless Transitions (Pjax/Turbo)
+// If your theme intercepts links, these events force the banner to check its state
+document.addEventListener('turbolinks:load', startBanner);
+document.addEventListener('turbo:load', startBanner);
