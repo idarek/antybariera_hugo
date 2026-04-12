@@ -1,35 +1,30 @@
 const initCookieBanner = () => {
     const banner = document.getElementById('CookieBanner');
     const consentKey = "cookie_consent_status";
-    const legacyKey = "cookieBannerDisplayed";
 
-    if (!banner) {
-        console.warn("CookieBanner element not found in DOM.");
-        return;
-    }
+    if (!banner) return;
 
-    // 1. Migration & Cleanup
-    if (localStorage.getItem(legacyKey)) {
-        localStorage.removeItem(legacyKey);
-    }
-
-    // 2. Strict Check
+    // 1. Strict Check for Consent
     const currentConsent = localStorage.getItem(consentKey);
-    const hasMadeChoice = (currentConsent === 'granted' || currentConsent === 'denied');
+    const hasValidChoice = (currentConsent === 'granted' || currentConsent === 'denied');
 
-    if (!hasMadeChoice) {
-        // FORCE visibility on iOS
+    if (!hasValidChoice) {
+        // Force the banner and its children to be visible
         banner.style.setProperty('display', 'flex', 'important');
+        banner.style.opacity = "1";
+        banner.style.visibility = "visible";
         banner.removeAttribute('inert');
+        banner.setAttribute('aria-hidden', 'false');
         banner.setAttribute('data-processing', 'false');
-        console.log("iOS Status: No choice found. Banner forced to flex.");
     } else {
+        // If choice exists, ensure it is hidden
         banner.style.display = "none";
         banner.setAttribute('inert', '');
+        banner.setAttribute('aria-hidden', 'true');
         return;
     }
 
-    // 3. The Global Handler
+    // 2. The Main Handler
     window.handleConsent = function(status) {
         if (banner.getAttribute('data-processing') === 'true') return;
         banner.setAttribute('data-processing', 'true');
@@ -54,41 +49,46 @@ const initCookieBanner = () => {
             }
         }
 
+        // Move focus back and hide
         document.body.focus();
         banner.style.display = "none";
-        
-        // Slight delay for iOS UI transition
-        setTimeout(() => {
-            banner.remove();
-        }, 150);
+        banner.setAttribute('inert', '');
+        banner.setAttribute('aria-hidden', 'true');
     };
 
-    // 4. Attach Event Listeners
+    // 3. Attach Listeners 
+    // We use IDs to ensure we are grabbing the specific buttons
     const btnAccept = banner.querySelector('.btn-accept');
     const btnReject = banner.querySelector('.btn-reject');
 
-    // Use 'click' but also 'touchstart' for faster response on iOS
-    const triggerEvent = (e, status) => {
-        e.preventDefault();
-        window.handleConsent(status);
-    };
-
-    if (btnAccept) {
-        btnAccept.onclick = (e) => triggerEvent(e, 'granted');
+    if (btnAccept && !btnAccept.getAttribute('data-has-listener')) {
+        btnAccept.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.handleConsent('granted');
+        });
+        btnAccept.setAttribute('data-has-listener', 'true');
     }
     
-    if (btnReject) {
-        btnReject.onclick = (e) => triggerEvent(e, 'denied');
+    if (btnReject && !btnReject.getAttribute('data-has-listener')) {
+        btnReject.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.handleConsent('denied');
+        });
+        btnReject.setAttribute('data-has-listener', 'true');
     }
 };
 
-// --- THE iOS FIX: pageshow ---
-// 'pageshow' fires even when moving through history or internal links on iOS
+// --- THE FIXES FOR iOS BLANK STATE ---
+
+// 1. Pageshow handles the navigation/back-button logic
 window.addEventListener('pageshow', (event) => {
+    // Reset the processing state on new page show
+    const banner = document.getElementById('CookieBanner');
+    if (banner) banner.setAttribute('data-processing', 'false');
     initCookieBanner();
 });
 
-// Fallback for standard desktop browsers
+// 2. DOMContentLoaded handles the initial cold load
 if (document.readyState !== 'loading') {
     initCookieBanner();
 } else {
