@@ -9,13 +9,21 @@ const initCookieBanner = () => {
     const hasValidChoice = (currentConsent === 'granted' || currentConsent === 'denied');
 
     if (!hasValidChoice) {
-        // Force the banner and its children to be visible
-        banner.style.setProperty('display', 'flex', 'important');
-        banner.style.opacity = "1";
-        banner.style.visibility = "visible";
-        banner.removeAttribute('inert');
-        banner.setAttribute('aria-hidden', 'false');
-        banner.setAttribute('data-processing', 'false');
+        // THE iOS FIX: Wait 50ms before asking Safari to paint the fixed element.
+        // This bypasses the rendering crash that causes the white box.
+        setTimeout(() => {
+            banner.style.setProperty('display', 'flex', 'important');
+            
+            // Force a browser reflow (wakes up the GPU to draw the text/buttons)
+            void banner.offsetHeight; 
+            
+            banner.style.opacity = "1";
+            banner.style.visibility = "visible";
+            banner.removeAttribute('inert');
+            banner.setAttribute('aria-hidden', 'false');
+            banner.setAttribute('data-processing', 'false');
+        }, 50);
+        
     } else {
         // If choice exists, ensure it is hidden
         banner.style.display = "none";
@@ -57,7 +65,6 @@ const initCookieBanner = () => {
     };
 
     // 3. Attach Listeners 
-    // We use IDs to ensure we are grabbing the specific buttons
     const btnAccept = banner.querySelector('.btn-accept');
     const btnReject = banner.querySelector('.btn-reject');
 
@@ -82,7 +89,6 @@ const initCookieBanner = () => {
 
 // 1. Pageshow handles the navigation/back-button logic
 window.addEventListener('pageshow', (event) => {
-    // Reset the processing state on new page show
     const banner = document.getElementById('CookieBanner');
     if (banner) banner.setAttribute('data-processing', 'false');
     initCookieBanner();
