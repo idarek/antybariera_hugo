@@ -1004,6 +1004,9 @@ form#custom-search button[type="submit"]:hover {
     box-shadow: var(--cookie-shadow);
     box-sizing: border-box;
     font-family: inherit;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .cookie-container {
