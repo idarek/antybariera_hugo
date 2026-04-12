@@ -4,27 +4,19 @@ const initCookieBanner = () => {
 
     if (!banner) return;
 
-    // 1. Strict Check for Consent
+    // 1. Initial State Check
     const currentConsent = localStorage.getItem(consentKey);
-    const hasValidChoice = (currentConsent === 'granted' || currentConsent === 'denied');
 
-    if (!hasValidChoice) {
-        // Force the banner and its children to be visible
-        banner.style.setProperty('display', 'flex', 'important');
-        banner.style.opacity = "1";
-        banner.style.visibility = "visible";
+    if (!currentConsent) {
+        banner.style.display = "flex";
         banner.removeAttribute('inert');
-        banner.setAttribute('aria-hidden', 'false');
-        banner.setAttribute('data-processing', 'false');
     } else {
-        // If choice exists, ensure it is hidden
-        banner.style.display = "none";
         banner.setAttribute('inert', '');
-        banner.setAttribute('aria-hidden', 'true');
-        return;
+        banner.style.display = "none";
+        return; // Exit early if already decided
     }
 
-    // 2. The Main Handler
+    // 2. The Global Handler
     window.handleConsent = function(status) {
         if (banner.getAttribute('data-processing') === 'true') return;
         banner.setAttribute('data-processing', 'true');
@@ -43,54 +35,42 @@ const initCookieBanner = () => {
 
         if (status === 'granted') {
             if (typeof window.fireMinimalGA4 === 'function') {
+                console.log("Production Logic: window.fireMinimalGA4() triggered.");
                 window.fireMinimalGA4();
             } else {
-                console.warn("Local Dev: Minimal GA4 would trigger.");
+                console.warn("Local Dev Notice: Minimal GA4 would trigger now, but 'analytics-ga4-alt.html' is not loaded.");
             }
         }
 
-        // Move focus back and hide
         document.body.focus();
         banner.style.display = "none";
-        banner.setAttribute('inert', '');
-        banner.setAttribute('aria-hidden', 'true');
+        banner.remove();
     };
 
-    // 3. Attach Listeners 
-    // We use IDs to ensure we are grabbing the specific buttons
+    // 3. Attach Event Listeners
     const btnAccept = banner.querySelector('.btn-accept');
     const btnReject = banner.querySelector('.btn-reject');
 
-    if (btnAccept && !btnAccept.getAttribute('data-has-listener')) {
+    if (btnAccept) {
         btnAccept.addEventListener('click', (e) => {
             e.preventDefault();
             window.handleConsent('granted');
         });
-        btnAccept.setAttribute('data-has-listener', 'true');
     }
     
-    if (btnReject && !btnReject.getAttribute('data-has-listener')) {
+    if (btnReject) {
         btnReject.addEventListener('click', (e) => {
             e.preventDefault();
             window.handleConsent('denied');
         });
-        btnReject.setAttribute('data-has-listener', 'true');
     }
 };
 
-// --- THE FIXES FOR iOS BLANK STATE ---
-
-// 1. Pageshow handles the navigation/back-button logic
-window.addEventListener('pageshow', (event) => {
-    // Reset the processing state on new page show
-    const banner = document.getElementById('CookieBanner');
-    if (banner) banner.setAttribute('data-processing', 'false');
-    initCookieBanner();
-});
-
-// 2. DOMContentLoaded handles the initial cold load
-if (document.readyState !== 'loading') {
-    initCookieBanner();
-} else {
+// --- The "Bulletproof" Trigger ---
+if (document.readyState === 'loading') {
+    // DOM hasn't finished loading yet
     document.addEventListener('DOMContentLoaded', initCookieBanner);
+} else {
+    // DOM is already ready (common when scripts are in footer)
+    initCookieBanner();
 }
