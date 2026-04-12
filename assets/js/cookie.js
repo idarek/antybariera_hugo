@@ -1,41 +1,33 @@
 const initCookieBanner = () => {
+    const banner = document.getElementById('CookieBanner');
     const consentKey = "cookie_consent_status";
-    const originalBanner = document.getElementById('CookieBanner');
 
-    // If the banner isn't on the page, exit
-    if (!originalBanner) return;
+    if (!banner) return;
 
-    // Safeguard: Prevent the script from running twice on a cloned banner
-    if (originalBanner.getAttribute('data-cloned') === 'true') return;
-
+    // 1. Strict Check for Consent
     const currentConsent = localStorage.getItem(consentKey);
     const hasValidChoice = (currentConsent === 'granted' || currentConsent === 'denied');
 
-    if (hasValidChoice) {
-        // If a choice is already made, completely erase the banner from the DOM
-        originalBanner.remove();
+    if (!hasValidChoice) {
+        // Force the banner and its children to be visible
+        banner.style.setProperty('display', 'flex', 'important');
+        banner.style.opacity = "1";
+        banner.style.visibility = "visible";
+        banner.removeAttribute('inert');
+        banner.setAttribute('aria-hidden', 'false');
+        banner.setAttribute('data-processing', 'false');
+    } else {
+        // If choice exists, ensure it is hidden
+        banner.style.display = "none";
+        banner.setAttribute('inert', '');
+        banner.setAttribute('aria-hidden', 'true');
         return;
     }
 
-    // --- THE "CLONE & NUKE" FIX FOR iOS ---
-    // Create a pristine, unrendered copy of the banner
-    const freshBanner = originalBanner.cloneNode(true);
-    
-    // Set it up to be visible BEFORE adding it to the page
-    freshBanner.style.display = "flex";
-    freshBanner.removeAttribute('inert');
-    freshBanner.setAttribute('aria-hidden', 'false');
-    freshBanner.setAttribute('data-cloned', 'true');
-
-    // Destroy the old, buggy Safari node and swap in the fresh one
-    originalBanner.replaceWith(freshBanner);
-
-    // ----------------------------------------
-
-    // The Global Handler (Now targeting the freshBanner)
+    // 2. The Main Handler
     window.handleConsent = function(status) {
-        if (freshBanner.getAttribute('data-processing') === 'true') return;
-        freshBanner.setAttribute('data-processing', 'true');
+        if (banner.getAttribute('data-processing') === 'true') return;
+        banner.setAttribute('data-processing', 'true');
 
         console.log("Consent decision recorded:", status);
         localStorage.setItem(consentKey, status);
@@ -53,39 +45,50 @@ const initCookieBanner = () => {
             if (typeof window.fireMinimalGA4 === 'function') {
                 window.fireMinimalGA4();
             } else {
-                console.warn("Local Dev: GA4 would trigger.");
+                console.warn("Local Dev: Minimal GA4 would trigger.");
             }
         }
 
+        // Move focus back and hide
         document.body.focus();
-        
-        // Completely destroy the banner once a choice is made
-        freshBanner.remove();
+        banner.style.display = "none";
+        banner.setAttribute('inert', '');
+        banner.setAttribute('aria-hidden', 'true');
     };
 
-    // Attach Listeners to the new, cloned buttons
-    const btnAccept = freshBanner.querySelector('.btn-accept');
-    const btnReject = freshBanner.querySelector('.btn-reject');
+    // 3. Attach Listeners 
+    // We use IDs to ensure we are grabbing the specific buttons
+    const btnAccept = banner.querySelector('.btn-accept');
+    const btnReject = banner.querySelector('.btn-reject');
 
-    if (btnAccept) {
+    if (btnAccept && !btnAccept.getAttribute('data-has-listener')) {
         btnAccept.addEventListener('click', (e) => {
             e.preventDefault();
             window.handleConsent('granted');
         });
+        btnAccept.setAttribute('data-has-listener', 'true');
     }
     
-    if (btnReject) {
+    if (btnReject && !btnReject.getAttribute('data-has-listener')) {
         btnReject.addEventListener('click', (e) => {
             e.preventDefault();
             window.handleConsent('denied');
         });
+        btnReject.setAttribute('data-has-listener', 'true');
     }
 };
 
-// Listen for pageshow (handles mobile navigation/back buttons)
-window.addEventListener('pageshow', initCookieBanner);
+// --- THE FIXES FOR iOS BLANK STATE ---
 
-// Listen for standard DOM load
+// 1. Pageshow handles the navigation/back-button logic
+window.addEventListener('pageshow', (event) => {
+    // Reset the processing state on new page show
+    const banner = document.getElementById('CookieBanner');
+    if (banner) banner.setAttribute('data-processing', 'false');
+    initCookieBanner();
+});
+
+// 2. DOMContentLoaded handles the initial cold load
 if (document.readyState !== 'loading') {
     initCookieBanner();
 } else {
