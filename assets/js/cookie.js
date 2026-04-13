@@ -66,11 +66,19 @@ const initCookieBanner = () => {
     }
 };
 
-// --- The "Bulletproof" Trigger ---
+// --- The "Bulletproof" Trigger & bfcache Fix ---
+
+// 1. Handle iOS Back-Forward Cache (bfcache) navigation
+window.addEventListener('pageshow', (event) => {
+    // e.persisted is true if the page was loaded from the frozen bfcache
+    if (event.persisted) {
+        initCookieBanner();
+    }
+});
+
+// 2. Handle standard page loads
 if (document.readyState === 'loading') {
-    // DOM hasn't finished loading yet
     document.addEventListener('DOMContentLoaded', initCookieBanner);
 } else {
-    // DOM is already ready (common when scripts are in footer)
     initCookieBanner();
 }
