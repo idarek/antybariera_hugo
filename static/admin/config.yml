@@ -19,6 +19,9 @@ backend:
   repo: idarek/antybariera_hugo
   branch: main
 
+  # NEW in v0.154.0 - Hides the "Sign in with Token" button to avoid confusing Agata
+  disable_token_auth: true
+
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
