@@ -12,3 +12,6 @@ other = "Zaakceptuj wszystko"
 other = "Masz prawo odmówić śledzenia. W przypadku odrzucenia będziemy używać wyłącznie niezbędnych technicznych plików cookie."
 [CookieRejectBtn]
 other = "Odrzuć wszystko"
+
+[ResetPrivacyPreferences]
+other = "Zresetuj preferencje prywatności"

@@ -1,0 +1,39 @@
+<div>
+    <p><a href="#" id="reset-privacy-prefs">{{ T "ResetPrivacyPreferences" | default "Reset Privacy Preferences" }}</a></p>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const resetBtn = document.getElementById('reset-privacy-prefs');
+        const banner = document.getElementById('CookieBanner');
+        
+        if (resetBtn) {
+            resetBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // 1. Erase the saved consent
+                localStorage.removeItem('cookie_consent_status');
+                
+                // 2. Reset Google's Consent Mode to default (denied)
+                if (typeof gtag === 'function') {
+                    gtag('consent', 'default', {
+                        'ad_storage': 'denied',
+                        'ad_user_data': 'denied',
+                        'ad_personalization': 'denied',
+                        'analytics_storage': 'denied'
+                    });
+                }
+                
+                // 3. Unhide the banner so they can make a new choice
+                if (banner) {
+                    banner.style.display = 'flex';
+                    banner.removeAttribute('inert');
+                    banner.setAttribute('aria-hidden', 'false');
+                    banner.setAttribute('data-processing', 'false');
+                }
+                
+                console.log("Privacy preferences reset.");
+            });
+        }
+    });
+</script>
