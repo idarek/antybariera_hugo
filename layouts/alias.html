@@ -8,7 +8,7 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <meta name="robots" content="noindex, follow">
     <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
-    <script>window.location.href={{ .Permalink | jsonify | safeJS }};</script>
+    <script>window.location.href="{{ .Permalink | safeJS }}";</script>
   </head>
   <body aria-live="polite">
     <h1>Przekierowanie...</h1>
