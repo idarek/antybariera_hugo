@@ -10,8 +10,8 @@ Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), m
 Access-Control-Allow-Origin: *
 
 /*.html
-  Cache-Control: public, max-age=30, stale-while-revalidate=30, stale-if-error=600
-
+  Cache-Control: public, max-age=60, stale-while-revalidate=120, stale-if-error=86400
+  
 /sw.js
   Cache-Control: public, max-age=86400, immutable
 /manifest.webmanifest
