@@ -8,5 +8,67 @@
   </head>
   <body>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <!-- Niestandardowy przycisk YouTube dla Agaty -->
+    <script>
+      CMS.registerEditorComponent({
+        // Wewnętrzne ID komponentu
+        id: "youtube",
+        // Etykieta, którą Agata zobaczy w menu edytora
+        label: "Wideo z YouTube",
+        // Formularz, który pojawi się w okienku popup
+        fields: [
+          {
+            name: "url",
+            label: "Link do filmu na YouTube",
+            widget: "string",
+            hint: "Po prostu wklej cały link (np. https://www.youtube.com/watch?v=8vmnxgyr20Q) lub z telefonu (youtu.be/8vmnxgyr20Q). System sam wyciągnie ID!"
+          }
+        ],
+        
+        // Jak Sveltia rozpoznaje istniejące shortcode'y w plikach .md
+        // Łapie klasyczne {{< youtube 8vmnxgyr20Q >}}
+        pattern: /^{{<\s*youtube\s+([a-zA-Z0-9_-]+)\s*>}}$/,
+        
+        // Jak ładuje stare dane z powrotem do okienka, gdy Agata edytuje wpis
+        fromBlock: function(match) {
+          return { url: match[1] };
+        },
+        
+        // Co system wpisuje do pliku Markdown, gdy Agata kliknie "Zapisz"
+        toBlock: function(obj) {
+          let input = obj.url || "";
+          let videoId = input.trim();
+          
+          // Magia: Regex, który wyciąga z dowolnego linku YouTube tylko 11-znakowe ID
+          let match = input.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+          
+          // Jeśli znaleziono pełny link, użyj wyciętego ID. Jeśli nie, załóż, że wkleiła samo ID.
+          if (match && match[1]) {
+            videoId = match[1];
+          }
+
+          return `{{< youtube ${videoId} >}}`;
+        },
+        
+        // Co Agata widzi po prawej stronie w panelu podglądu na żywo
+        toPreview: function(obj) {
+          let input = obj.url || "";
+          let videoId = input.trim();
+          let match = input.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+          
+          if (match && match[1]) {
+            videoId = match[1];
+          }
+
+          if (!videoId) return "<em>Wklej link do YouTube...</em>";
+
+          // Pokazuje prawdziwą miniaturkę z YouTube jako potwierdzenie, że zadziałało
+          return `<div style="background:#eee; padding:10px; border-radius:8px; text-align:center;">
+                    <img src="https://img.youtube.com/vi/${videoId}/hqdefault.jpg" alt="YouTube Preview" style="max-width:100%; border-radius: 4px;"/>
+                    <p style="font-family:sans-serif; font-size:12px; color:#555; margin-top:5px;">Podgląd wideo YouTube</p>
+                  </div>`;
+        }
+      });
+    </script>
   </body>
 </html>

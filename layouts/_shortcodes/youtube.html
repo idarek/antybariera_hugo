@@ -1,0 +1,31 @@
+{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+{{- if not $pc.Disable -}}
+  {{- $ytHost := cond $pc.PrivacyEnhanced "www.youtube-nocookie.com" "www.youtube.com" -}}
+  {{- $id := .Get "id" | default (.Get 0) -}}
+  {{- $class := .Get "class" | default (.Get 1) -}}
+  {{- $title := .Get "title" | default "YouTube Video" -}}
+  
+  {{/* Create the base URL */}}
+  {{- $url := printf "https://%s/embed/%s" $ytHost $id -}}
+  
+  {{/* Append autoplay if requested */}}
+  {{- if eq (.Get "autoplay") "true" -}}
+    {{- $url = printf "%s?autoplay=1" $url -}}
+  {{- end -}}
+
+<div {{ with $class }}class="{{ . }}"{{ else }}style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"{{ end }}>
+  <iframe 
+    src="{{ $url | safeURL }}" 
+    {{ if not $class }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"{{ end }}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen 
+    title="{{ $title }}" 
+    loading="lazy">
+  </iframe>
+  <noscript>
+    <p>This video cannot be displayed because your browser does not support iframes. 
+      {{/* We hardcode youtube.com here so the link actually works for users and link checkers */}}
+      Watch it on <a href="https://www.youtube.com/watch?v={{ $id }}">YouTube</a>.</p>
+  </noscript>
+</div>
+{{- end -}}
