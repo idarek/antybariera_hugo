@@ -1,5 +1,5 @@
+<!-- breadcrumb schema -->
 <script type="application/ld+json">
-    //breadcrumb schema
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -7,12 +7,12 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Główna",
-      "item": {{ absLangURL "" }}
+      "item": {{ absLangURL "" | jsonify }}
     },{
       "@type": "ListItem",
       "position": 2,
-      "name": {{.Title}},
-      "item": "{{ .Permalink }}"
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
     }]
   }
   </script>

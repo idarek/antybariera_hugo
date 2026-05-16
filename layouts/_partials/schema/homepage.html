@@ -1,38 +1,38 @@
+<!-- homepage -->
 <script type="application/ld+json">
-    // homepage
     {
       "@context": "https://schema.org/",
       "@type": "WebPage",
       {{- with or site.Title site.Params.title | plainify }}
-      "name": "{{ . }}",
+      "name": {{ . | jsonify }},
       {{- end }}
-      "url": {{ absLangURL "" }},
-      "inLanguage": {{ site.Language.Locale }},
+      "url": {{ absLangURL "" | jsonify | jsonify }},
+      "inLanguage": {{ site.Language.Locale | jsonify }},
       "isFamilyFriendly": "true",
-      "copyrightYear": "{{ now.Format "2006"}}",
+      "copyrightYear": {{ now.Format "2006" | jsonify }},
       "copyrightHolder": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name }}
+        "name": {{ .Site.Params.Author.name | jsonify }}
       },
       "accountablePerson": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name }},
-        "url": {{ absLangURL "" }}
+        "name": {{ .Site.Params.Author.name | jsonify }},
+        "url": {{ absLangURL "" | jsonify | jsonify }}
       },
       "author": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name }},
-        "url": {{ absLangURL "" }}
+        "name": {{ .Site.Params.Author.name | jsonify }},
+        "url": {{ absLangURL "" | jsonify | jsonify }}
       },
       "creator": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name }},
-        "url": {{ absLangURL "" }}
+        "name": {{ .Site.Params.Author.name | jsonify }},
+        "url": {{ absLangURL "" | jsonify | jsonify }}
       },
       "publisher": {
         "@type": "Organization",
-        "name": {{ .Site.Params.Author.name }},
-        "url": {{ absLangURL "" }},
+        "name": {{ .Site.Params.Author.name | jsonify }},
+        "url": {{ absLangURL "" | jsonify | jsonify }},
         "logo": {
           "@type": "ImageObject",
           {{- $logo := resources.Get .Site.Params.logo -}}

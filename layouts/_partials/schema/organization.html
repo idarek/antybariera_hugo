@@ -2,8 +2,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "url": {{ absLangURL "" }},
+      "url": {{ absLangURL "" | jsonify | jsonify }},
       {{- $logo := resources.Get  .Site.Params.logo -}}
-      "logo": "{{ $logo.Permalink }}"
+      "logo": {{ $logo.Permalink | jsonify }}
     }
   </script>

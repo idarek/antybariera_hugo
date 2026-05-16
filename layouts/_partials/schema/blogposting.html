@@ -1,10 +1,10 @@
+<!-- schema for posts -->
 <script type="application/ld+json">
-    // schema for posts
     {
-        "@context":"http://schema.org",
+        "@context":"https://schema.org",
         "@type": "BlogPosting",
       "mainEntityOfPage": { "@type": "WebPage" },
-      "headline": {{ .Title }},
+      "headline": {{ .Title | jsonify }},
         {{ if .Params.featuredImage }}
 
         {{- $ftimgsrc := "" -}}
@@ -19,39 +19,39 @@
             {{ end }}
         {{ end }}
         
-        "image": {{ $ftimgsrc.Permalink }},
+        "image": {{ $ftimgsrc.Permalink | jsonify }},
         {{- else -}}
         {{- $og_image := resources.Get .Site.Params.og_image -}}
       "image": {{ $og_image.Permalink }},{{ end }}
-        "url": {{ .Permalink }},
-      "datePublished": {{ .PublishDate }},
-      "dateModified": {{ .Lastmod }},
-        "inLanguage": {{ site.Language.Locale }},
+        "url": {{ .Permalink | jsonify }},
+      "datePublished": {{ .PublishDate | jsonify }},
+      "dateModified": {{ .Lastmod | jsonify }},
+        "inLanguage": {{ site.Language.Locale | jsonify }},
         "isFamilyFriendly": "true",
-        "copyrightYear": "{{ now.Format "2006"}}",
+        "copyrightYear": {{ now.Format "2006" | jsonify }},
         "copyrightHolder": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name }}
+            "name": {{ .Site.Params.Author.name | jsonify }}
         },
         "accountablePerson": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name }},
-            "url": {{ absLangURL "" }}
+            "name": {{ .Site.Params.Author.name | jsonify }},
+            "url": {{ absLangURL "" | jsonify | jsonify }}
         },
         "author": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name }},
-            "url": {{ absLangURL "" }}
+            "name": {{ .Site.Params.Author.name | jsonify }},
+            "url": {{ absLangURL "" | jsonify | jsonify }}
         },
         "creator": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name }},
-            "url": {{ absLangURL "" }}
+            "name": {{ .Site.Params.Author.name | jsonify }},
+            "url": {{ absLangURL "" | jsonify | jsonify }}
         },
         "publisher": {
             "@type": "Organization",
-            "name": {{ .Site.Params.Author.name }},
-            "url": {{ absLangURL "" }},
+            "name": {{ .Site.Params.Author.name | jsonify }},
+            "url": {{ absLangURL "" | jsonify | jsonify }},
             "logo": {
                 "@type": "ImageObject",
                 {{- $logo := resources.Get  .Site.Params.logo -}}
@@ -66,7 +66,7 @@
         "description": {{ trim . "\n\r\t " }},
     {{- end }}
     
-      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+      "keywords": {{ .Params.tags | jsonify }}
 
     }
     </script>

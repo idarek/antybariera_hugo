@@ -2,7 +2,7 @@
    {{- range .Site.RegularPages  -}}
       {{- if not .Params.noSearch -}}
          {{- if gt $i 0 }},{{ end -}}
-         {"date":"{{ .Date.Unix }}", {{ if not (.Date.Equal .Lastmod) }}"lastmod":"{{ .Lastmod.Unix }}",{{ end }} "url":"{{ .Permalink }}", "title":{{ .Title | jsonify  }}, "summary":{{ with .Description}}{{ . | plainify | jsonify }}{{ else }}{{ .Summary | plainify | jsonify }}{{ end }}, "content":{{ .Content | plainify | jsonify }},"tags":[ {{- $t := 0 }}{{- range .Param "tags" -}}{{ if gt $t 0 }},{{ end }}{{ . | jsonify }}{{ $t = add $t 1 }}{{ end -}} ] }
+         {"date": {{ .Date.Unix | jsonify }}, {{ if not (.Date.Equal .Lastmod) }}"lastmod": {{ .Lastmod.Unix | jsonify }},{{ end }} "url": {{ .Permalink | jsonify }}, "title":{{ .Title | jsonify  }}, "summary":{{ with .Description}}{{ . | plainify | jsonify }}{{ else }}{{ .Summary | plainify | jsonify }}{{ end }}, "content":{{ .Content | plainify | jsonify }},"tags":[ {{- $t := 0 }}{{- range .Param "tags" -}}{{ if gt $t 0 }},{{ end }}{{ . | jsonify }}{{ $t = add $t 1 }}{{ end -}} ] }
          {{- $i = add $i 1 -}}
       {{- end -}}
    {{- end -}} ]
