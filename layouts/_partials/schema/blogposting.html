@@ -36,22 +36,22 @@
         "accountablePerson": {
             "@type": "Person",
             "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify | jsonify }}
+            "url": {{ absLangURL "" | jsonify }}
         },
         "author": {
             "@type": "Person",
             "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify | jsonify }}
+            "url": {{ absLangURL "" | jsonify }}
         },
         "creator": {
             "@type": "Person",
             "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify | jsonify }}
+            "url": {{ absLangURL "" | jsonify }}
         },
         "publisher": {
             "@type": "Organization",
             "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify | jsonify }},
+            "url": {{ absLangURL "" | jsonify }},
             "logo": {
                 "@type": "ImageObject",
                 {{- $logo := resources.Get  .Site.Params.logo -}}

@@ -6,7 +6,7 @@
       {{- with or site.Title site.Params.title | plainify }}
       "name": {{ . | jsonify }},
       {{- end }}
-      "url": {{ absLangURL "" | jsonify | jsonify }},
+      "url": {{ absLangURL "" | jsonify }},
       "inLanguage": {{ site.Language.Locale | jsonify }},
       "isFamilyFriendly": "true",
       "copyrightYear": {{ now.Format "2006" | jsonify }},
@@ -17,22 +17,22 @@
       "accountablePerson": {
         "@type": "Person",
         "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify | jsonify }}
+        "url": {{ absLangURL "" | jsonify }}
       },
       "author": {
         "@type": "Person",
         "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify | jsonify }}
+        "url": {{ absLangURL "" | jsonify }}
       },
       "creator": {
         "@type": "Person",
         "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify | jsonify }}
+        "url": {{ absLangURL "" | jsonify }}
       },
       "publisher": {
         "@type": "Organization",
         "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify | jsonify }},
+        "url": {{ absLangURL "" | jsonify }},
         "logo": {
           "@type": "ImageObject",
           {{- $logo := resources.Get .Site.Params.logo -}}
