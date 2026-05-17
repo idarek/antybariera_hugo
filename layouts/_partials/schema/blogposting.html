@@ -4,7 +4,7 @@
         "@context":"https://schema.org",
         "@type": "BlogPosting",
       "mainEntityOfPage": { "@type": "WebPage" },
-      "headline": {{ .Title | jsonify }},
+      "headline": {{ .Title | jsonify | safeJS }},
         {{ if .Params.featuredImage }}
 
         {{- $ftimgsrc := "" -}}
@@ -19,39 +19,39 @@
             {{ end }}
         {{ end }}
         
-        "image": {{ $ftimgsrc.Permalink | jsonify }},
+        "image": {{ $ftimgsrc.Permalink | jsonify | safeJS }},
         {{- else -}}
         {{- $og_image := resources.Get .Site.Params.og_image -}}
       "image": {{ $og_image.Permalink }},{{ end }}
-        "url": {{ .Permalink | jsonify }},
-      "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | jsonify }},
-      "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | jsonify }},
-        "inLanguage": {{ site.Language.Locale | jsonify }},
+        "url": {{ .Permalink | jsonify | safeJS }},
+      "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | jsonify | safeJS }},
+      "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | jsonify | safeJS }},
+        "inLanguage": {{ site.Language.Locale | jsonify | safeJS }},
         "isFamilyFriendly": "true",
-        "copyrightYear": {{ now.Format "2006" | jsonify }},
+        "copyrightYear": {{ now.Format "2006" | jsonify | safeJS }},
         "copyrightHolder": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name | jsonify }}
+            "name": {{ .Site.Params.Author.name | jsonify | safeJS }}
         },
         "accountablePerson": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify }}
+            "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+            "url": {{ absLangURL "" | jsonify | safeJS }}
         },
         "author": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify }}
+            "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+            "url": {{ absLangURL "" | jsonify | safeJS }}
         },
         "creator": {
             "@type": "Person",
-            "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify }}
+            "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+            "url": {{ absLangURL "" | jsonify | safeJS }}
         },
         "publisher": {
             "@type": "Organization",
-            "name": {{ .Site.Params.Author.name | jsonify }},
-            "url": {{ absLangURL "" | jsonify }},
+            "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+            "url": {{ absLangURL "" | jsonify | safeJS }},
             "logo": {
                 "@type": "ImageObject",
                 {{- $logo := resources.Get  .Site.Params.logo -}}
@@ -66,7 +66,7 @@
         "description": {{ trim . "\n\r\t " }},
     {{- end }}
     
-      "keywords": {{ .Params.tags | jsonify }}
+      "keywords": {{ .Params.tags | jsonify | safeJS }}
 
     }
     </script>

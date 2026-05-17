@@ -4,35 +4,35 @@
       "@context": "https://schema.org/",
       "@type": "WebPage",
       {{- with or site.Title site.Params.title | plainify }}
-      "name": {{ . | jsonify }},
+      "name": {{ . | jsonify | safeJS }},
       {{- end }}
-      "url": {{ absLangURL "" | jsonify }},
-      "inLanguage": {{ site.Language.Locale | jsonify }},
+      "url": {{ absLangURL "" | jsonify | safeJS }},
+      "inLanguage": {{ site.Language.Locale | jsonify | safeJS }},
       "isFamilyFriendly": "true",
-      "copyrightYear": {{ now.Format "2006" | jsonify }},
+      "copyrightYear": {{ now.Format "2006" | jsonify | safeJS }},
       "copyrightHolder": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name | jsonify }}
+        "name": {{ .Site.Params.Author.name | jsonify | safeJS }}
       },
       "accountablePerson": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify }}
+        "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+        "url": {{ absLangURL "" | jsonify | safeJS }}
       },
       "author": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify }}
+        "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+        "url": {{ absLangURL "" | jsonify | safeJS }}
       },
       "creator": {
         "@type": "Person",
-        "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify }}
+        "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+        "url": {{ absLangURL "" | jsonify | safeJS }}
       },
       "publisher": {
         "@type": "Organization",
-        "name": {{ .Site.Params.Author.name | jsonify }},
-        "url": {{ absLangURL "" | jsonify }},
+        "name": {{ .Site.Params.Author.name | jsonify | safeJS }},
+        "url": {{ absLangURL "" | jsonify | safeJS }},
         "logo": {
           "@type": "ImageObject",
           {{- $logo := resources.Get .Site.Params.logo -}}
