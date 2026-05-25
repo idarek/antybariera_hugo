@@ -19,8 +19,9 @@ backend:
   repo: idarek/antybariera_hugo
   branch: main
 
-  # NEW in v0.154.0 - Hides the "Sign in with Token" button to avoid confusing Agata
-  disable_token_auth: true
+  # NEW in v0.162.0 - Replaces the old token auth setting
+  # This ensures Agata only sees the "Sign in with GitHub" button
+  auth_methods: [oauth]
 
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
