@@ -865,31 +865,39 @@ figcaption {
 
 .lightbox {
     display: none;
-
     position: fixed;
-
-    z-index: 999;
+    z-index: 99999;
     width: 100%;
     height: 100%;
-    text-align: center;
     top: 0;
     left: 0;
-    
     background-color: var(--white);
+    cursor: zoom-out;
 }
 
 .lightbox:target {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
-.lightbox span {
-    display: block;
-    width: 100%;
-    height: 100%;
+.lightbox img {
+    max-width: 95vw;
+    max-height: 95vh;
+    object-fit: contain;
+    margin: auto;
+    pointer-events: none;
+}
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+/* Adds a clear 'close' indicator to the top right */
+.lightbox::before {
+    content: "\00D7";
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
+    line-height: 1;
+    color: #333; /* Dark colour to contrast against var(--white) */
 }
 
 /* end:lightbox css */
