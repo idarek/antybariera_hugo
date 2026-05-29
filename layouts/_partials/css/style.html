@@ -1,9 +1,14 @@
-{{- with resources.Get "css/style.css" }}
-  {{- if hugo.IsDevelopment }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{- else }}
-    {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{- end }}
-  {{- end }}
-{{- end }}
+{{- $opts := dict "target" "es2020" -}}
+{{- if hugo.IsProduction -}}
+	{{- $opts = merge $opts (dict "minify" true) -}}
+{{- end -}}
+
+{{- with resources.Get "css/style.css" | css.Build $opts -}}
+	{{- if hugo.IsProduction -}}
+		{{- with . | fingerprint -}}
+			<link rel="stylesheet" href="{{ .RelPermalink }}" media="all" fetchpriority="high">
+		{{- end -}}
+	{{- else -}}
+		<link rel="stylesheet" href="{{ .RelPermalink }}" media="all">
+	{{- end -}}
+{{- end -}}
