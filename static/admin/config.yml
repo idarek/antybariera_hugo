@@ -6,23 +6,20 @@ logo:
 
 locale: pl
 
-# NEW: Forces all media uploads and filenames to be URL-safe for Hugo
+# Forces all media uploads and filenames to be URL-safe for Hugo
 slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "-"
-  # NEW in v0.152.0: Uses Agata's local time for {{year}}/{{month}}/{{day}} folders
+  # Uses Agata's local time for {{year}}/{{month}}/{{day}} folders
   timezone: "local"
 
 backend:
   name: github
   repo: idarek/antybariera_hugo
   branch: main
-
-  # NEW in v0.162.0 - Replaces the old token auth setting
-  # This ensures Agata only sees the "Sign in with GitHub" button
+  # Ensures Agata only sees the "Sign in with GitHub" button
   auth_methods: [oauth]
-
   skip_ci: true
   logout_redirect_url: 'https://antybariera.pl'
   # Custom commit message with the author's name
@@ -52,7 +49,7 @@ collections:
   - name: "posts"
     label: "Wpisy"
     folder: "content"
-    # NEW in v0.151.0 - Allows Agata to clone existing posts
+    # Allows Agata to clone existing posts
     duplicate: true 
     nested: true
     relative_assets: true
@@ -68,7 +65,7 @@ collections:
       default:
         field: date
         direction: descending
-    thumbnail: "featuredImage" # Ensure this field is filled
+    thumbnail: "featuredImage" 
     summary: "{{date}} | {{title}}"
     view_groups:
       groups:
@@ -85,7 +82,7 @@ collections:
       - label: "Autor"
         name: "author"
         widget: "hidden"
-        default: "{{author-name}}" # Automatically becomes "Agata Krokosz" (from GitHub)
+        default: "{{author-name}}" 
       - label: "Status wpisu"
         name: "status"
         widget: "select"
@@ -99,19 +96,18 @@ collections:
         widget: "string"
       - label: "Opis SEO (Meta Description)"
         name: "description"
-        widget: "text" # Use text for a multi-line box
+        widget: "text" 
         required: false
         hint: "Krótki opis widoczny w wyszukiwarce Google (zalecane do 255 znaków)."
       - label: "Data"
         name: "date"
         widget: "datetime"
         default: "{{now}}"
-        # NEW in v0.142.0:
+        # --- NEW in v0.167.0: Prevents timezone mismatches ---
+        input_timezone: "local"
+        # -----------------------------------------------------
         type: "date"
-        # Optional: Prevent accidental dates before the project started
         min: "2024-01-01" 
-        # Keeps the Polish display for Agata
-        # This makes the CMS UI look like your Hugo output: 22 Marca 2026
         display_format: "D MMMM YYYY"
       - label: "Obrazek wyróżniający"
         name: "featuredImage"
@@ -126,14 +122,12 @@ collections:
         name: "body"
         widget: "markdown"
         sanitize_preview: false
-        # minimal: true  <-- Keep this in mind if you see weird symbols appearing in your .md files
         line_numbers: true
         media_library:
-          allow_external_urls: false # Force images to be saved locally to your Page Bundle
-          max_file_size: 4194304 # Limit to 4MB (2048 * 2048 bytes)
+          allow_external_urls: false 
+          max_file_size: 4194304 
       - label: "Tagi"
         name: "tags"
         widget: "list"
         required: false
-        # NEW in v0.151.0 - Prevents Agata from adding the exact same tag twice
         allow_duplicate: false
