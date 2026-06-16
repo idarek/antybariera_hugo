@@ -19,9 +19,10 @@
 <a href="#image-{{ $random }}" title="Naciśnij aby powiększyć obraz">
 <picture{{ with .Title }} aria-labelledby="figcaption-{{ $random }}"{{ end }}>
 
-{{- $isJPG := eq (path.Ext .Destination) ".jpg" -}}
-{{- $isJPEG := eq (path.Ext .Destination) ".jpeg" -}}
-{{- $isPNG := eq (path.Ext .Destination) ".png" -}}
+{{ $ext := path.Ext .Destination | strings.ToLower }}
+{{ $isJPG  := eq $ext ".jpg"  }}
+{{ $isJPEG := eq $ext ".jpeg" }}
+{{ $isPNG  := eq $ext ".png"  }}
 
 {{- if or ($isJPG) ($isJPEG) ($isPNG) -}}
 

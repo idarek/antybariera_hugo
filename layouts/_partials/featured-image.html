@@ -15,9 +15,10 @@
 <div class="featured-media">
   <picture>
 
-{{ $isJPG := eq (path.Ext $ftimgsrc) ".jpg" }}
-{{ $isJPEG := eq (path.Ext $ftimgsrc) ".jpeg" }}
-{{ $isPNG := eq (path.Ext $ftimgsrc) ".png" }}
+{{ $ext := path.Ext $ftimgsrc | strings.ToLower }}
+{{ $isJPG  := eq $ext ".jpg"  }}
+{{ $isJPEG := eq $ext ".jpeg" }}
+{{ $isPNG  := eq $ext ".png"  }}
 
 {{ if or ($isJPG) ($isJPEG) ($isPNG) }}
 
