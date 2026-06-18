@@ -13,7 +13,7 @@ pluralizeListTitles = false
 
 [outputs]
   page = [ "html"]
-  home = [ "html", "rss", "imagessitemap", "llms", "llmsfull"]
+  home = [ "html", "rss", "imagessitemap", "json", "llms", "llmsfull"]
 
 [outputFormats.llms]
   baseName = "llms"
