@@ -13,12 +13,25 @@ pluralizeListTitles = false
 
 [outputs]
   page = [ "html"]
-  home = [ "html", "rss", "imagessitemap", "json" ]
+  home = [ "html", "rss", "imagessitemap", "llms", "llmsfull"]
 
-[outputFormats.imagessitemap]
-  baseName  = 'imagessitemap'
-  mediaType = 'application/xml'
-  noUgly = true # default is false
+[outputFormats.llms]
+  baseName = "llms"
+  isPlainText = true
+  mediaType = "text/plain"
+
+[outputFormats.llmsfull]
+  baseName = "llms-full"
+  isPlainText = true
+  mediaType = "text/plain"
+
+  [outputFormats.imagessitemap]
+    MediaType              = "application/xml"
+    BaseName               = "imagessitemap"
+    isPlainText            = false
+    isHTML                 = false
+    noUgly                 = true
+    permalinkable          = false
 
 [imaging]
   resampleFilter = "Lanczos"

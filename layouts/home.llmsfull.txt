@@ -1,0 +1,15 @@
+# Full Content Archive for {{ .Site.Title }} [{{ .Language.Name | upper }}]
+
+This document contains the complete text content of the website for comprehensive AI context and analysis.
+
+{{ range .Site.RegularPages }}
+---
+## {{ .Title }}
+- **URL:** {{ .Permalink }}
+- **Date:** {{ .Date.Format "2006-01-02" }}
+{{ with .Params.tags -}}- **Tags:** {{ delimit . ", " }}{{ end }}
+
+### Content
+{{ .RawContent }}
+
+{{ end }}

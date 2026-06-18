@@ -26,6 +26,12 @@ Access-Control-Allow-Origin: *
 /favicon.ico
   Content-Encoding: gzip
 
+/llms.txt
+  Content-Type: text/markdown; charset=utf-8
+
+/llms-full.txt
+  Content-Type: text/markdown; charset=utf-8
+
 /.well-known/avatar
   Content-Type: image/jpeg
 /.well-known/avatar-sq

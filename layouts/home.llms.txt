@@ -1,0 +1,24 @@
+# {{ .Site.Title }} [Language: {{ .Language.Name | upper }}]
+
+> {{ .Site.Params.description | default "Website content index for AI agents." }}
+
+{{ if .IsTranslated -}}
+## Alternative Languages
+{{ range .AllTranslations -}}
+- [{{ .Language.Label }}]({{ .Permalink }}llms.txt)
+{{ end }}
+{{- end }}
+
+## Key Information
+- Current Language: {{ .Language.Lang }}
+- Full Content Archive: {{ with .OutputFormats.Get "llmsfull" }}{{ .Permalink }}{{ else }}{{ "llms-full.txt" | absURL }}{{ end }}
+
+## Main Sections
+{{ range .Site.Sections -}}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description | default (printf "Browse the %s section." .Title) }}
+{{ end }}
+
+## Recent Content
+{{ range first 15 .Site.RegularPages -}}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Summary | plainify | htmlUnescape | chomp }}
+{{ end }}
