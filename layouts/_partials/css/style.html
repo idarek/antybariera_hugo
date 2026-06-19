@@ -1,4 +1,4 @@
-{{- $opts := dict "target" "es2020" -}}
+{{- $opts := dict "target" "es2020" "externals" (slice "*.woff2") -}}
 {{- if hugo.IsProduction -}}
 	{{- $opts = merge $opts (dict "minify" true) -}}
 {{- end -}}
