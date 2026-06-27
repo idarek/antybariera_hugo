@@ -86,13 +86,10 @@
 
 	<meta name="theme-color" content="#fff">
 
-	{{ if .Params.featuredImage }}<meta name="robots" content="max-image-preview:large">{{ end }}
-
-	{{ if .Params.noindex }}
-		<meta name="robots" content="noindex,nofollow">
-	{{ else }}
-		<meta name="robots" content="index, follow">
-	{{ end }}
+	{{- $robots := slice "index" "follow" -}}
+	{{- if .Params.noindex -}}{{- $robots = slice "noindex" "nofollow" -}}{{- end -}}
+	{{- if .Params.featuredImage -}}{{- $robots = $robots | append "max-image-preview:large" -}}{{- end -}}
+	<meta name="robots" content="{{ delimit $robots ", " }}">
 
 	{{ hugo.Generator }}
 
