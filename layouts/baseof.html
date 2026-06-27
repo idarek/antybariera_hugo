@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  {{ partial "a11y_skip_to_main_content.html" . }}
-  {{ partial "header.html" . }}
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "a11y_skip_to_main_content.html" . }}
+		{{ partial "header.html" . }}
+		<main>
+			{{ block "main" . }}{{ end }}
+		</main>
 
-  {{ partial "footer.html" . }}
-</body>
+		{{ partial "footer.html" . }}
+	</body>
 </html>
