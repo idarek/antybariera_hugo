@@ -34,18 +34,14 @@
 		{{- end -}}
 	</title>
 
+	<script defer src="/js/sw-register.js"></script>
+
 	{{ partialCached "css/style.html" . }}
 
 	<link rel="preload" href="/fonts/lato-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/fonts/lato-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/fonts/lato-v25-latin-900.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/fonts/lato-v25-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
-
-  <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js');
-    };
-  </script>
 
 	<meta name="view-transition" content="same-origin">
 
