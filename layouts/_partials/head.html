@@ -18,7 +18,7 @@
 			{{- end -}}
 		{{- else -}}
 			{{- $rawTitle := .Title -}}
-			{{- if in .Permalink "/tag/" -}}
+			{{- if eq .Kind "term" -}}
 				{{- $rawTitle = printf "%s: %s" ("Wpisy z tagiem") .Title -}}
 			{{- end -}}
 			{{- $fullTitle := printf "%s | %s%s" $rawTitle $siteTitle $pageNo -}}
@@ -48,7 +48,8 @@
 	<meta name="author" content="{{ .Site.Params.Author.name }}">
 
 	{{- $description := or (.Description) (.Site.Params.Description) -}}
-	{{ if in .Permalink "/tag/" }}<meta name="description" content="Lista wpisów na stonie zawierających tag {{ with .Title }}{{ . }}{{ end }}, ułatwiające użytkownikom przeglądanie wyselekcjonowanych treści w danym temacie">
+	{{ if eq .Kind "term" }}
+		<meta name="description" content="Lista wpisów na stonie zawierających tag {{ with .Title }}{{ . }}{{ end }}, ułatwiające użytkownikom przeglądanie wyselekcjonowanych treści w danym temacie">
 	{{ else }}
 		{{ if $description -}}<meta name="description" content="{{ $description }}">{{- end }}
 	{{ end }}
