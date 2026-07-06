@@ -972,6 +972,12 @@ form#custom-search button[type="submit"]:hover {
     --cookie-shadow: 0 10px 40px rgba(0,0,0,0.2);
 }
 
+.cookie-title {
+  font-size: var(--h3);
+  font-weight: 700;
+  margin-top: 0;
+}
+
 #CookieBanner {
     display: none; /* Managed by js/cookie.js */
     position: fixed;

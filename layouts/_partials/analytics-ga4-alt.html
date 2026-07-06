@@ -15,7 +15,7 @@
     if (window.ma4Loaded) return;
     window.ma4Loaded = true;
 
-    const target = 'https://www.google-analytics.com/analytics.js';
+    const target = 'https://www.google-analytics.com/g/collect';
     fetch(target, { mode: 'no-cors', cache: 'no-store', signal: AbortSignal.timeout(1500) })
       .then(() => loadScript('/js/success.js'))
       .catch(() => loadScript('/js/alternate.js'));

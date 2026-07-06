@@ -3,7 +3,7 @@
       <script src="{{ .RelPermalink }}"></script>
     {{- else }}
       {{- with . | fingerprint | minify }}
-        <script src="{{ .RelPermalink }}"></script>
+        <script defer src="{{ .RelPermalink }}"></script>
       {{- end }}
     {{- end }}
 {{- end }}
