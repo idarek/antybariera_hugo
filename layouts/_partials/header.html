@@ -6,7 +6,7 @@
   {{ end }}
     {{- with resources.Get "svg/antybariera_logo.svg" }}
     <a href="/" class="logo-link">
-        <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" aria-hidden="true" class="logo" fetchpriority="high">
+        <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" aria-hidden="true" class="logo" fetchpriority="high" decoding="sync">
         <span class="visually-hidden">{{ site.Title }}</span>
     </a>
     {{- end }}
