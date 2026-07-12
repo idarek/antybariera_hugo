@@ -6,7 +6,7 @@
 		{{- $siteTitle := .Site.Title -}}
 		{{- $desc := .Site.Params.description -}}
 		{{- $pageNo := "" -}}
-		{{- if and .IsNode (gt .Paginator.PageNumber 1) -}}
+		{{- if and .IsBranch (gt .Paginator.PageNumber 1) -}}
 			{{- $pageNo = printf "%s%d" (" | Strona ") .Paginator.PageNumber -}}
 		{{- end -}}
 		{{- if .IsHome -}}
@@ -78,7 +78,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	{{- $href := .Permalink -}}
-	{{- with and .Page.IsNode .Paginator -}}
+	{{- with and .Page.IsBranch .Paginator -}}
 		{{- if gt .PageNumber 1 -}}
 			{{- $href = .URL | absURL -}}
 		{{- end -}}

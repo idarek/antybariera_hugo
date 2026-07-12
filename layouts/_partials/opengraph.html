@@ -1,5 +1,5 @@
 {{- $href := .Permalink -}}
-{{- with and .Page.IsNode .Paginator -}}
+{{- with and .Page.IsBranch .Paginator -}}
     {{- if gt .PageNumber 1 -}}
     {{- $href = .URL | absURL -}}
     {{- end -}}
