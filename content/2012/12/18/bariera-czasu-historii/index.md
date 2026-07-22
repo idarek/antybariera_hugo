@@ -1,5 +1,5 @@
 ---
-title: "Bariera czasu — historii"
+title: "Bariera czasu – historii"
 date: 2012-12-18
 ---
 
@@ -11,6 +11,6 @@ Od wieków ludzie toczyli ze sobą wojny, stawiali mury pomiędzy państwami. St
 
 Nasze życie niestety kiedyś się kończy. Jest to póki co nieuniknione, lecz wierzę, że pewnego dnia naukowcom uda się przeskoczyć i ubiec również ową barierę.
 
-Brak czasu ogranicza nas w sposób nieugięty. Coraz szybciej żyjemy — coraz mniej mamy czasu dla siebie i swoich bliskich. Nie ma już również czasu na życie towarzyskie z przyjaciółmi.
+Brak czasu ogranicza nas w sposób nieugięty. Coraz szybciej żyjemy – coraz mniej mamy czasu dla siebie i swoich bliskich. Nie ma już również czasu na życie towarzyskie z przyjaciółmi.
 
 Wiele osób przekracza barierę nieśmiertelności dzięki swoim bliskim lub oddanym sobie ludziom. Nie pozwalają o nich zapomnieć tablice pamiątkowe wieszane czasami w bardzo wyjątkowych miejscach.

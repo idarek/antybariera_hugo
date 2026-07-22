@@ -1,5 +1,5 @@
 ---
-title: "Bariera kultury — religii"
+title: "Bariera kultury – religii"
 date: 2012-12-04
 ---
 

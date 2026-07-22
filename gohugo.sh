@@ -4,7 +4,7 @@ bad=$(find . -type f \( -name "*.JPG" -o -name "*.JPEG" -o -name "*.PNG" -o -nam
   | grep -v ".git/")
 
 if [ -n "$bad" ]; then
-  echo "Uppercase image extensions found — fix before serving:"
+  echo "Uppercase image extensions found – fix before serving:"
   echo "$bad"
   exit 1
 fi
