@@ -60,13 +60,33 @@
             videoId = match[1];
           }
 
-          if (!videoId) return "<em>Wklej link do YouTube...</em>";
+          if (!videoId) {
+            const em = document.createElement('em');
+            em.textContent = "Wklej link do YouTube...";
+            return em;
+          }
 
-          // Pokazuje prawdziwą miniaturkę z YouTube jako potwierdzenie, że zadziałało
-          return `<div style="background:#eee; padding:10px; border-radius:8px; text-align:center;">
-                    <img src="https://img.youtube.com/vi/${videoId}/hqdefault.jpg" alt="YouTube Preview" style="max-width:100%; border-radius: 4px;"/>
-                    <p style="font-family:sans-serif; font-size:12px; color:#555; margin-top:5px;">Podgląd wideo YouTube</p>
-                  </div>`;
+          // Pokazuje prawdziwy odtwarzacz wideo z YouTube jako potwierdzenie
+          const container = document.createElement('div');
+          container.style.cssText = "background:#eee; padding:10px; border-radius:8px; text-align:center;";
+
+          const iframe = document.createElement('iframe');
+          iframe.width = "100%";
+          iframe.height = "250";
+          iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}`;
+          iframe.frameBorder = "0";
+          iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+          iframe.allowFullscreen = true;
+          iframe.style.borderRadius = "4px";
+
+          const p = document.createElement('p');
+          p.style.cssText = "font-family:sans-serif; font-size:12px; color:#555; margin-top:5px;";
+          p.textContent = "Grywalny podgląd wideo YouTube";
+
+          container.appendChild(iframe);
+          container.appendChild(p);
+
+          return container;
         }
       });
     </script>
