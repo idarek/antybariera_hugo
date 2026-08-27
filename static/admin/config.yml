@@ -4,8 +4,6 @@ app_title: AntyBariera CMS # <--- Added in v0.141.0
 logo:
   src: https://antybariera.pl/svg/antybariera_logo.svg
 
-locale: pl
-
 # Forces all media uploads and filenames to be URL-safe for Hugo
 slug:
   encoding: "ascii"
