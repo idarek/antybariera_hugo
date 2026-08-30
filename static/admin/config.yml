@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 site_url: https://antybariera.pl
 display_name: AntyBariera CMS
 app_title: AntyBariera CMS # <--- Added in v0.141.0
